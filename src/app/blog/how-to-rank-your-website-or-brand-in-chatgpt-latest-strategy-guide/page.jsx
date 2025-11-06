@@ -1,11 +1,52 @@
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
+import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
 import DemoImg from '@/../public/images/Blog-page/demo.webp';
 
-const KnowledgeHub = () => {
+export const metadata = {
+  title: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide | NotionX",
+  keywords: ["how to rank in Chat GPT search", "how do you rank your website in Chat GPT", "how to rank on Chat GPT", "how to rank in Chat GPT", "how to rank on Chat GPT in 2025", "how to rank website on Chat GPT", "how to rank brand on Chat GPT in 2025", "how to rank a brand on Chat GPT", "how to rank on Chat GPT for brand mentions", "where does my brand rank in Chat GPT", "how to rank on Chat GPT for brands in 2025", "how to rank in Chat GPT search results", "how products and services appear in Chat GPT search results", "how to appear in Chat GPT search results", "how to track Chat GPT visibility in search results"],
+//   description: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide.",
+};
+
+const blogPosts = [
+  
+  {
+    id: 1,
+    href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+    image: DemoImg,
+    tag: "#trending",
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "3 mins read",
+  },
+  {
+    id: 2,
+    href: "blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    image: DemoImg,
+    tag: "#trending",
+    title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "2 mins read",
+  },
+  {
+    id: 3,
+    href: "blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
+    image: DemoImg,
+    tag: "#trending",
+    title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
+    desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
+    date: "Oct 25, 2025",
+    readTime: "4 mins read",
+  },
+];
+
+const Blog1 = () => {
 
   return (
     <div>
@@ -40,8 +81,7 @@ const KnowledgeHub = () => {
                             <div className="p-[1px] rounded-t-xl sm:rounded-t-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 rounded-t-xl sm:rounded-t-[20px] bg-white">
                                     <p className="heading-font font-semibold text-xl sm:text-2xl text-center tracking-[-0.05rem]">
-                                    Key Takeaway
-                                    </p>
+                                        Key Takeaway</p>
                                 </div>
                             </div>
                             <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
@@ -54,12 +94,45 @@ const KnowledgeHub = () => {
                         </div>
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <div className='my-10 sm:my-16'>
+                                <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
+                                    In This Article:</p>
+                                <ul className="ms-8 mt-2.5 content-font text-[var(--cta)] font-semibold list-disc list-outside text-xl lg:text-2xl tracking-[-0.05rem]">
+                                    <li>Why Ranking in Chat GPT Search Matters in the AI Era?</li>
+                                    <li>Core Signals to Rank Higher on Chat GPT Search!</li>
+                                    <li>How to Optimize on Brand Visibility in Chat GPT?</li>
+                                    <li>How to Track Chat GPT Visibility and Improve Rankings!</li>
+                                    <li>Future-Proofing Your Chat GPT Search Strategies in 2025!</li>
+                                </ul>
+                            </div>
+                            <div className='mb-10 sm:mb-16'>
                                 <p className="content-font text-xl lg:text-2xl tracking-[-0.05rem]">
-                                    In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm. 
-                                    So, more people now use conversational AI like Chat GPT to find - products, services, and answers. Showing up in its responses can even greatly increase your visibility and trust. 
+                                    In the age of AI-powered search, visibility in ChatGPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with ChatGPT - brands and websites must adapt to this new paradigm. 
+                                    So, more people now use conversational AI like ChatGPT to find - products, services, and answers. Showing up in its responses can even greatly increase your visibility and trust. 
                                     This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search.
-                                    This guide explores how to rank in Chat GPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
+                                    This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
                                 </p>
+                            </div>
+                            <div className='mb-10 sm:mb-16'>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Why Ranking in Chat GPT Search Matters in the AI Era?</h2>
+                                <p className="mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Chat GPT is no longer just a chatbot—it is a discovery engine. Gartner predicted that traditional search engine volume will drop by 25% by 2026 - owing to AI chatbots. So, brands that fail to optimize for Chat GPT risk losing visibility. 
+                                    Unlike traditional search engines - Chat GPT delivers conversational answers. It cites sources and summarizes insights. That means your content must be - AI-readable and authoritative.</p>
+                                <div className='my-5'>
+                                    <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Understanding ChatGPT's Search Framework</h2>
+                                    <p className="mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Chat GPT retrieves information from a mix of sources. This includes their - training data, plugin integrations, and real-time web search.</p>
+                                </div>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font font-semibold text-2xl sm:text-[28px] tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Focus of Chat GPT.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Google crawls and indexes the live web. However, Chat GPT focuses on - semantic relevance and conversational context. It prioritizes -</p>
+                                    <ul className="ms-16 mt-2 content-font list-disc list-outside text-xl lg:text-2xl tracking-[-0.05rem]">
+                                        <li>Citations from trusted domains - Chat GPT favors sources with - high credibility and authority when referencing information.</li>
+                                        <li>Natural language clarity - Clear writing improves the - chances of being understood and cited by Chat GPT.</li>
+                                        <li>User intent alignment - Responses that closely match the user's query context is - prioritized in Chat GPT's output.</li>
+                                    </ul>
+                                </div>
+                                <div className='my-5'>
+                                    <h2 className="flex flex-row items-center heading-font font-semibold text-2xl sm:text-[28px] tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Chat GPT vs. Traditional Search Engines.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Google ranks pages based on backlinks and keyword density. However, Chat GPT ranks answers based on - how well they respond to user prompts. This shift stresses a new approach to SEO. One that blends content quality with AI understanding.</p>                                    
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -70,79 +143,40 @@ const KnowledgeHub = () => {
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
                             </div>
-                            <div className='flex flex-col sm:flex-row gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
-                            
-                                <div className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
+                            <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
+                                {blogPosts.map((blog) => (
+                                    <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
+                                    bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
+                                    
                                     <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
-                                        <Link href="/blogpage" target="_blank" rel="noopener noreferrer" 
-                                                className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                                            <Image
-                                                src={DemoImg}
-                                                alt="Blog Image 1"
-                                                className="object-cover h-full"
-                                            />
-                                        </Link>
-                                        <Link href="/blogpage" target="_blank" rel="noopener noreferrer" className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                            <span className="text-sm text-left text-[var(--cta)] text-l content-font">#trending</span>
-                                            <h2 className="heading-font font-medium text-sm lg:text-base tracking-[-0.06rem] mb-2">Why Traditional SEO Is No Longer Enough: The Rise of AI-Powered Search</h2>
-                                            <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">This post explains the fundamental shift happening in search behavior and why businesses need to adapt.                            </p>
-                                            <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
-                                                <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
-                                                <p
-                                                    className='cursor-pointer group text-[var(--cta)] content-font text-xs flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
-                                                    Read More <span className='text-[var(--cta)] ps-1 text-sm transition-transform duration-300 ease-out group-hover:translate-x-1'><HiMiniArrowSmallRight /></span></p>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                </div>
-                                
-                                <div className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
-                                    <div href="/blogpage" target="_blank" rel="noopener noreferrer" className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
-                                        <Link href="/blogpage" target="_blank" rel="noopener noreferrer" 
-                                                className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                                            <Image
-                                                src={DemoImg}
-                                                alt="Blog Image 2"
-                                                className="object-cover h-full"
-                                            />
-                                        </Link>
-                                        <Link href="/blogpage" target="_blank" rel="noopener noreferrer" className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                            <span className="text-sm text-left text-[var(--cta)] text-l content-font">#trending</span>
-                                            <h2 className="heading-font font-medium text-sm lg:text-base tracking-[-0.06rem] mb-2">How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide</h2>
-                                            <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">In the age of AI-powered search, visibility in ChatGPT is becoming - as crucial as ranking on Google. Rank Your Website or Brand in ChatGPT.</p>
-                                            <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
-                                                <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
-                                                <p
-                                                    className='cursor-pointer group text-[var(--cta)] content-font text-xs flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
-                                                    Read More <span className='text-[var(--cta)] ps-1 text-sm transition-transform duration-300 ease-out group-hover:translate-x-1'><HiMiniArrowSmallRight /></span></p>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                </div>
 
-                                <div className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
-                                    <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
-                                        <Link href="/blogpage" target="_blank" rel="noopener noreferrer" 
-                                                className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                                            <Image
-                                                src={DemoImg}
-                                                alt="Blog Image 3"
-                                                className="object-cover h-full"
-                                            />
+                                        {/* Image */}
+                                        <Link href={blog.href} target="_blank" rel="noopener noreferrer"
+                                        className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                        <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
                                         </Link>
-                                        <Link href="/blogpage" target="_blank" rel="noopener noreferrer" className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                            <span className="text-sm text-left text-[var(--cta)] text-l content-font">#trending</span>
-                                            <h2 className="heading-font font-medium text-sm lg:text-base tracking-[-0.06rem] mb-2">Why Traditional SEO Is No Longer Enough: The Rise of AI-Powered Search</h2>
-                                            <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">This post explains the fundamental shift happening in search behavior and why businesses need to adapt.                            </p>
-                                            <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
-                                                <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
-                                                <p
-                                                    className='cursor-pointer group text-[var(--cta)] content-font text-xs flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
-                                                    Read More <span className='text-[var(--cta)] ps-1 text-sm transition-transform duration-300 ease-out group-hover:translate-x-1'><HiMiniArrowSmallRight /></span></p>
-                                            </div>
+
+                                        {/* Content */}
+                                        <Link href={blog.href} target="_blank" rel="noopener noreferrer"
+                                        className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
+                                        
+                                        <span className="text-sm text-left text-[var(--cta)] content-font">{blog.tag}</span>
+                                        <h2 className="heading-font font-medium text-sm lg:text-base tracking-[-0.06rem] mb-2">{blog.title}</h2>
+                                        <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
+
+                                        <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
+                                            <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
+                                            <p className='cursor-pointer group text-[var(--cta)] content-font text-xs flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                            Read More
+                                            <span className='text-[var(--cta)] ps-1 text-sm transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                                <HiMiniArrowSmallRight />
+                                            </span>
+                                            </p>
+                                        </div>
                                         </Link>
                                     </div>
-                                </div>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
@@ -153,4 +187,4 @@ const KnowledgeHub = () => {
   )
 }
 
-export default KnowledgeHub
+export default Blog1
