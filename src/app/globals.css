@@ -34,11 +34,10 @@ html {
   font-family: var(--font-bricolage);
 }
 
-.custom-gradient {
-  background: 
-    radial-gradient(circle at top left, #FFF0E0 0%, #FCD0D4 20%, transparent 50%),
-    radial-gradient(circle at bottom right, #FFF0E0 0%, #FCD0D4 20%, transparent 50%),
-    white;
+.content-font {
+  font-family: var(--font-source-sans-pro);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 
 .custom-gradient {
