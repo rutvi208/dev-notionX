@@ -89,17 +89,17 @@ const KnowledgeHub = () => {
                                 <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
                                     {/* Image */}
-                                    <Link href={blog.href} target="_blank" rel="noopener noreferrer"
+                                    <Link href={blog.href} rel="noopener noreferrer"
                                     className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
                                     <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
                                     </Link>
 
                                     {/* Content */}
-                                    <Link href={blog.href} target="_blank" rel="noopener noreferrer"
+                                    <Link href={blog.href} rel="noopener noreferrer"
                                     className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
                                     
                                     <span className="text-sm text-left text-[var(--cta)] content-font">{blog.tag}</span>
-                                    <h2 className="heading-font font-medium text-sm lg:text-base tracking-[-0.06rem] mb-2">{blog.title}</h2>
+                                    <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2">{blog.title}</h2>
                                     <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
                                     <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>

@@ -85,8 +85,8 @@ const Blog1 = () => {
                                 </div>
                             </div>
                             <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-white">
-                                    <p className="content-font text-xl sm:text-2xl text-center">
+                                <div className="py-3 sm:py-5 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
+                                    <p className="content-font text-lg sm:text-xl text-center">
                                         Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
                                     </p>
                                 </div>
@@ -96,42 +96,75 @@ const Blog1 = () => {
                             <div className='my-10 sm:my-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
                                     In This Article:</p>
-                                <ul className="ms-8 mt-2.5 content-font text-[var(--cta)] font-semibold list-disc list-outside text-xl lg:text-2xl tracking-[-0.05rem]">
-                                    <li>Why Ranking in Chat GPT Search Matters in the AI Era?</li>
-                                    <li>Core Signals to Rank Higher on Chat GPT Search!</li>
-                                    <li>How to Optimize on Brand Visibility in Chat GPT?</li>
-                                    <li>How to Track Chat GPT Visibility and Improve Rankings!</li>
-                                    <li>Future-Proofing Your Chat GPT Search Strategies in 2025!</li>
+                                <ul className="ms-8 mt-2.5 space-y-2 content-font text-[var(--cta)] font-semibold list-disc list-outside text-xl lg:text-2xl tracking-[-0.05rem]">
+                                    <li className='hover:underline'><a href="#why-ranking">Why Ranking in Chat GPT Search Matters in the AI Era?</a></li>
+                                    <li className='hover:underline'><a href="#core-signals">Core Signals to Rank Higher on Chat GPT Search!</a></li>
+                                    <li className='hover:underline'><a href="#how-to-optimize">How to Optimize on Brand Visibility in Chat GPT?</a></li>
+                                    <li className='hover:underline'><a href="#how-to-track">How to Track Chat GPT Visibility and Improve Rankings!</a></li>
+                                    <li className='hover:underline'><a href="#future-proofing">Future-Proofing Your Chat GPT Search Strategies in 2025!</a></li>
                                 </ul>
                             </div>
                             <div className='mb-10 sm:mb-16'>
-                                <p className="content-font text-xl lg:text-2xl tracking-[-0.05rem]">
+                                <p className="content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     In the age of AI-powered search, visibility in ChatGPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with ChatGPT - brands and websites must adapt to this new paradigm. 
                                     So, more people now use conversational AI like ChatGPT to find - products, services, and answers. Showing up in its responses can even greatly increase your visibility and trust. 
                                     This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search.
                                     This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
                                 </p>
                             </div>
-                            <div className='mb-10 sm:mb-16'>
+
+                            {/* why-ranking */}
+                            <div className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16' id="why-ranking">
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Why Ranking in Chat GPT Search Matters in the AI Era?</h2>
-                                <p className="mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Chat GPT is no longer just a chatbot—it is a discovery engine. Gartner predicted that traditional search engine volume will drop by 25% by 2026 - owing to AI chatbots. So, brands that fail to optimize for Chat GPT risk losing visibility. 
-                                    Unlike traditional search engines - Chat GPT delivers conversational answers. It cites sources and summarizes insights. That means your content must be - AI-readable and authoritative.</p>
-                                <div className='my-5'>
-                                    <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Understanding ChatGPT's Search Framework</h2>
-                                    <p className="mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Chat GPT retrieves information from a mix of sources. This includes their - training data, plugin integrations, and real-time web search.</p>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Chat GPT is no longer just a chatbot—it is a discovery engine. Gartner predicted that traditional search engine volume will drop by 25% by 2026 - owing to AI chatbots. So, brands that fail to optimize for Chat GPT risk losing visibility.</p>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Unlike traditional search engines - Chat GPT delivers conversational answers. It cites sources and summarizes insights. That means your content must be - AI-readable and authoritative.</p>
+                                <div className='mt-6 lg:mt-8'>
+                                    <h2 className="heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]">Understanding ChatGPT's Search Framework</h2>
+                                    <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Chat GPT retrieves information from a mix of sources. This includes their - training data, plugin integrations, and real-time web search.</p>
                                 </div>
                                 <div className='my-5'>
-                                    <h2 className="flex flex-row items-center heading-font font-semibold text-2xl sm:text-[28px] tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Focus of Chat GPT.</h2>
-                                    <p className="ms-5 mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Google crawls and indexes the live web. However, Chat GPT focuses on - semantic relevance and conversational context. It prioritizes -</p>
-                                    <ul className="ms-16 mt-2 content-font list-disc list-outside text-xl lg:text-2xl tracking-[-0.05rem]">
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Focus of Chat GPT.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Google crawls and indexes the live web. However, Chat GPT focuses on - semantic relevance and conversational context. It prioritizes -</p>
+                                    <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>Citations from trusted domains - Chat GPT favors sources with - high credibility and authority when referencing information.</li>
                                         <li>Natural language clarity - Clear writing improves the - chances of being understood and cited by Chat GPT.</li>
                                         <li>User intent alignment - Responses that closely match the user's query context is - prioritized in Chat GPT's output.</li>
                                     </ul>
                                 </div>
                                 <div className='my-5'>
-                                    <h2 className="flex flex-row items-center heading-font font-semibold text-2xl sm:text-[28px] tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Chat GPT vs. Traditional Search Engines.</h2>
-                                    <p className="ms-5 mt-2.5 content-font text-xl lg:text-2xl tracking-[-0.05rem]">Google ranks pages based on backlinks and keyword density. However, Chat GPT ranks answers based on - how well they respond to user prompts. This shift stresses a new approach to SEO. One that blends content quality with AI understanding.</p>                                    
+                                    <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Chat GPT vs. Traditional Search Engines.</h2>
+                                    <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Google ranks pages based on backlinks and keyword density. However, Chat GPT ranks answers based on - how well they respond to user prompts. This shift stresses a new approach to SEO. One that blends content quality with AI understanding.</p>                                    
+                                </div>
+                            </div>
+
+                            {/* core-signals */}
+                            <div className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16' id="core-signals">
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Core Signals to Rank Higher on Chat GPT Search!</h2>
+                                <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Structured data helps Chat GPT understand your content better. To improve your visibility - focus on these core signals -</p>
+                                <ul className="ms-10 lg:ms-16 mt-2 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <li>High-quality content - Use concise and informative writing. It must answer real questions.</li>
+                                    <li>Semantic relevance - Use natural language and topic clusters.</li>
+                                    <li>Domain authority - Build backlinks from reputable sources.</li>
+                                    <li>Structured data - Implement schema markup for - products and blogs.</li>
+                                    <li>Natural language optimization - Write in a way that AI can interpret.</li>
+                                    <li>Schema Markup and Structured Data - Precisely use the - FAQ schema, product schema, and review schema. This will increase the chances of - being cited.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* pro-tips */}
+                        <div className='flex flex-col lg:max-w-5xl sm:w-[45rem] mx-auto container'>
+                            <div className="p-[1px] rounded-t-xl sm:rounded-t-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                <div className="py-3 sm:py-5 rounded-t-xl sm:rounded-t-[20px] bg-white">
+                                    <p className="heading-font font-semibold text-xl sm:text-2xl text-center tracking-[-0.05rem]">
+                                        Pro Tips</p>
+                                </div>
+                            </div>
+                            <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
+                                <div className="py-3 sm:py-5 sm:px-10 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
+                                    <p className="content-font text-sm sm:text-base">
+                                        So, to rank in Chat GPT search, begin with clear and helpful content that answers real questions. Get your brand mentioned by trusted sources. And build authority through backlinks.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +194,7 @@ const Blog1 = () => {
                                         className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
                                         
                                         <span className="text-sm text-left text-[var(--cta)] content-font">{blog.tag}</span>
-                                        <h2 className="heading-font font-medium text-sm lg:text-base tracking-[-0.06rem] mb-2">{blog.title}</h2>
+                                        <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2">{blog.title}</h2>
                                         <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
                                         <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
