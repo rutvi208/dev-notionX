@@ -5,11 +5,11 @@ import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
 import DemoImg from '@/../public/images/Blog-page/demo.webp';
-import Grammarly from '@/../public/images/Blog-page/Blog2-grammarly.png';
-import HumanWritten from '@/../public/images/Blog-page/Blog2-HumanWritten.png';
+import Grammarly from '@/../public/images/Blog-page/Blog4-grammarly.png';
+import HumanWritten from '@/../public/images/Blog-page/Blog4-HumanWritten.png';
 
 export const metadata = {
-  title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025! | NotionX",
+  title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO | NotionX",
   keywords: ["How to Rank in AI Overview", "What is GEO", "What is AI SEO", "SEO vs GEO", "GEO vs SEO", "What is GEO vs SEO", "SEO vs GEO vs AEO", "GEO vs. SEO", "SEO vs AEO vs GEO", "AEO vs SEO vs GEO", "GEO vs SEO vs AEO", "SEO vs. GEO"],
 //   description: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide.",
 };
@@ -38,17 +38,17 @@ const blogPosts = [
   },
   {
     id: 3,
-    href: "blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
+    href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
     image: DemoImg,
     tag: "#trending",
-    title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
-    readTime: "4 mins read",
+    readTime: "3 mins read",
   },
 ];
 
-const Blog2 = () => {
+const Blog4 = () => {
 
   return (
     <div>
@@ -57,7 +57,7 @@ const Blog2 = () => {
             <div className=''>
                 <Navbar />
                     <div className="my-10 sm:my-12 lg:my-20 2xl:my-24 container mx-auto justify-center place-items-center text-center ">
-                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h1>
+                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank in AI Overview: Understand the SEO vs GEO vs AEO</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
                             <p className='text-[#878483] content-font text-xs me-8 sm:me-12'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
                             <Link href="https://geo.notionx.ai/" 
@@ -318,4 +318,4 @@ const Blog2 = () => {
   )
 }
 
-export default Blog2
+export default Blog4
