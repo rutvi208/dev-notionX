@@ -126,11 +126,11 @@ const Blog4 = () => {
                             {/* What is SEO */}
                             <div id='what-is-seo' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">What is SEO (Search Engine Optimization)?</h2>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO increases website visibility. Its goal is to enable sites to rank higher in search engines. Higher rankings lead to - more organic traffic. Businesses depend on SEO for - leads and inquiries.</p>
+                                <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO increases website visibility. Its goal is to enable sites to rank higher in search engines. Higher rankings lead to - more organic traffic. Businesses depend on SEO for - leads and inquiries.</p>
                                 <div className='mt-6 lg:mt-8'>
                                     <h2 className="heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]">How Exactly Does SEO Work?</h2>
-                                    <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">To thrive with SEO, businesses use strategies like:</p>
-                                    <ul className="ms-10 mt-3 sm:mt-6 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">To thrive with SEO, businesses use strategies like:</p>
+                                    <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>On-page SEO Techniques</li>
                                         <li>Off-page SEO Tactics</li>
                                         <li>Technical SEO Approaches</li>
@@ -138,23 +138,23 @@ const Blog4 = () => {
                                         <li>Content Optimization</li>
                                     </ul>
                                 </div>
-                                <div className='my-5'>
+                                <div className='my-8'>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>What is AEO (Answer Engine Optimization)?</h2>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">AEO delivers fast and accurate answers. With tools like Google Knowledge Graph - users now expect instant results. Voice assistants like Siri and Alexa have - accelerated this demand.</p>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Instead of clicking through websites, people ask direct questions. AEO ensures your content shows up in - featured snippets and voice search results. It gives users exactly what they need—right when they need it.</p>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Leverage AI-powered innovation for your business with the best generative AI development company.</p>
                                 </div>
-                                <div className='my-5'>
+                                <div className='my-8'>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How Exactly Does AEO Work?</h2>
-                                    <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Answer engines are the voice and AI chat assistants. AEO optimizes your content so that answer engines leverage your content as the direct answer to someone's query. It enables -</p> 
-                                    <ul className="ms-8 lg:ms-12 mt-3 sm:mt-6 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Answer engines are the voice and AI chat assistants. AEO optimizes your content so that answer engines leverage your content as the direct answer to someone's query. It enables -</p> 
+                                    <ul className="ms-8 lg:ms-12 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>
                                             <h2 className="flex flex-row items-center heading-font text-[#222222] font-normal text-xl sm:text-2xl tracking-[-0.05rem]">Crisp Content</h2>
-                                            <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Answer engines prefer content that is simple and structured. They prioritize - short paragraphs, tables, and stepwise instructions. This format cites information - from the source. Examples include - FAQs and how-to guides.</p>
+                                            <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Answer engines prefer content that is simple and structured. They prioritize - short paragraphs, tables, and stepwise instructions. This format cites information - from the source. Examples include - FAQs and how-to guides.</p>
                                         </li>
                                         <li>
                                             <h2 className="flex flex-row items-center heading-font text-[#222222] font-normal text-xl sm:text-2xl tracking-[-0.05rem]">Trust Signals</h2>
-                                            <p className="ms-5 mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI systems prefer trustworthy sources for answers. Therefore, modern AEO selects its output depending on trust signals as well. These trust signals could be citations, backlinks, brand reputation, and the quality of the source.</p>
+                                            <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI systems prefer trustworthy sources for answers. Therefore, modern AEO selects its output depending on trust signals as well. These trust signals could be citations, backlinks, brand reputation, and the quality of the source.</p>
                                         </li>
                                     </ul>                                   
                                 </div>
@@ -194,14 +194,14 @@ const Blog4 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">GEO optimizes content for AI-driven platforms. It targets tools like - ChatGPT, Microsoft Copilot, and Perplexity.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The goal is to appear in AI-generated answers. Not just search results. GEO uses conversational language and clear formatting. It also relies on credible sources that AI can easily extract and cite. Let us explore - What is GEO vs. SEO?</p>
 
-                                <div className='my-5'>
+                                <div className='my-8'>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>What is GEO vs SEO?</h2>
-                                    <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">GEO stresses getting your content featured in AI-generated answers. SEO ranks your website - in search engine results.</p>
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">GEO stresses getting your content featured in AI-generated answers. SEO ranks your website - in search engine results.</p>
                                 </div>
                                 {/* table 1 */}
-                                <div className='my-5'>
+                                <div className='my-8'>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Comparison Table: SEO vs GEO.</h2>
-                                    <div className='my-4 sm:my-8 rounded-xl sm:rounded-[20px] border border-[var(--stroke)] overflow-x-auto'>
+                                    <div className='my-4 sm:mt-6 sm:mb-10 rounded-xl sm:rounded-[20px] border border-[var(--stroke)] overflow-x-auto'>
                                         <table className="w-full bg-[#FAF7F5]">
                                             <thead>
                                                 <tr className=" border-b border-[var(--stroke)]">
@@ -276,18 +276,18 @@ const Blog4 = () => {
                                         </table>
                                     </div>
                                 </div>
-                                <div className='my-5'>
+                                <div className='my-8'>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Not SEO vs. GEO. But SEO + GEO is the Better Approach.</h2>
-                                    <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">As AI-driven search grows - GEO is becoming as important as SEO. SEO brings traffic. However, GEO builds trust and visibility in - AI-powered environments. Smart marketers are now optimizing for both.</p>
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">As AI-driven search grows - GEO is becoming as important as SEO. SEO brings traffic. However, GEO builds trust and visibility in - AI-powered environments. Smart marketers are now optimizing for both.</p>
                                 </div>
-                                <div className='my-5'>
+                                <div className='my-8'>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Key Differences Between: SEO vs GEO vs AEO Strategies</h2>
-                                    <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO, AEO, and GEO serve a unique purpose. SEO helps websites rank in search engines. AEO delivers direct answers in voice search and AI overviews. GEO targets generative AI platforms like ChatGPT.</p>
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO, AEO, and GEO serve a unique purpose. SEO helps websites rank in search engines. AEO delivers direct answers in voice search and AI overviews. GEO targets generative AI platforms like ChatGPT.</p>
                                 </div>
                                 {/* table 2 */}
-                                <div className='my-5'>
+                                <div className='my-8'>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Comparison Table: SEO vs GEO vs AEO.</h2>
-                                    <div className='my-4 sm:my-8 rounded-xl sm:rounded-[20px] border border-[var(--stroke)] overflow-hidden'>
+                                    <div className='my-4 sm:mt-8 sm:mb-10 rounded-xl sm:rounded-[20px] border border-[var(--stroke)] overflow-hidden'>
                                         <div className='overflow-x-auto'>
                                             <table className="w-full bg-[#FAF7F5]">
                                                 <thead>
@@ -382,16 +382,16 @@ const Blog4 = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='my-5'>
+                                <div className=''>
                                     <h2 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Not SEO vs AEO vs GEO. But SEO vs AEO vs GEO is the Winning Approach.</h2>
-                                    <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The future of search is hybrid. To stay visible, businesses must optimize for all three - SEO, AEO, and GEO.</p>
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">The future of search is hybrid. To stay visible, businesses must optimize for all three - SEO, AEO, and GEO.</p>
                                 </div>
                             </div>
 
                             {/* Significant Similarities */}
                             <div id='significant-similarities' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Significant Similarities Between: AEO vs SEO vs GEO Strategies.</h2>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Now, let us look at what GEO vs SEO vs AEO services have in common:</p>
+                                <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Now, let us look at what GEO vs SEO vs AEO services have in common:</p>
                                 <ul className="ms-10 mt-3 sm:mt-6 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                     <li>All aim to boost online visibility.</li>
                                     <li>They focus on improving user experience.</li>
@@ -407,7 +407,7 @@ const Blog4 = () => {
                             {/* How to Rank in AI Overview */}
                             <div id='how-to-rank' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Rank in AI Overview By Comprehending the SEO vs GEO vs AEO Strategies</h2>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Here are the actionable strategies for future-proofing your business:</p>
+                                <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Here are the actionable strategies for future-proofing your business:</p>
                                 <ul className="ms-10 mt-3 sm:mt-6 space-y-2 lg:space-y-4 content-font list-decimal list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                     <li>
                                         <h2 className="flex flex-row items-center heading-font text-[#222222] font-normal text-xl sm:text-2xl tracking-[-0.05rem]">Augment Your Content.</h2>
@@ -442,12 +442,12 @@ const Blog4 = () => {
                             </div>
                             
                             {/* Author details */}
-                            <div className='lg:max-w-5xl sm:w-[45rem] mx-auto container'>
+                            <div className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container'>
                                 <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                     <div className="py-3 sm:py-5 px-4 sm:px-10 flex flex-row justify-between items-center rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
                                         <div className='flex flex-col space-y-2 border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
                                             <span className="heading-font font-bold text-2xl sm:text-[28px]">Emily Thornton</span>
-                                            <h3 className="content-font font-semibold text-lg sm:text-xl">Content & Authority Building Specialist</h3>
+                                            <h3 className="content-font text-base sm:text-lg">Content & Authority Building Specialist</h3>
                                         </div>
                                         <div className=''>
                                             <Image 
@@ -469,6 +469,7 @@ const Blog4 = () => {
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
                             </div>
                             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
+                            
                                 {blogPosts.map((blog) => (
                                     <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
                                     bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
@@ -476,24 +477,24 @@ const Blog4 = () => {
                                     <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
                                         {/* Image */}
-                                        <Link href={blog.href} target="_blank" rel="noopener noreferrer"
+                                        <Link href={blog.href} rel="noopener noreferrer"
                                         className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
                                         <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
                                         </Link>
 
                                         {/* Content */}
-                                        <Link href={blog.href} target="_blank" rel="noopener noreferrer"
+                                        <Link href={blog.href} rel="noopener noreferrer"
                                         className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
                                         
                                         <span className="text-sm text-left text-[var(--cta)] content-font">{blog.tag}</span>
                                         <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2">{blog.title}</h2>
-                                        <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
+                                        <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
-                                        <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
+                                        <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                                             <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
-                                            <p className='cursor-pointer group text-[var(--cta)] content-font text-xs flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                            <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
                                             Read More
-                                            <span className='text-[var(--cta)] ps-1 text-sm transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                            <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
                                                 <HiMiniArrowSmallRight />
                                             </span>
                                             </p>

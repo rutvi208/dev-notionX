@@ -100,13 +100,13 @@ const KnowledgeHub = () => {
                                     
                                     <span className="text-sm text-left text-[var(--cta)] content-font">{blog.tag}</span>
                                     <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2">{blog.title}</h2>
-                                    <p className="text-sm text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
+                                    <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
-                                    <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between mt-auto'>
+                                    <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                                         <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
-                                        <p className='cursor-pointer group text-[var(--cta)] content-font text-xs sm:text-sm flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                        <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
                                         Read More
-                                        <span className='text-[var(--cta)] ps-1 text-sm sm:text-lg transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                        <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
                                             <HiMiniArrowSmallRight />
                                         </span>
                                         </p>

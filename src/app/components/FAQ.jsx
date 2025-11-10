@@ -77,7 +77,7 @@ const Faq = () => {
                             {/* Question */}
                             <button
                             onClick={() => toggleFAQ(index)}
-                            className="w-full flex flex-row items-center justify-between py-4 text-left"
+                            className="w-full flex flex-row items-center justify-between py-4 text-left cursor-pointer"
                             >
                             <p className="content-font">{faq.question}</p>
                             <span className="text-[#AD8775] text-2xl 2xl:text-3xl">
