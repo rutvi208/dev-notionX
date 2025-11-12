@@ -8,12 +8,12 @@ import {
 } from "react-icons/hi2";
 import { 
   FaLinkedinIn, 
-  FaTwitter, 
+  FaXTwitter, 
   FaFacebookF,
   FaWhatsapp,
   FaRedditAlien,
-  FaSlack
-} from "react-icons/fa";
+  // FaSlack
+} from "react-icons/fa6";
 
 interface SharePopupProps {
   url?: string;
@@ -42,38 +42,38 @@ const SharePopup = ({ url, title, description = '' }: SharePopupProps) => {
       name: 'LinkedIn',
       icon: FaLinkedinIn,
       url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
-      color: 'hover:bg-[#0077B5]',
+      color: 'bg-[#0077B5]',
     },
     {
-      name: 'Twitter',
-      icon: FaTwitter,
+      name: 'X',
+      icon: FaXTwitter,
       url: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
-      color: 'hover:bg-[#1DA1F2]',
+      color: 'bg-black',
     },
     {
       name: 'Facebook',
       icon: FaFacebookF,
       url: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
-      color: 'hover:bg-[#1877F2]',
+      color: 'bg-[#1877F2]',
     },
     {
       name: 'WhatsApp',
       icon: FaWhatsapp,
       url: `https://wa.me/?text=${encodedTitle}%20${encodedUrl}`,
-      color: 'hover:bg-[#25D366]',
+      color: 'bg-[#25D366]',
     },
     {
       name: 'Reddit',
       icon: FaRedditAlien,
       url: `https://reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`,
-      color: 'hover:bg-[#FF4500]',
+      color: 'bg-[#FF4500]',
     },
-    {
-      name: 'Slack',
-      icon: FaSlack,
-      url: `slack://share?text=${encodedTitle}%20${encodedUrl}`,
-      color: 'hover:bg-[#4A154B]',
-    },
+    // {
+    //   name: 'Slack',
+    //   icon: FaSlack,
+    //   url: `slack://share?text=${encodedTitle}%20${encodedUrl}`,
+    //   color: 'hover:bg-[#4A154B]',
+    // },
   ];
 
   const copyToClipboard = async () => {
@@ -117,19 +117,19 @@ const SharePopup = ({ url, title, description = '' }: SharePopupProps) => {
   };
 
   const handleShare = (shareUrl: string, platform: string) => {
-    if (platform === 'Slack') {
-      // For Slack, try the custom URL scheme first
-      window.location.href = shareUrl;
-      // Fallback to web share if the app isn't installed
-      setTimeout(() => {
-        window.open(
-          `https://slack.com/intl/en-in/help/articles/201330256-Share-links-in-Slack`,
-          '_blank'
-        );
-      }, 500);
-    } else {
+    // if (platform === 'Slack') {
+    //   // For Slack, try the custom URL scheme first
+    //   window.location.href = shareUrl;
+    //   // Fallback to web share if the app isn't installed
+    //   setTimeout(() => {
+    //     window.open(
+    //       `https://slack.com/intl/en-in/help/articles/201330256-Share-links-in-Slack`,
+    //       '_blank'
+    //     );
+    //   }, 500);
+    // } else {
       window.open(shareUrl, '_blank', 'noopener,noreferrer,width=600,height=600');
-    }
+    // }
   };
 
   return (
@@ -175,7 +175,7 @@ const SharePopup = ({ url, title, description = '' }: SharePopupProps) => {
                     key={platform.name}
                     onClick={() => handleShare(platform.url, platform.name)}
                     className={`flex flex-col items-center justify-center p-4 rounded-xl border border-gray-200 
-                      ${platform.color} hover:text-white transition-all duration-300 group`}
+                      ${platform.color} text-white transition-all duration-300 hover:opacity-90`}
                   >
                     <Icon className="w-6 h-6 mb-2" />
                     <span className="text-xs content-font">{platform.name}</span>
