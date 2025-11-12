@@ -7,7 +7,7 @@ import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
 import DemoImg from '@/../public/images/Blog-page/demo.webp';
-import Grammarly from '@/../public/images/Blog-page/Blog1-grammarly.png';
+import Grammarly from '@/../public/images/Blog-page/Blog1-Grammarly.png';
 import HumanWritten from '@/../public/images/Blog-page/Blog1-HumanWritten.png';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
