@@ -7,14 +7,13 @@ import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
 import DemoImg from '@/../public/images/Blog-page/demo.webp';
-import MetaImg from '@/../public/images/Blog-page/Blog1-Thumbnail.png';
 // import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import AuthorDemo from '@/../public/images/Blog-page/Author-demo.png'
 import SharePopup from '@/app/components/SharePopup';
 
 export const metadata = {
   title: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide | NotionX",
-  image: MetaImg,
+ // image: MetaImg,
   keywords: ["how to rank in Chat GPT search", "how do you rank your website in Chat GPT", "how to rank on Chat GPT", "how to rank in Chat GPT", "how to rank on Chat GPT in 2025", "how to rank website on Chat GPT", "how to rank brand on Chat GPT in 2025", "how to rank a brand on Chat GPT", "how to rank on Chat GPT for brand mentions", "where does my brand rank in Chat GPT", "how to rank on Chat GPT for brands in 2025", "how to rank in Chat GPT search results", "how products and services appear in Chat GPT search results", "how to appear in Chat GPT search results", "how to track Chat GPT visibility in search results"],
 //   description: "How to Rank Your Website or Brand in Chat GPT: Latest Strategy Guide.",
 };

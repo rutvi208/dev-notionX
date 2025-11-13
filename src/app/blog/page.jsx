@@ -4,13 +4,17 @@ import Image from 'next/image';
 import HeroBg from '@/../public/images/backgrounds/HeroBg.svg';
 import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import Link from "next/link";
-import DemoImg from '@/../public/images/Blog-page/Dark-thumbnail.png';
+import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
+import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
+import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
+import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
+import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
 
 const blogPosts = [
   {
     id: 1,
     href: "blog/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
-    image: DemoImg,
+    image: Blog1Thumbnail,
     tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -20,7 +24,7 @@ const blogPosts = [
   {
     id: 2,
     href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
-    image: DemoImg,
+    image: Blog2Thumbnail,
     tag: "#trending",
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -30,7 +34,7 @@ const blogPosts = [
   {
     id: 3,
     href: "blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
-    image: DemoImg,
+    image: Blog3Thumbnail,
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -40,7 +44,7 @@ const blogPosts = [
   {
     id: 4,
     href: "blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
-    image: DemoImg,
+    image: Blog4Thumbnail,
     tag: "#trending",
     title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -50,7 +54,7 @@ const blogPosts = [
   {
     id: 5,
     href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
-    image: DemoImg,
+    image: Blog5Thumbnail,
     tag: "#trending",
     title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2025.",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -90,8 +94,8 @@ const KnowledgeHub = () => {
 
                                     {/* Image */}
                                     <Link href={blog.href} rel="noopener noreferrer"
-                                    className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                                    <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
+                                    className='w-auto rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                    <Image src={blog.image} alt={blog.title} className="object-cover" />
                                     </Link>
 
                                     {/* Content */}
