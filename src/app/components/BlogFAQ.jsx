@@ -40,7 +40,7 @@ setOpenIndex(openIndex === index ? null : index);
 
   return (
     <div>
-        <div className="container mx-auto place-items-center pt-20 px-5 lg:px-8 2xl:px-0">
+        <div className="container mx-auto place-items-center pt-20 px-0 lg:px-8 2xl:px-0">
             <h2 className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h2>
             <p className="text-lg lg:text-xl text-center content-font mt-3">Everything you need to know about GEO and AI search optimization.</p>
                 
