@@ -14,9 +14,32 @@ import PricingTable from '@/../public/images/Blog-page/notionX-price.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 
+
 export const metadata = {
   title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
+  description:"Learn how to optimize your brand for AI search platforms like ChatGPT, Gemini, and Perplexity. The ultimate 2025 AI SEO guide from NotionX.",
   keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"],
+  openGraph: {
+    title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
+    description:"Learn how to optimize your brand for AI search platforms like ChatGPT and Perplexity.",
+    url: "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    type: "article",
+    images: [
+      {
+        url: "https://dev-notionx-v2.netlify.app/images/blogs/2.jpg",
+        width: 1200,
+        height: 630,
+        alt: "AI SEO Guide 2025",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI SEO Guide 2025 - Rank in AI Search Engines",
+    description:
+      "The ultimate 2025 AI SEO guide from NotionX. Learn to dominate AI-powered searches.",
+    images: ["https://dev-notionx-v2.netlify.app/images/blogs/2.jpg"],
+  },
 };
 
 const blogPosts = [
@@ -54,10 +77,48 @@ const blogPosts = [
 
 const Blog2 = () => {
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    },
+    headline:
+      "The Future of Search Is Here: How to Optimize for AI-Powered Discovery",
+    description:
+      "Learn how to optimize for AI-powered discovery and become the answer AI recommends when customers search for businesses like yours.",
+    image: {
+      "@type": "ImageObject",
+      url: "https://dev-notionx-v2.netlify.app/blog/2.jpg",
+      width: 1200,
+      height: 630,
+    },
+    datePublished: "2025-10-25T09:00:00Z",
+    dateModified: "2025-10-25T15:30:00Z",
+    author: {
+      "@type": "Person",
+      name: "Hanif Darjada",
+      url: "https://dev-notionx-v2.netlify.app/about",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "NotionX",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://dev-notionx-v2.netlify.app/logo.png",
+      },
+    },
+    articleSection: "Generative Engine Optimization",
+    keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"],
+  };
+
   return (
     <div>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+
         <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
-            
+
             <div className=''>
                 <Navbar />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
@@ -76,7 +137,7 @@ const Blog2 = () => {
                         </div>
 
                         <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
-                            
+
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
                                     <p className="content-font text-lg sm:text-xl text-center">
@@ -87,7 +148,7 @@ const Blog2 = () => {
                         </div>
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
-                            <Image 
+                            <Image
                                 src={DemoImg}
                                 alt="Hero Background"
                                 loading="lazy"
@@ -97,7 +158,7 @@ const Blog2 = () => {
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
-                        
+
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
@@ -133,7 +194,7 @@ const Blog2 = () => {
                                 <div className='my-8'>
                                     <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">1. NotionX</h3>
                                     <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
-                                        <Image 
+                                        <Image
                                             src={NotionX}
                                             alt="NotionX"
                                             loading="lazy"
@@ -141,9 +202,9 @@ const Blog2 = () => {
                                         />
                                     </div>
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
-                                    <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">NotionX</a> assists brands in getting discovered in AI search outcomes. It specializes in - AI SEO, Generative Engine Optimization (GEO) services, and enhancing visibility across AI-driven platforms.
+                                    <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">NotionX</a> assists brands in getting discovered in AI search outcomes. It specializes in - AI SEO, Generative Engine Optimization (GEO) services, and enhancing visibility across AI-driven platforms.
                                     </p>
-                                    
+
                                     <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">NotionX Services for AI Search Ranking:</h4>
                                     <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li><span className='font-semibold'>AI Visibility Audit -</span> Assess your current AI footprint and uncover key citation gaps.</li>
@@ -177,7 +238,7 @@ const Blog2 = () => {
                                     <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">NotionX Pricing:</h4>
                                     <p className="mt-2 sm:mt-4 content-font text-lg text-center lg:text-xl tracking-[-0.05rem] font-semibold">GEO Service Plans</p>
                                     <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
-                                        <Image 
+                                        <Image
                                             src={PricingTable}
                                             alt="NotionX Pricing Table"
                                             loading="lazy"
@@ -190,7 +251,7 @@ const Blog2 = () => {
                                 <div className='my-8'>
                                     <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">2. NoGood</h3>
                                     <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
-                                        <Image 
+                                        <Image
                                             src={NoGoodLogo}
                                             alt="NoGood"
                                             loading="lazy"
@@ -200,7 +261,7 @@ const Blog2 = () => {
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                         NoGood combines AI SEO, growth marketing, and content science to assist companies in winning across AI-powered discovery. As a ChatGPT SEO rank tracking tools agency, it focuses on full-funnel strategies. These strategies advance visibility across ChatGPT, Perplexity, and other generative platforms.
                                     </p>
-                                    
+
                                     <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
                                     <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>Generative search visibility audits</li>
@@ -221,7 +282,7 @@ const Blog2 = () => {
                                 <div className='my-8'>
                                     <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">3. Bird Marketing</h3>
                                     <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
-                                        <Image 
+                                        <Image
                                             src={BirdMarketingLogo}
                                             alt="Bird Marketing"
                                             loading="lazy"
@@ -231,7 +292,7 @@ const Blog2 = () => {
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                         Bird Marketing blends AI and GEO expertise with SEO mastery to assist brands grow in the digital space. Being the best ChatGPT SEO rank tracking agency, it enables businesses with its pioneering search optimization and AI integration methodologies. They leverage the best SEO tool to rank in ChatGPT.
                                     </p>
-                                    
+
                                     <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
                                     <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>Generative Engine Optimization (GEO).</li>
@@ -252,7 +313,7 @@ const Blog2 = () => {
                                 <div className='my-8'>
                                     <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">4. WOWBix Marketing</h3>
                                     <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
-                                        <Image 
+                                        <Image
                                             src={WOWBixLogo}
                                             alt="WOWBix Marketing"
                                             loading="lazy"
@@ -263,7 +324,7 @@ const Blog2 = () => {
                                         WOWBix Marketing delivers budget-friendly digital marketing without cutting corners. As one of the best ChatGPT SEO rank tracking software agencies, they harness AI to boost search performance.
                                     </p>
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The company leverages ChatGPT SEO rank tracking tools to improve its service deliverables. It supports - small businesses and large corporations. Their teams combine cost efficiency with proven marketing tactics.</p>
-                                    
+
                                     <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
                                     <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>AI-powered SEO.</li>
@@ -283,7 +344,7 @@ const Blog2 = () => {
                                 <div className='my-8'>
                                     <h3 className="heading-font font-medium text-xl sm:text-2xl tracking-[-0.05rem]">5. Embarque</h3>
                                     <div className='my-4 rounded-lg lg:rounded-xl border border-[var(--stroke)] overflow-hidden'>
-                                        <Image 
+                                        <Image
                                             src={EmbarqueLogo}
                                             alt="Embarque"
                                             loading="lazy"
@@ -294,7 +355,7 @@ const Blog2 = () => {
                                         Embarque helps SaaS and tech startups grow with AI-powered SEO. They boost - organic traffic and rankings in ChatGPT-driven search. Their efficient processes meet an AI-enhanced strategy for measurable impact.
                                     </p>
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Built for modern search, this ChatGPT SEO agency is optimized with the best ChatGPT SEO rank tracker tools.</p>
-                                    
+
                                     <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">Key Services:</h4>
                                     <ul className="ms-10 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>Covers technical, on-page, and off-page SEO strategy.</li>
@@ -319,7 +380,7 @@ const Blog2 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     Here is a 2025 comparison table of top AI ChatGPT SEO agencies. It highlights - strengths, specialties, and fit for growth-focused brands.
                                 </p>
-                                
+
                                 <div className='my-4 sm:mt-8 sm:mb-10 rounded-xl sm:rounded-[20px] border border-[var(--stroke)] overflow-hidden'>
                                     <div className='overflow-x-auto'>
                                         <table className="w-full bg-[#FAF7F5]">
@@ -441,19 +502,19 @@ const Blog2 = () => {
                                     Optimizing for AI search is not just another tactic - it is a shift in thinking. Success now depends on - how well you speak the language of AI. Today, <a href="https://www.semrush.com/blog/semrush-ai-overviews-study/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">13.14 percent of all search-based queries</a> trigger - Google AI Overviews (up from 6.49 percent in Jan. 2025). So, visibility here means major placement.
                                 </p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Partnering with a ChatGPT SEO agency provides you with a clear edge in AI-driven search. They optimize for large language models and zero-click visibility. Your brand becomes the answer - not just another result.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require professional help? Explore our result-driven <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to develop a customized ChatGPT SEO + GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require professional help? Explore our result-driven <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to develop a customized ChatGPT SEO + GEO strategy.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You can also try our <a href="https://geo.notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AI-Powered GEO Auditor</a> (Beta Version) tool to analyze your site performance for conventional search engines and AI-driven platforms.</p>
                             </div>
-                            
+
                             {/* Author details */}
                             <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                                 <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                    
+
                                     <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
                                         <div className='sm:col-span-1 h-full'>
-                                            <Image 
-                                                src={AuthorImage} 
-                                                alt="Author Image" 
+                                            <Image
+                                                src={AuthorImage}
+                                                alt="Author Image"
                                                 className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                             />
                                         </div>
@@ -482,11 +543,11 @@ const Blog2 = () => {
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
                             </div>
                             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
-                            
+
                                 {blogPosts.map((blog) => (
                                     <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
                                     bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
-                                    
+
                                     <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
                                         {/* Image */}
@@ -498,7 +559,7 @@ const Blog2 = () => {
                                         {/* Content */}
                                         <Link href={blog.href} rel="noopener noreferrer"
                                         className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                        
+
                                         <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
                                         <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
                                         <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>

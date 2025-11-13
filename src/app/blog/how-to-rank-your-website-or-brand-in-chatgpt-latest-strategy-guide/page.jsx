@@ -18,7 +18,7 @@ export const metadata = {
 };
 
 const blogPosts = [
-  
+
   {
     id: 1,
     href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
@@ -84,7 +84,7 @@ const Blog1 = () => {
   return (
     <div>
         <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
-            
+
             <div className=''>
                 <Navbar />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
@@ -94,8 +94,8 @@ const Blog1 = () => {
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <p className='text-[#878483] content-font text-xs'>Oct 25, 2025 &nbsp; | &nbsp; 2 mins read</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
-                            {/* <Link href="https://geo.notionx.ai/" 
-                                target="_blank" 
+                            {/* <Link href="https://geo.notionx.ai/"
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className='cursor-pointer group text-[var(--cta)] content-font text-base flex items-center font-bold hover:underline'>
                                 Share <span className='text-[var(--cta)] ps-1 text-sm'><HiMiniShare /></span></Link> */}
@@ -109,7 +109,7 @@ const Blog1 = () => {
                         </div>
 
                         <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
-                            
+
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
                                     <p className="content-font text-lg sm:text-xl text-center">
@@ -120,7 +120,7 @@ const Blog1 = () => {
                         </div>
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
-                            <Image 
+                            <Image
                                 src={DemoImg}
                                 alt="Hero Background"
                                 // fill
@@ -131,7 +131,7 @@ const Blog1 = () => {
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
-                        
+
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
@@ -154,7 +154,7 @@ const Blog1 = () => {
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, more people now use conversational AI like ChatGPT to find - products, services, and answers. Showing up in its responses can even greatly increase your visibility and trust. </p>
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search.</p>
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.</p>
-                                
+
                             </div>
 
                             {/* why-ranking */}
@@ -177,7 +177,7 @@ const Blog1 = () => {
                                 </div>
                                 <div className=''>
                                     <h4 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Chat GPT vs. Traditional Search Engines.</h4>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Google ranks pages based on backlinks and keyword density. However, Chat GPT ranks answers based on - how well they respond to user prompts. This shift stresses a new approach to SEO. One that blends content quality with AI understanding.</p>                                    
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Google ranks pages based on backlinks and keyword density. However, Chat GPT ranks answers based on - how well they respond to user prompts. This shift stresses a new approach to SEO. One that blends content quality with AI understanding.</p>
                                 </div>
                             </div>
 
@@ -211,7 +211,7 @@ const Blog1 = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on Chat GPT for Brand Mentions.</h3>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Mention your brand naturally in content across platforms. Use conversational language and build trust.</p>                                    
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Mention your brand naturally in content across platforms. Use conversational language and build trust.</p>
                                 </div>
                             </div>
 
@@ -230,7 +230,7 @@ const Blog1 = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>SEO + GEO for Chat GPT.</h3>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO + GEO blends traditional local SEO with AI optimization. It helps how to rank website on Chat GPT for regional queries. It also increases your chances of appearing in Chat GPT search results.</p>                                    
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO + GEO blends traditional local SEO with AI optimization. It helps how to rank website on Chat GPT for regional queries. It also increases your chances of appearing in Chat GPT search results.</p>
                                 </div>
                             </div>
 
@@ -250,7 +250,7 @@ const Blog1 = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank in Chat GPT Search Results for Products and Services.</h3>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Ensure your - products and services pages are AI-friendly. Use FAQs, specs, and structured markup. This will help Chat GPT cite your offerings.</p>                                    
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Ensure your - products and services pages are AI-friendly. Use FAQs, specs, and structured markup. This will help Chat GPT cite your offerings.</p>
                                 </div>
                             </div>
 
@@ -270,7 +270,7 @@ const Blog1 = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Tools to Monitor Chat GPT Performance.</h3>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Use AI analytics platforms that track - performance and conversational visibility. These tools help you answer questions like - “where does my brand rank in Chat GPT?” To improve rankings, brands should focus on - messaging and engagement.</p>                                    
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Use AI analytics platforms that track - performance and conversational visibility. These tools help you answer questions like - “where does my brand rank in Chat GPT?” To improve rankings, brands should focus on - messaging and engagement.</p>
                                 </div>
                             </div>
 
@@ -290,7 +290,7 @@ const Blog1 = () => {
                                 </div>
                                 <div className=''>
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How to Rank on Chat GPT for Brands in 2025.</h3>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Focus on - brand engagement, content clarity, and structured data. These elements will define - how to rank brand on Chat GPT in 2025 and beyond.</p>                                    
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Focus on - brand engagement, content clarity, and structured data. These elements will define - how to rank brand on Chat GPT in 2025 and beyond.</p>
                                 </div>
                             </div>
 
@@ -298,7 +298,7 @@ const Blog1 = () => {
                             <div className='mb-10 sm:mb-12 scroll-mt-10 sm:scroll-mt-16' id="moving-forward">
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward: Your Roadmap to Chat GPT Ranking Success!</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Start optimizing today! Whether you are a startup or an established brand - visibility in Chat GPT can drive - traffic, trust, and conversions.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional help? Explore our <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at notionX to build a custom Chat GPT SEO + GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional help? Explore our <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at notionX to build a custom Chat GPT SEO + GEO strategy.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You can even try our <a href="https://geo.notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AI-Powered GEO Auditor</a> (Beta Version) tool to analyze your website performance for traditional search engines and AI-steered platforms.</p>
                             </div>
                         </div>
@@ -332,7 +332,7 @@ const Blog1 = () => {
 
                         {/* Author details */}
                         {/* <div className='my-4 rounded-lg lg:rounded-xl lg:max-w-5xl sm:w-[56.25rem] mx-auto overflow-hidden'>
-                            <Image 
+                            <Image
                                 src={AuthorDemo}
                                 alt="AuthorDemo"
                                 loading="lazy"
@@ -344,9 +344,9 @@ const Blog1 = () => {
                                 {/* flex flex-row space-x-3 sm:space-x-8 */}
                                 <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
                                     <div className='sm:col-span-1 h-full'>
-                                        <Image 
-                                            src={AuthorImage} 
-                                            alt="Author Image" 
+                                        <Image
+                                            src={AuthorImage}
+                                            alt="Author Image"
                                             className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                         />
                                     </div>
@@ -374,11 +374,11 @@ const Blog1 = () => {
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
                             </div>
                             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
-                            
+
                                 {blogPosts.map((blog) => (
                                     <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
                                     bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
-                                    
+
                                     <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
                                         {/* Image */}
@@ -390,7 +390,7 @@ const Blog1 = () => {
                                         {/* Content */}
                                         <Link href={blog.href} rel="noopener noreferrer"
                                         className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                        
+
                                         <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
                                         <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
                                         <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>

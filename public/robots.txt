@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /
 
 # Host
-Host: https://dev-notionx-v2.netlify.app
+Host: https://dev-notionx-v2.netlify.app/
 
 # Sitemaps
 Sitemap: https://dev-notionx-v2.netlify.app/sitemap.xml

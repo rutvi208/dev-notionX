@@ -11,11 +11,11 @@ import SharePopup from '@/app/components/SharePopup';
 
 export const metadata = {
   title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025! | NotionX",
- 
+
 };
 
 const blogPosts = [
-  
+
   {
     id: 1,
     href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
@@ -53,7 +53,7 @@ const Blog5 = () => {
   return (
     <div>
         <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
-            
+
             <div className=''>
                 <Navbar />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
@@ -72,7 +72,7 @@ const Blog5 = () => {
                         </div>
 
                         <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
-                            
+
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
                                     <p className="content-font text-lg sm:text-xl text-center">
@@ -83,7 +83,7 @@ const Blog5 = () => {
                         </div>
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
-                            <Image 
+                            <Image
                                 src={DemoImg}
                                 alt="Hero Background"
                                 // fill
@@ -94,7 +94,7 @@ const Blog5 = () => {
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
-                        
+
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
@@ -131,7 +131,7 @@ const Blog5 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Online publishers are losing up to <a href="https://www.searchenginejournal.com/impact-of-ai-overviews-how-publishers-need-to-adapt/556843/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">89 percent of their organic traffic</a> due to Google's AI Overviews. There is a major impact on the click-through rates and content visibility. Learning platform Chegg informed a <a href="https://www.businesswire.com/news/home/20250223441916/en/Chegg-Reports-2024-Fourth-Quarter-and-Full-Year-Financial-Results" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">49 percent</a> reduction in its non-subscriber traffic in 2024-25.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Additionally, Google's AI Overviews have pushed top-ranked links far down the page. They can be displaced by up to 1,500 pixels. That is two full scrolls on desktop and three on mobile. Hence, high-ranking pages now get - fewer clicks.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Around <a href="https://seosandwitch.com/zero-click-searches-statistics/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">57 percent of Google searches</a> in 2024 ended without a - click to another website. This was up from 50 percent in 2020. Queries comprising - quick facts, weather, or math have a {">"} 80 percent probability of - being zero-click (Source: SEMrush).</p>
-                                
+
                             </div>
 
                             {/* Why Are AI Overviews Dominating Search Results? */}
@@ -139,7 +139,7 @@ const Blog5 = () => {
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Why Are AI Overviews Dominating Search Results?</h2>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI Overviews dominate search results as Google now favors fast and authoritative summaries. They often appear above traditional website links.</p>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI Overviews reduce user effort by answering queries instantly. Citation visibility is lower - with fewer users clicking through. SEO strategies must adapt to this shift in user behavior.</p>
-                                
+
                                 <div className='my-8'>
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Google Prioritizes AI-Generated Answers.</h3>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Ranking signals now reflect semantic relevance compared to keyword density. AI Overviews use large language models to - synthesize answers from multiple sources. They prioritize contextual accuracy and user intent.</p>
@@ -184,12 +184,12 @@ const Blog5 = () => {
                                             <li>
                                                 <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Build Authority (E-E-A-T).</h4>
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
-                                                    Demonstrate - Experience, Expertise, Authoritativeness & Trustworthiness in - every piece. Include - author bios, credentials, and transparent sourcing. 
+                                                    Demonstrate - Experience, Expertise, Authoritativeness & Trustworthiness in - every piece. Include - author bios, credentials, and transparent sourcing.
                                                     </p>
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                     Google’s algorithms favor content - backed by real-world expertise. This is found especially in - YMYL (Your Money or Your Life) niches.
                                                     </p>
-                                            </li>  
+                                            </li>
                                             <li>
                                                 <h4 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-xl tracking-[-0.05rem]'>Unique Perspectives & Thought Leadership.</h4>
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
@@ -204,7 +204,7 @@ const Blog5 = () => {
                                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                     Implement schema markup for - FAQ’s, How-To, Blog, and Product. This will help Google parse - your content. Structured data boosts your chances of appearing in - featured snippets and AI panels. Keep markup - consistent and aligned with page intent.
                                                     </p>
-                                            </li>      
+                                            </li>
                                         </ol>
                                     <li className="space-y-6 mt-8 sm:mt-12">
                                         <h3 className='flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]'>Content Strategies to Rank Above AI Overviews.</h3>
@@ -324,18 +324,18 @@ const Blog5 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, AI Overviews are rewriting how search results work. Brands that adapt quickly will gain a major edge. Staying visible now requires - smarter and sharper content.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Your messaging must show precision and authority. You already excel at effective communication. Now it is time to sync that skill with AI search behavior.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Every detail—from schema to brand voice—matters more than ever. Let us build a strategy that earns citations and protects your traffic.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require expert assistance? Explore our <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at notionX to drive a - technical SEO audit, local GEO enhancements, and personalized GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require expert assistance? Explore our <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at notionX to drive a - technical SEO audit, local GEO enhancements, and personalized GEO strategy.</p>
                             </div>
-                            
+
                             {/* Author details */}
                             <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                                 <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                    
+
                                     <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
                                         <div className='sm:col-span-1 h-full'>
-                                            <Image 
-                                                src={AuthorImage} 
-                                                alt="Author Image" 
+                                            <Image
+                                                src={AuthorImage}
+                                                alt="Author Image"
                                                 className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                             />
                                         </div>
@@ -364,11 +364,11 @@ const Blog5 = () => {
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
                             </div>
                             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
-                            
+
                                 {blogPosts.map((blog) => (
                                     <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
                                     bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
-                                    
+
                                     <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
                                         {/* Image */}
@@ -380,7 +380,7 @@ const Blog5 = () => {
                                         {/* Content */}
                                         <Link href={blog.href} rel="noopener noreferrer"
                                         className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                        
+
                                         <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
                                         <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
                                         <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>

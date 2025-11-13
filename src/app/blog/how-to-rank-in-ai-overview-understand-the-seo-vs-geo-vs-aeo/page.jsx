@@ -16,7 +16,7 @@ export const metadata = {
 };
 
 const blogPosts = [
-  
+
   {
     id: 1,
     href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
@@ -54,7 +54,7 @@ const Blog4 = () => {
   return (
     <div>
         <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
-            
+
             <div className=''>
                 <Navbar />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
@@ -73,7 +73,7 @@ const Blog4 = () => {
                         </div>
 
                         <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
-                            
+
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
                                     <p className="content-font text-lg sm:text-xl text-center">
@@ -84,7 +84,7 @@ const Blog4 = () => {
                         </div>
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
-                            <Image 
+                            <Image
                                 src={DemoImg}
                                 alt="Hero Background"
                                 // fill
@@ -95,7 +95,7 @@ const Blog4 = () => {
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
-                        
+
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <div className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
@@ -144,7 +144,7 @@ const Blog4 = () => {
                                 </div>
                                 <div className='my-8'>
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>How Exactly Does AEO Work?</h3>
-                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Answer engines are the voice and AI chat assistants. AEO optimizes your content so that answer engines leverage your content as the direct answer to someone's query. It enables -</p> 
+                                    <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Answer engines are the voice and AI chat assistants. AEO optimizes your content so that answer engines leverage your content as the direct answer to someone's query. It enables -</p>
                                     <ul className="ms-8 lg:ms-12 mt-2 sm:mt-4 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                         <li>
                                             <h2 className="flex flex-row items-center heading-font text-[#222222] font-normal text-xl sm:text-2xl tracking-[-0.05rem]">Crisp Content</h2>
@@ -154,7 +154,7 @@ const Blog4 = () => {
                                             <h2 className="flex flex-row items-center heading-font text-[#222222] font-normal text-xl sm:text-2xl tracking-[-0.05rem]">Trust Signals</h2>
                                             <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI systems prefer trustworthy sources for answers. Therefore, modern AEO selects its output depending on trust signals as well. These trust signals could be citations, backlinks, brand reputation, and the quality of the source.</p>
                                         </li>
-                                    </ul>                                   
+                                    </ul>
                                 </div>
                             </div>
 
@@ -378,7 +378,7 @@ const Blog4 = () => {
                                     <li>They target specific user intent and behavior.</li>
                                     <li>Relevance and accuracy are top priorities.</li>
                                     <li>All adapt to changing search algorithms.</li>
-                                </ul>   
+                                </ul>
                             </div>
 
                             {/* How to Rank in AI Overview */}
@@ -406,7 +406,7 @@ const Blog4 = () => {
                                         <h3 className="flex flex-row items-center heading-font text-[#222222] font-normal text-xl sm:text-2xl tracking-[-0.05rem]">Optimize E-commerce Pages.</h3>
                                         <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Apply E-commerce SEO best practices to - product and category pages. Use GEO tools to - refine keywords and improve descriptions. Stronger titles and meta tags attract clicks. Detailed content boosts conversions.</p>
                                     </li>
-                                </ul>   
+                                </ul>
                             </div>
 
                             {/* moving-forward */}
@@ -415,18 +415,18 @@ const Blog4 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The future of search belongs to those who adapt with SEO vs GEO vs AEO. Search engine optimization is still a solid foundation. Answer engine optimization meets the demand for voice search. Generative engine optimization supports new search platforms.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, each strategy plays a key role in digital success. By 2025, businesses that evolve will lead the market. To stay visible, you must combine SEO, AEO and GEO strategies.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You need to create content with clear intent, strong relevance, and high quality. Search is changing. Now is the time to - future-proof your digital marketing strategy. Use the right mix of - SEO services, AEO methods, and GEO tools to attain success.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional assistance? Explore our result-oriented <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to build a personalized SEO + AEO + GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional assistance? Explore our result-oriented <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to build a personalized SEO + AEO + GEO strategy.</p>
                             </div>
-                            
+
                             {/* Author details */}
                             <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                                 <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                   
+
                                     <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
                                         <div className='sm:col-span-1 h-full'>
-                                            <Image 
-                                                src={AuthorImage} 
-                                                alt="Author Image" 
+                                            <Image
+                                                src={AuthorImage}
+                                                alt="Author Image"
                                                 className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                             />
                                         </div>
@@ -455,11 +455,11 @@ const Blog4 = () => {
                                 <p className="heading-font font-semibold text-xl sm:text-2xl lg:text-3xl text-center tracking-[-0.05rem]">Relevant Knowledge Base</p>
                             </div>
                             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
-                            
+
                                 {blogPosts.map((blog) => (
                                     <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
                                     bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
-                                    
+
                                     <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
                                         {/* Image */}
@@ -471,7 +471,7 @@ const Blog4 = () => {
                                         {/* Content */}
                                         <Link href={blog.href} rel="noopener noreferrer"
                                         className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-                                        
+
                                         <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
                                         <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
                                         <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
