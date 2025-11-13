@@ -4,8 +4,31 @@ import Image from "next/image";
 import logo from '@/../public/images/logo/footer-logo.svg';
 import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import Link from "next/link";
+import { useRouter, usePathname } from 'next/navigation';
 
 const Footer = () => {
+    const router = useRouter();
+    const pathname = usePathname();
+
+    // Handle scroll to section
+    const handleSectionClick = (e, sectionId) => {
+        e.preventDefault();
+        
+        // Check if we're on the home page
+        const isHomePage = pathname === '/';
+        
+        if (isHomePage) {
+            // If on home page, just scroll to section
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        } else {
+            // If on another page, navigate to home with hash
+            router.push(`/#${sectionId}`);
+        }
+    };
+
     return (
         <div className="bg-gradient-to-r from-[#340404] to-[#161300]">
             <div className='flex flex-col space-y-4 sm:space-y-10 xl:space-y-12 px-3 lg:px-6 container mx-auto'>
@@ -13,8 +36,22 @@ const Footer = () => {
                 {/* left */}
                 <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 justify-between mt-8">
                     <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm text-white font-semibold sm:items-center">
-                        <a href="#howitworks" className="text-xl hover:text-[var(--cta)]">How it works</a>
-                        <a href="#pricing" className="text-xl hover:text-[var(--cta)]">Pricing</a>
+                        {/* <a href="#howitworks" className="text-xl hover:text-[var(--cta)]">How it works</a>
+                        <a href="#pricing" className="text-xl hover:text-[var(--cta)]">Pricing</a> */}
+                        <a 
+                            href="#howitworks" 
+                            onClick={(e) => handleSectionClick(e, 'howitworks')}
+                            className="text-xl hover:text-[var(--cta)] cursor-pointer"
+                        >
+                            How it works
+                        </a>
+                        <a 
+                            href="#pricing" 
+                            onClick={(e) => handleSectionClick(e, 'pricing')}
+                            className="text-xl hover:text-[var(--cta)] cursor-pointer"
+                        >
+                            Pricing
+                        </a>
                         <Link 
                             href="https://geo.notionx.ai/" 
                             target="_blank" 

@@ -28,7 +28,7 @@ export default function Home() {
 
       <div><Whyus/></div>
 
-      <div id='howitworks'><Howitworks/></div>
+      <div id='howitworks' className='scroll-m-10 lg:scroll-m-20'><Howitworks/></div>
 
       <div id='pricing'><Plans/></div>
 
