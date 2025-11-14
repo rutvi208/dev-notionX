@@ -4,7 +4,10 @@ import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
 import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import Link from "next/link";
 import Image from 'next/image';
-import DemoImg from '@/../public/images/Blog-page/demo.webp';
+import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
+import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
+import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
+import Blog2Banner from '@/../public/images/Blog-page/blog2-banner-complete-guide-2025.png';
 import Semrush from '@/../public/images/Blog-page/semrush.webp';
 import Ahrefs from '@/../public/images/Blog-page/ahrefs.webp';
 import Profound from '@/../public/images/Blog-page/profound.webp';
@@ -21,7 +24,7 @@ const blogPosts = [
   {
     id: 1,
     href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
-    image: DemoImg,
+    image: Blog1Thumbnail,
     tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -31,7 +34,7 @@ const blogPosts = [
   {
     id: 2,
     href: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
-    image: DemoImg,
+    image: Blog3Thumbnail,
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -41,7 +44,7 @@ const blogPosts = [
   {
     id: 3,
     href: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
-    image: DemoImg,
+    image: Blog5Thumbnail,
     tag: "#trending",
     title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -86,7 +89,7 @@ const Blog3 = () => {
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image 
-                                src={DemoImg}
+                                src={Blog2Banner}
                                 alt="Hero Background"
                                 loading="lazy"
                                 className='object-center object-cover h-full w-full rounded-lg lg:rounded-xl'

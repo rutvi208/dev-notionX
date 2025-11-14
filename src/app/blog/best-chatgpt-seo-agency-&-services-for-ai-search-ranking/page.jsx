@@ -4,7 +4,10 @@ import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
 import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import Link from "next/link";
 import Image from 'next/image';
-import DemoImg from '@/../public/images/Blog-page/demo.webp';
+import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
+import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
+import Blog3Banner from '@/../public/images/Blog-page/blog3-banner-best-chatgpt-search-ranking.png';
+import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
 import NotionX from '@/../public/images/Blog-page/notionX.webp';
 import NoGoodLogo from '@/../public/images/Blog-page/noGood.webp';
 import BirdMarketingLogo from '@/../public/images/Blog-page/Bird.webp';
@@ -46,7 +49,7 @@ const blogPosts = [
   {
     id: 1,
     href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
-    image: DemoImg,
+    image: Blog1Thumbnail,
     tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -56,7 +59,7 @@ const blogPosts = [
   {
     id: 2,
     href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
-    image: DemoImg,
+    image: Blog2Thumbnail,
     tag: "#trending",
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -66,7 +69,7 @@ const blogPosts = [
   {
     id: 3,
     href: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
-    image: DemoImg,
+    image: Blog5Thumbnail,
     tag: "#trending",
     title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -149,7 +152,7 @@ const Blog2 = () => {
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
-                                src={DemoImg}
+                                src={Blog3Banner}
                                 alt="Hero Background"
                                 loading="lazy"
                                 className='object-center object-cover h-full w-full rounded-lg lg:rounded-xl'

@@ -7,7 +7,10 @@ import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin } from "react-icon
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
-import DemoImg from '@/../public/images/Blog-page/demo.webp';
+import Blog1Banner from '@/../public/images/Blog-page/blog1-banner-how-to-rank-strategy-guide.png';
+import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
+import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
+import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 
@@ -22,7 +25,7 @@ const blogPosts = [
   {
     id: 1,
     href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
-    image: DemoImg,
+    image: Blog2Thumbnail,
     tag: "#trending",
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -32,7 +35,7 @@ const blogPosts = [
   {
     id: 2,
     href: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
-    image: DemoImg,
+    image: Blog3Thumbnail,
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -42,7 +45,7 @@ const blogPosts = [
   {
     id: 3,
     href: "how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
-    image: DemoImg,
+    image: Blog4Thumbnail,
     tag: "#trending",
     title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -121,7 +124,7 @@ const Blog1 = () => {
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
-                                src={DemoImg}
+                                src={Blog1Banner}
                                 alt="Hero Background"
                                 // fill
                                 loading="lazy"

@@ -5,7 +5,10 @@ import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin } from "react-icon
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
-import DemoImg from '@/../public/images/Blog-page/demo.webp';
+import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
+import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
+import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
+import Blog5Banner from '@/../public/images/Blog-page/blog5-banner-ai-overviews-2025.png';
 import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 
@@ -19,7 +22,7 @@ const blogPosts = [
   {
     id: 1,
     href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
-    image: DemoImg,
+    image: Blog1Thumbnail,
     tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -29,7 +32,7 @@ const blogPosts = [
   {
     id: 2,
     href: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
-    image: DemoImg,
+    image: Blog3Thumbnail,
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -39,7 +42,7 @@ const blogPosts = [
   {
     id: 3,
     href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
-    image: DemoImg,
+    image: Blog2Thumbnail,
     tag: "#trending",
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
@@ -84,7 +87,7 @@ const Blog5 = () => {
 
                         <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-60 sm:h-80 sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
-                                src={DemoImg}
+                                src={Blog5Banner}
                                 alt="Hero Background"
                                 // fill
                                 loading="lazy"
