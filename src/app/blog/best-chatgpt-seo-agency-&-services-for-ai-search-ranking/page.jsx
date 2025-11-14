@@ -150,12 +150,12 @@ const Blog2 = () => {
                             </div>
                         </div>
 
-                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-72 sm:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
                                 src={Blog3Banner}
                                 alt="Hero Background"
                                 loading="lazy"
-                                className='object-center object-cover h-full w-full rounded-lg lg:rounded-xl'
+                                className='object-center object-contain sm:object-cover h-auto md:h-full w-full rounded-lg lg:rounded-xl'
                             />
                         </div>
                     </div>
