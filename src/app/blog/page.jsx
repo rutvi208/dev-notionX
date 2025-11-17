@@ -21,6 +21,8 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
     readTime: "2 mins read",
+    dateISO: "2025-10-25", // Added for proper datetime attribute
+    authorName: "Manthan D.",
   },
   {
     id: 2,
@@ -31,6 +33,8 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
     readTime: "3 mins read",
+    dateISO: "2025-10-25",
+    authorName: "Manthan D.",
   },
   {
     id: 3,
@@ -41,6 +45,8 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
     readTime: "2 mins read",
+    dateISO: "2025-10-25",
+    authorName: "Manthan D.",
   },
   {
     id: 4,
@@ -51,6 +57,8 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
     readTime: "4 mins read",
+    dateISO: "2025-10-25",
+    authorName: "Manthan D.",
   },
   {
     id: 5,
@@ -61,117 +69,284 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
     readTime: "3 mins read",
+    dateISO: "2025-10-25",
+    authorName: "Manthan D.",
   },
 ];
 
 export const metadata = {
-  title: "Blog",
-  description:"Read the latest insights on AI SEO, Generative Engine Optimization, and AI-powered marketing from NotionX experts.",
+  title: "Blog | NotionX - AI SEO & GEO Insights",
+  description: "Read the latest insights on AI SEO, Generative Engine Optimization, and AI-powered marketing from NotionX experts.",
   openGraph: {
-    title: "NotionX Blog",
-    description:
-      "AI SEO insights, tutorials, and GEO best practices for modern brands.",
+    title: "NotionX Blog - AI SEO & GEO Insights",
+    description: "AI SEO insights, tutorials, and GEO best practices for modern brands.",
     url: `${siteConfig.url}${siteConfig.paths.blog}`,
     images: [`${siteConfig.url}${siteConfig.paths.images}/blog-og.jpg`],
+    type: "website",
   },
   twitter: {
-    title: "NotionX Blog",
-    description:
-      "AI SEO insights and best practices for brands — by NotionX.",
+    title: "NotionX Blog - AI SEO & GEO Insights",
+    description: "AI SEO insights and best practices for brands – by NotionX.",
     images: [`${siteConfig.url}${siteConfig.paths.images}/blog-og.jpg`],
+    card: "summary_large_image",
   },
   alternates: {
     canonical: `${siteConfig.url}${siteConfig.paths.blog}`,
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 const KnowledgeHub = () => {
-
+  // Enhanced blog schema with more structured data
   const blogSchema = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    url: "https://dev-notionx-v2.netlify.app/blog",
+    "@id": `${siteConfig.url}${siteConfig.paths.blog}#blog`,
+    url: `${siteConfig.url}${siteConfig.paths.blog}`,
     name: "NotionX Blog",
-    description:
-      "Insights and strategies on AI SEO, GEO, and AI-powered brand discovery.",
+    headline: "The Future of Search Is Here",
+    description: "Insights and strategies on AI SEO, GEO, and AI-powered brand discovery.",
     publisher: {
       "@type": "Organization",
-      name: "NotionX",
+      name: siteConfig.name,
       logo: {
         "@type": "ImageObject",
-        url: "https://dev-notionx-v2.netlify.app/logo.png",
+        url: `${siteConfig.url}/navbar-logo.svg`,
+        width: 600,
+        height: 60
       },
     },
+    blogPost: blogPosts.map(post => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      description: post.desc,
+      datePublished: post.dateISO,
+      url: `${siteConfig.url}/${post.href}`,
+      image: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}${siteConfig.paths.blogImages}/${post.image}`,
+      },
+      author: {
+        "@type": "Person",
+        name: post.authorName
+      },
+      publisher: {
+        "@type": "Organization",
+        name: siteConfig.name,
+        logo: {
+          "@type": "ImageObject",
+          url: `${siteConfig.url}/navbar-logo.svg`
+        }
+      }
+    }))
+  };
+
+  // Breadcrumb schema for better navigation in search results
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: siteConfig.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item:  `${siteConfig.url}${siteConfig.paths.blog}`
+      }
+    ]
   };
 
   return (
-    <div>
-
+    <>
+      {/* Structured Data Scripts */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
-        <div className='relative w-full h-screen overflow-visible'>
-            <Image
-                src={HeroBg}
-                alt="Hero Background"
-                fill
-                loading="lazy"
-                className='absolute inset-0 object-cover h-full w-full'
-            />
-            <div className='absolute inset-0 z-10'>
-                <Navbar />
-                    <div className="my-10 sm:my-12 lg:my-20 2xl:my-24 container mx-auto justify-center place-items-center text-center ">
-                        <h1 className="heading-font text-3xl lg:text-5xl">The Future of Search Is Here</h1>
-                        <p className="content-font text-base mt-2 lg:mt-3 sm:w-8/12 lg:w-7/12 xl:w-5/12 2xl:w-4/12 px-3 mx-auto text-center">Learn how to optimize for AI-powered discovery and become the answer AI recommends when customers search for businesses like yours.</p>
-                    </div>
+      {/* Main Content */}
+      <main className='relative w-full h-screen overflow-visible' role="main">
+        {/* Background Image with proper semantic structure */}
+        <figure className='absolute inset-0' aria-hidden="true">
+          <Image
+            src={HeroBg}
+            alt="Hero Background"  // Empty alt since it's decorative
+            fill
+            loading="lazy"
+            className='object-cover h-full w-full'
+            priority={false}
+          />
+        </figure>
 
-                    {/* blog content */}
-                    <div className='container mx-auto mb-10 lg:mb-20 2xl:mb-24 justify-center place-items-center'>
-                        <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
+        {/* Content Container */}
+        <div className='absolute inset-0 z-10'>
+          {/* Navigation Component */}
+          <Navbar />
+          
+          {/* Hero Section - Header for the page */}
+          <header 
+            className="my-10 sm:my-12 lg:my-20 2xl:my-24 container mx-auto justify-center place-items-center text-center"
+            role="banner"
+          >
+            <h1 className="heading-font text-3xl lg:text-5xl">
+              The Future of Search Is Here
+            </h1>
+            <p className="content-font text-base mt-2 lg:mt-3 sm:w-8/12 lg:w-7/12 xl:w-5/12 2xl:w-4/12 px-3 mx-auto text-center">
+              Learn how to optimize for AI-powered discovery and become the answer AI recommends when customers search for businesses like yours.
+            </p>
+          </header>
 
-                            {blogPosts.map((blog) => (
-                                <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
-                                bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
+          {/* Blog Posts Section */}
+          <section 
+            className='container mx-auto mb-10 lg:mb-20 2xl:mb-24 justify-center place-items-center'
+            aria-labelledby="blog-posts-heading"
+            role="feed"
+            aria-busy="false"
+          >
+            {/* Hidden heading for screen readers */}
+            <h2 id="blog-posts-heading" className="sr-only">
+              Latest Blog Posts and Articles
+            </h2>
+            
+            <div 
+              className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'
+              role="list"
+            >
+              {blogPosts.map((blog, index) => (
+                <article 
+                  key={blog.id} 
+                  className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
+                  bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'
+                  role="listitem"
+                  aria-posinset={index + 1}
+                  aria-setsize={blogPosts.length}
+                  itemScope
+                  itemType="https://schema.org/BlogPosting"
+                >
+                  <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
+                    
+                    {/* Featured Image */}
+                    <figure className='w-auto rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                      <Link 
+                        href={blog.href} 
+                        rel="noopener noreferrer"
+                        aria-label={`Read article: ${blog.title}`}
+                      >
+                        <Image 
+                          src={blog.image} 
+                          alt={`Featured image for ${blog.title}`}
+                          className="object-cover"
+                          loading="lazy"
+                          itemProp="image"
+                        />
+                      </Link>
+                    </figure>
 
-                                <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
+                    {/* Article Content Container */}
+                    <div className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
+                      {/* Article Header */}
+                      <header>
+                        {/* Category Tag */}
+                        <span 
+                          className="text-sm text-left text-[var(--foreground)] content-font inline-block"
+                          itemProp="keywords"
+                        >
+                          {blog.tag}
+                        </span>
+                        
+                        {/* Article Title */}
+                        <h3 
+                          className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2"
+                          itemProp="headline"
+                        >
+                          <Link 
+                            href={blog.href} 
+                            rel="noopener noreferrer"
+                            className="hover:text-[var(--cta)] transition-colors duration-200"
+                            itemProp="url"
+                          >
+                            {blog.title}
+                          </Link>
+                        </h3>
+                      </header>
+                      
+                      {/* Article Description */}
+                      <p 
+                        className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4"
+                        itemProp="description"
+                      >
+                        {blog.desc}
+                      </p>
 
-                                    {/* Image */}
-                                    <Link href={blog.href} rel="noopener noreferrer"
-                                    className='w-auto rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                                    <Image src={blog.image} alt={blog.title} className="object-cover" />
-                                    </Link>
-
-                                    {/* Content */}
-                                    <Link href={blog.href} rel="noopener noreferrer"
-                                    className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
-
-                                    <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
-                                    <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
-                                    <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
-
-                                    <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
-                                        <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
-                                        <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
-                                        Read More
-                                        <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
-                                            <HiMiniArrowSmallRight />
-                                        </span>
-                                        </p>
-                                    </div>
-                                    </Link>
-                                </div>
-                                </div>
-                            ))}
+                      {/* Article Footer */}
+                      <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                        {/* Publication Date and Read Time */}
+                        <div className='text-[#878483] content-font text-xs'>
+                          <span className="author" itemProp="author">
+                            By <strong>{blog.authorName}</strong>
+                          </span>
+                          <span aria-hidden="true"> | </span>
+                          <time 
+                            dateTime={blog.dateISO}
+                            itemProp="datePublished"
+                          >
+                            {blog.date}
+                          </time>
+                          <span aria-hidden="true"> | </span>
+                          <span itemProp="timeRequired">
+                            {blog.readTime}
+                          </span>
                         </div>
+                        
+                        {/* Read More Link */}
+                        <Link 
+                          href={blog.href}
+                          className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'
+                          aria-label={`Read more about ${blog.title}`}
+                        >
+                          <span>Read More</span>
+                          <span 
+                            className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'
+                            aria-hidden="true"
+                          >
+                            <HiMiniArrowSmallRight />
+                          </span>
+                        </Link>
+                      </footer>
                     </div>
-
-                <Footer/>
+                  </div>
+                </article>
+              ))}
             </div>
-        </div>
-    </div>
-  )
-}
 
-export default KnowledgeHub
+            
+           </section>
+
+           {/* Footer Component */}
+           <Footer />
+         </div>
+       </main>
+     </>
+   );
+ };
+
+ export default KnowledgeHub;
