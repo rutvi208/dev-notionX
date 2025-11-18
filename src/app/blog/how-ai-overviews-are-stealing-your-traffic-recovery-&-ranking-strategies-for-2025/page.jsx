@@ -242,7 +242,7 @@ const Blog5 = () => {
                             </div>
                         </div>
 
-                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <section className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
                                 src={Blog5Banner}
                                 alt="Hero Background"
@@ -250,13 +250,13 @@ const Blog5 = () => {
                                 loading="lazy"
                                 className='object-center object-contain sm:object-cover h-auto md:h-full w-full rounded-lg lg:rounded-xl'
                             />
-                        </div>
+                        </section>
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
 
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
                                     In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -268,10 +268,10 @@ const Blog5 = () => {
                                     <li className='hover:underline'><a href="#monitoring-your-visibility-in-AI">Monitoring Your Visibility in AI Overviews.</a></li>
                                     <li className='hover:underline'><a href="#moving-forward">Moving Forward: Your Competitive Advantage in the AI-First Search Era!</a></li>
                                 </ul>
-                            </div>
+                            </section>
 
                             {/* How AI Overview */}
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025.
@@ -279,10 +279,10 @@ const Blog5 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">With the upsurge of ChatGPT and Perplexity AI, users are progressively seeking - direct and conversational answers instead. So, all types of businesses are observing unparalleled dips in their organic traffic.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Latest research has shown that AI Overviews can lead to a <a href="https://searchengineland.com/generative-ai-impact-website-rankings-traffic-443624" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">15% to 64% decline</a> in online traffic across the industry. This change is causing digital marketers to reassess their entire strategy concerning digital visibility.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">We will explore how AI Overviews are stealing your online traffic and how you can recover or drive ranking strategies for 2025.</p>
-                            </div>
+                            </section>
 
                             {/* The AI Overview Crisis */}
-                            <div id='ai-overview-crisis' className='mb-10 sm:mb-16'>
+                            <section id='ai-overview-crisis' className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">The AI Overview Crisis: How Much Digital Traffic Are You Losing?</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     Google's AI Overviews, introduced in May 2024, provide answers directly in search outcomes utilizing Gen AI. While fitting for users, this feature sidesteps conventional blue links, eliminating the requirement to click through to company websites.
@@ -292,10 +292,10 @@ const Blog5 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Additionally, Google's AI Overviews have pushed top-ranked links far down the page. They can be displaced by up to 1,500 pixels. That is two full scrolls on desktop and three on mobile. Hence, high-ranking pages now get - fewer clicks.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Around <a href="https://seosandwitch.com/zero-click-searches-statistics/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">57 percent of Google searches</a> in 2024 ended without a - click to another website. This was up from 50 percent in 2020. Queries comprising - quick facts, weather, or math have a {">"} 80 percent probability of - being zero-click (Source: SEMrush).</p>
 
-                            </div>
+                            </section>
 
                             {/* Why Are AI Overviews Dominating Search Results? */}
-                            <div id='why-are-ai-overviews-dominating' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='why-are-ai-overviews-dominating' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Why Are AI Overviews Dominating Search Results?</h2>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI Overviews dominate search results as Google now favors fast and authoritative summaries. They often appear above traditional website links.</p>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI Overviews reduce user effort by answering queries instantly. Citation visibility is lower - with fewer users clicking through. SEO strategies must adapt to this shift in user behavior.</p>
@@ -316,10 +316,10 @@ const Blog5 = () => {
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Users now scroll and click less during searches. They rely on AI summaries for instant answers. A recent study showed that most of them used only AI-generated content.</p>
                                     <p className="ms-5 mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Many skipped traditional searches entirely. Trust in AI Overviews is growing rapidly. Younger users prefer speed and ease over source checking.</p>
                                 </div>
-                            </div>
+                            </section>
 
                             {/* How to Beat AI Overviews and Reclaim Your Organic Traffic? */}
-                            <div id='beat-ai-overviews' className='mb-10 sm:mb-16'>
+                            <section id='beat-ai-overviews' className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Beat AI Overviews and Reclaim Your Organic Traffic?</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     AI Overviews now dominate search results. To compete, your content must answer questions clearly. Use structured data to assist Google comprehend your pages.
@@ -411,9 +411,9 @@ const Blog5 = () => {
                                     </li>
 
                                 </ul>
-                            </div>
+                            </section>
 
-                            <div id='technical-seo-tactics' className='mb-10 sm:mb-16'>
+                            <section id='technical-seo-tactics' className='mb-10 sm:mb-16'>
                                         <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Technical SEO Tactics To Enable AI Overview Visibility.</h2>
                                             <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                 AI Overviews rely on structured data to - identify and summarize relevant content. Add schema markup to - aid search engines in comprehending your content.
@@ -424,9 +424,9 @@ const Blog5 = () => {
                                                 <li>Implement breadcrumbs to - improve site structure.</li>
                                                 <li>Utilize structured data for AI citations.</li>
                                             </ul>
-                            </div>
+                            </section>
 
-                            <div id='Local-SEO+AI-Overviews' className='mb-10 sm:mb-16'>
+                            <section id='Local-SEO+AI-Overviews' className='mb-10 sm:mb-16'>
                                         <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Local SEO + AI Overviews: Protecting Your Geographic Rankings.</h2>
                                             <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                                 AI Overviews now influence how local businesses show up in search. They often summarize key details without linking to your site. To stay visible, you need a smarter local SEO strategy. Focus on signals that AI uses to rank and cite content.
@@ -443,9 +443,9 @@ const Blog5 = () => {
                                                     <span className='font-semibold'>Create Location-Specific Content Angles:</span> Publish - geo-targeted articles, landing pages, and service descriptions.
                                                 </li>
                                             </ul>
-                            </div>
+                            </section>
 
-                            <div id='monitoring-your-visibility-in-AI' className='mb-10 sm:mb-16'>
+                            <section id='monitoring-your-visibility-in-AI' className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Monitoring Your Visibility in AI Overviews.</h2>
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                         Track where and how your brand is mentioned in AI-generated summaries. Measure visibility by analyzing - impressions, CTR drops, and keyword shifts.
@@ -476,16 +476,16 @@ const Blog5 = () => {
                                         <li>Hotjar / Microsoft Clarity </li>
                                         <li>HubSpot / Mailchimp </li>
                                     </ul>
-                            </div>
+                            </section>
 
                             {/* moving-forward */}
-                            <div id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward: Your Competitive Advantage in the AI-First Search Era!</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, AI Overviews are rewriting how search results work. Brands that adapt quickly will gain a major edge. Staying visible now requires - smarter and sharper content.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Your messaging must show precision and authority. You already excel at effective communication. Now it is time to sync that skill with AI search behavior.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Every detail—from schema to brand voice—matters more than ever. Let us build a strategy that earns citations and protects your traffic.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require expert assistance? Explore our <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at notionX to drive a - technical SEO audit, local GEO enhancements, and personalized GEO strategy.</p>
-                            </div>
+                            </section>
 
                             {/* Author details */}
                             <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>

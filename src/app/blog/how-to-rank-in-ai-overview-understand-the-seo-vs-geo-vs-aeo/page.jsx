@@ -221,7 +221,7 @@ const Blog4 = () => {
                             </div>
                         </div>
 
-                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <section className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
                                 src={Blog4Banner}
                                 alt="Hero Background"
@@ -229,13 +229,13 @@ const Blog4 = () => {
                                 loading="lazy"
                                 className='object-center object-contain sm:object-cover h-auto md:h-full w-full rounded-lg lg:rounded-xl'
                             />
-                        </div>
+                        </section>
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
 
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
                                     In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -245,10 +245,10 @@ const Blog4 = () => {
                                     <li className='hover:underline'><a href="#how-to-rank">How to Rank in AI Overview By Comprehending the SEO vs GEO vs AEO Strategies</a></li>
                                     <li className='hover:underline'><a href="#moving-forward">Moving Forward with SEO + GEO + AEO Strategies!</a></li>
                                 </ul>
-                            </div>
+                            </section>
 
                             {/* How to Rank in AI Overview */}
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Rank in AI Overview: Understand the SEO vs GEO vs AEO</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.
@@ -257,10 +257,10 @@ const Blog4 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Consider this - voice search makes up <a href="https://review42.com/resources/voice-search-stats/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">50% of digital queries</a>. AI tools like - ChatGPT are advancing. Traditional SEO is - no longer the lone player. It now shares the spotlight with - Answer Engine Optimization and Generative Engine Optimization.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The search landscape is shifting. AI-driven engines are not just the future. They are the present. Embracing this change is not optional. It is essential. Ignoring AI-powered search is ignoring opportunities itself.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, how to rank in AI overview, what is GEO, or what is AI SEO, we will cover them all in this guide. Let us first brush up on your SEO techniques and explore AEO.</p>
-                            </div>
+                            </section>
 
                             {/* What is SEO */}
-                            <div id='what-is-seo' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='what-is-seo' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">What is SEO (Search Engine Optimization)?</h2>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">SEO increases website visibility. Its goal is to enable sites to rank higher in search engines. Higher rankings lead to - more organic traffic. Businesses depend on SEO for - leads and inquiries.</p>
                                 <div className='mt-6 lg:mt-8'>
@@ -294,17 +294,17 @@ const Blog4 = () => {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </section>
 
                             {/* What is AI SEO? */}
-                            <div className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">What is AI SEO?</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI SEO is the next step in search optimization. It uses AI tools to boost search rankings. Its techniques include automated keyword research, content generation, and performance tracking.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">AI SEO still focuses on search engines like - Google and Bing. It does so with - AI-powered strategies.</p>
-                            </div>
+                            </section>
 
                             {/* What is GEO? */}
-                            <div id='what-is-geo' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='what-is-geo' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">What is GEO (Generative Engine Optimization)?</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">GEO optimizes content for AI-driven platforms. It targets tools like - ChatGPT, Microsoft Copilot, and Perplexity.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The goal is to appear in AI-generated answers. Not just search results. GEO uses conversational language and clear formatting. It also relies on credible sources that AI can easily extract and cite. Let us explore - What is GEO vs. SEO?</p>
@@ -501,10 +501,10 @@ const Blog4 = () => {
                                     <h3 className="flex flex-row items-center heading-font text-[#222222] font-medium text-xl sm:text-2xl tracking-[-0.05rem]"><Image src={BlackArrow} alt="Black Arrow icon" className='me-2'/>Not SEO vs AEO vs GEO. But SEO vs AEO vs GEO is the Winning Approach.</h3>
                                     <p className="ms-5 mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">The future of search is hybrid. To stay visible, businesses must optimize for all three - SEO, AEO, and GEO.</p>
                                 </div>
-                            </div>
+                            </section>
 
                             {/* Significant Similarities */}
-                            <div id='significant-similarities' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='significant-similarities' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h3 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Significant Similarities Between: AEO vs SEO vs GEO Strategies.</h3>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Now, let us look at what GEO vs SEO vs AEO services have in common:</p>
                                 <ul className="ms-10 mt-3 sm:mt-6 space-y-2 content-font list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -517,10 +517,10 @@ const Blog4 = () => {
                                     <li>Relevance and accuracy are top priorities.</li>
                                     <li>All adapt to changing search algorithms.</li>
                                 </ul>
-                            </div>
+                            </section>
 
                             {/* How to Rank in AI Overview */}
-                            <div id='how-to-rank' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='how-to-rank' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Rank in AI Overview By Comprehending the SEO vs GEO vs AEO Strategies</h2>
                                 <p className="mt-2 sm:mt-4 content-font text-lg lg:text-xl tracking-[-0.05rem]">Here are the actionable strategies for future-proofing your business:</p>
                                 <ul className="ms-10 mt-3 sm:mt-6 space-y-2 lg:space-y-4 content-font list-decimal list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -545,16 +545,16 @@ const Blog4 = () => {
                                         <p className="mt-2.5 content-font text-lg lg:text-xl tracking-[-0.05rem]">Apply E-commerce SEO best practices to - product and category pages. Use GEO tools to - refine keywords and improve descriptions. Stronger titles and meta tags attract clicks. Detailed content boosts conversions.</p>
                                     </li>
                                 </ul>
-                            </div>
+                            </section>
 
                             {/* moving-forward */}
-                            <div id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward with SEO + GEO + AEO Strategies!</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The future of search belongs to those who adapt with SEO vs GEO vs AEO. Search engine optimization is still a solid foundation. Answer engine optimization meets the demand for voice search. Generative engine optimization supports new search platforms.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, each strategy plays a key role in digital success. By 2025, businesses that evolve will lead the market. To stay visible, you must combine SEO, AEO and GEO strategies.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You need to create content with clear intent, strong relevance, and high quality. Search is changing. Now is the time to - future-proof your digital marketing strategy. Use the right mix of - SEO services, AEO methods, and GEO tools to attain success.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional assistance? Explore our result-oriented <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to build a personalized SEO + AEO + GEO strategy.</p>
-                            </div>
+                            </section>
 
                             {/* Author details */}
                             <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>

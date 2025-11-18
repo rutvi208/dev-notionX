@@ -330,20 +330,20 @@ const Blog2 = () => {
                             </div>
                         </div>
 
-                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <section className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
                                 src={Blog3Banner}
                                 alt="Hero Background"
                                 loading="lazy"
                                 className='object-center object-contain sm:object-cover h-auto md:h-full w-full rounded-lg lg:rounded-xl'
                             />
-                        </div>
+                        </section>
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
 
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
                                     In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -351,10 +351,10 @@ const Blog2 = () => {
                                     <li className='hover:underline'><a href="#comparison-table">AI ChatGPT SEO Agency Comparison Table [2025]</a></li>
                                     <li className='hover:underline'><a href="#moving-forward">Moving Forward: Partnering with a Specialized AI ChatGPT SEO Agency</a></li>
                                 </ul>
-                            </div>
+                            </section>
 
                             {/* Introduction */}
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Best ChatGPT SEO Agency & Services for AI Search Ranking</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest.
@@ -364,10 +364,10 @@ const Blog2 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">However, the numbers tell a captivating story. NotionX stands out as a top SEO digital marketing agency, assisting businesses in unlocking their AI growth.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">NotionX recently helped a London-based architectural design firm with a 33% increase in their AI Mentions, got +110 AI Overview and +51 ChatGPT Mentions in just 3.5 months.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">In this blog, we have identified the top ChatGPT SEO companies delivering consistent outcomes. They are the best ChatGPT SEO rank tracking software agencies to rank in AI search. Let us explore the best ChatGPT SEO rank tracking agencies of 2025.</p>
-                            </div>
+                            </section>
 
                             {/* Best Agencies */}
-                            <div id='best-agencies' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='best-agencies' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Best ChatGPT SEO Agencies to Rank in AI Search</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     Businesses require SEO agency partners who can enhance visibility across diverse digital platforms. The agencies listed below have assisted brands to show up in - generative outcomes and future-proof their digital marketing strategy.
@@ -555,10 +555,10 @@ const Blog2 = () => {
                                         <li>Tracks KPIs - traffic, leads, signups, and overall revenue.</li>
                                     </ul>
                                 </div>
-                            </div>
+                            </section>
 
                             {/* Comparison Table */}
-                            <div id='comparison-table' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='comparison-table' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">AI ChatGPT SEO Agency Comparison Table [2025]</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     Here is a 2025 comparison table of top AI ChatGPT SEO agencies. It highlights - strengths, specialties, and fit for growth-focused brands.
@@ -676,10 +676,10 @@ const Blog2 = () => {
                                         </table>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
 
                             {/* Moving Forward */}
-                            <div id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward: Partnering with a Specialized AI ChatGPT SEO Agency</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     Optimizing for AI search is not just another tactic - it is a shift in thinking. Success now depends on - how well you speak the language of AI. Today, <a href="https://www.semrush.com/blog/semrush-ai-overviews-study/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">13.14 percent of all search-based queries</a> trigger - Google AI Overviews (up from 6.49 percent in Jan. 2025). So, visibility here means major placement.
@@ -687,7 +687,7 @@ const Blog2 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Partnering with a ChatGPT SEO agency provides you with a clear edge in AI-driven search. They optimize for large language models and zero-click visibility. Your brand becomes the answer - not just another result.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require professional help? Explore our result-driven <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to develop a customized ChatGPT SEO + GEO strategy.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You can also try our <a href="https://geo.notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AI-Powered GEO Auditor</a> (Beta Version) tool to analyze your site performance for conventional search engines and AI-driven platforms.</p>
-                            </div>
+                            </section>
 
                             {/* Author details */}
                             <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>

@@ -47,6 +47,25 @@ html {
     white;
 }
 
+.bg-cta-gradient {
+  background:
+    radial-gradient(at top center, #FFF0E0 0%, #FFE7D1 40%, transparent 70%),
+    /* bottom-left yellow */
+    radial-gradient(at bottom left, #FFEAB2 0%, transparent 65%),
+
+    /* bottom-right yellow */
+    radial-gradient(at bottom right, #FFEAB2 0%, transparent 65%),
+
+    /* bottom-left pink */
+    radial-gradient(at bottom left, #F5CCBF 0%, transparent 70%),
+
+    /* bottom-right pink */
+    radial-gradient(at bottom right, #F5CCBF 0%, transparent 70%),
+
+    /* bottom center reinforcing pink glow */
+    radial-gradient(at bottom center, #F5CCBF 0%, transparent 70%);
+}
+
 /* Target only Safari/iOS */
 @supports (-webkit-touch-callout: none) {
   img[data-nimg] {

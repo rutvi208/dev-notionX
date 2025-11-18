@@ -242,34 +242,20 @@ const Blog3 = () => {
                             </div>
                         </div>
 
-                        <div className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <section className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image 
                                 src={Blog2Banner}
                                 alt="Hero Background"
                                 loading="lazy"
                                 className='object-center object-contain sm:object-cover h-auto md:h-full w-full rounded-lg lg:rounded-xl'
                             />
-                        </div>
+                        </section>
                     </div>
 
                     <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
-                        {/* <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto container'>
-                            <div className="p-[1px] rounded-t-xl sm:rounded-t-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 rounded-t-xl sm:rounded-t-[20px] bg-white">
-                                    <p className="heading-font font-semibold text-xl sm:text-2xl text-center tracking-[-0.05rem]">
-                                        Key Takeaway</p>
-                                </div>
-                            </div>
-                            <div className="px-[1px] pt-0 pb-[1px] rounded-b-xl sm:rounded-b-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
-                                <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
-                                    <p className="content-font text-lg sm:text-xl text-center">
-                                    Showing up in its responses can even greatly increase your visibility and trust. This shift calls for a new kind of SEO that goes beyond - keywords and backlinks. You need to combine traditional techniques with new strategies tailored for AI-driven search. This guide explores how to rank in ChatGPT search using the latest strategies in - SEO, GEO targeting, and AI optimization.
-                                    </p>
-                                </div>
-                            </div>
-                        </div> */}
+                        
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <p className="heading-font font-semibold text-xl sm:text-2xl tracking-[-0.05rem]">
                                     In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
@@ -277,10 +263,10 @@ const Blog3 = () => {
                                     <li className='hover:underline'><a href="#best-tools">Which are the Best ChatGPT Rank Tracker Tools in 2025?</a></li>
                                     <li className='hover:underline'><a href="#final-thoughts">Final Thoughts: Grip the AI Search Transformation</a></li>
                                 </ul>
-                            </div>
+                            </section>
 
                             {/* Introduction */}
-                            <div className='mb-10 sm:mb-16'>
+                            <section className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.
@@ -289,10 +275,10 @@ const Blog3 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">A good rank tracker tool for ChatGPT shows how your site performs in AI summaries. SEO fundamentals still matter—but they now power AI-aware tracking strategies.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">ChatGPT rank tracking tools help you measure presence in AI-driven search results. Without them, you are guessing how well your content performs.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">This guide lists the best ChatGPT rank tracker tools available today. However, we will first discuss which features you need in a rank tracker tool for ChatGPT.</p>
-                            </div>
+                            </section>
 
                             {/* Features Required */}
-                            <div id='features-required' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='features-required' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">What Features Do You Require in a Rank Tracking Tool for ChatGPT?</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     A ChatGPT rank tracker tool assists you in comprehending how your brand is cited in explicit prompts. It is significant to analyze the key features of every tool as they can cater to diverse requirements.
@@ -306,10 +292,10 @@ const Blog3 = () => {
                                     <li><span className='font-semibold'>Integrations:</span> Blending with other SEO tools, like Google Search Console, is vital for an all-inclusive view of your brand performance.</li>
                                     <li><span className='font-semibold'>Report automation:</span> This feature automatically produces customized brand reports.</li>
                                 </ul>
-                            </div>
+                            </section>
 
                             {/* Best Tools */}
-                            <div id='best-tools' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='best-tools' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Which are the Best ChatGPT Rank Tracker Tools in 2025?</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     Let us explore the - paid and free ChatGPT rank tracking tools of 2025. Each tool includes - features, benefits, drawbacks, and pricing to help you choose wisely. Whether you are an SEO pro or starting out: ChatGPT rank tracking free or paid tool is now essential.
@@ -498,10 +484,10 @@ const Blog3 = () => {
                                         <span className='font-semibold'>Note:</span> Free plans are accessible in ChatGPT rank tracker tools like <a href="https://xofu.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Xofu</a>, <a href="https://www.xfunnel.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">XFunnel</a>, <a href="https://www.atomicagi.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Atomic AGI</a>, and <a href="https://llmrefs.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">LLMrefs</a>. Other explicit GEO rank tracking tools comprise - Local Falcon, BrightLocal, and Nightwatch.
                                     </p>
                                 </div>
-                            </div>
+                            </section>
 
                             {/* Final Thoughts */}
-                            <div id='final-thoughts' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
+                            <section id='final-thoughts' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Final Thoughts: Grip the AI Search Transformation</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     The rise of ChatGPT and AI in search is not merely a trend. It is a significant revolution in how people search for information. The best ChatGPT keyword rank tracker software tools are your way to comprehend and dominate this new space.
@@ -509,7 +495,7 @@ const Blog3 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">By exploring your AI visibility, you are not merely shielding your prevailing rankings; you are aligning your brand as a top voice for the subsequent generation of search.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Do not wait for your online traffic to alter prior to you initiating attention. Take the foremost step today. Run a free ChatGPT rank tracking analysis, try out a ChatGPT rank tracker tool, and future-proof your digital marketing strategy.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The forthcoming world of search is conversational, and with the best ChatGPT rank tracker tools, you will be ready to drive the conversation.</p>
-                            </div>
+                            </section>
                             
                             {/* Author details */}
                             <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
