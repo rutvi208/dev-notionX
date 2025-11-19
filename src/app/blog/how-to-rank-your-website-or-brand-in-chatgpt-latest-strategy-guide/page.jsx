@@ -33,7 +33,7 @@ const blogPosts = [
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
-    readTime: "3 mins read",
+    readTime: "8 mins read",
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const blogPosts = [
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
-    readTime: "2 mins read",
+    readTime: "6 mins read",
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const blogPosts = [
     title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 25, 2025",
-    readTime: "4 mins read",
+    readTime: "7 mins read",
   },
 ];
 
