@@ -38,7 +38,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    href: "blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    href: "blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     image: Blog3Thumbnail,
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",

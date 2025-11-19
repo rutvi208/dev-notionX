@@ -23,11 +23,12 @@ import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 import { siteConfig } from "@/app/config/site";
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
+import AskAI from '@/app/components/AskAI';
 
 export const metadata = generateBlogMetadata({
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     description: "A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization.",
-    slug: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    slug: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     imageName: "blog3-banner-best-chatgpt-search-ranking.png", 
     author: "Manthan D.", 
     section: "AI Search Optimization",
@@ -42,7 +43,7 @@ export const metadata = generateBlogMetadata({
 //   openGraph: {
 //     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
 //     description:"Learn how to optimize your brand for AI search platforms like ChatGPT and Perplexity.",
-//     url: "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+//     url: "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
 //     type: "article",
 //     images: [
 //       {
@@ -106,7 +107,7 @@ const breadcrumbs = [
     },
     {
         name: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
-        url: `${siteConfig.url}${siteConfig.paths.blog}/best-chatgpt-seo-agency-&-services-for-ai-search-ranking`
+        url: `${siteConfig.url}${siteConfig.paths.blog}/best-chatgpt-seo-agency-and-services-for-ai-search-ranking`
     }
 ];
 
@@ -240,7 +241,7 @@ const Blog2 = () => {
 //     "@type": "BlogPosting",
 //     mainEntityOfPage: {
 //       "@type": "WebPage",
-//       "@id": "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+//       "@id": "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
 //     },
 //     headline:
 //       "The Future of Search Is Here: How to Optimize for AI-Powered Discovery",
@@ -281,7 +282,7 @@ const Blog2 = () => {
                 <Navbar />
                 <BreadcrumbSchema breadcrumbs={breadcrumbs} />
                     <BlogSchema
-                        url={`${siteConfig.url}${siteConfig.paths.blog}/best-chatgpt-seo-agency-&-services-for-ai-search-ranking`}
+                        url={`${siteConfig.url}${siteConfig.paths.blog}/best-chatgpt-seo-agency-and-services-for-ai-search-ranking`}
                         headline="Best ChatGPT SEO Agency & Services for AI Search Ranking"
                         description="A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog3-banner-best-chatgpt-search-ranking.png`}
@@ -337,6 +338,9 @@ const Blog2 = () => {
                                 loading="lazy"
                                 className='object-center object-contain sm:object-cover h-auto md:h-full w-full rounded-lg lg:rounded-xl'
                             />
+                        </section>
+                        <section className='mx-4 sm:mx-0'>
+                            <AskAI/>
                         </section>
                     </div>
 

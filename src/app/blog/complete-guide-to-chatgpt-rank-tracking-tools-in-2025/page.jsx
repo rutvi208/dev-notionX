@@ -16,6 +16,7 @@ import AuthorImage from '@/../public/images/Blog-page/AuthorImage.jpg';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
+import AskAI from '@/app/components/AskAI';
 
 export const metadata = {
   title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025! | NotionX",
@@ -35,7 +36,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    href: "best-chatgpt-seo-agency-&-services-for-ai-search-ranking",
+    href: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     image: Blog3Thumbnail,
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
@@ -249,6 +250,9 @@ const Blog3 = () => {
                                 loading="lazy"
                                 className='object-center object-contain sm:object-cover h-auto md:h-full w-full rounded-lg lg:rounded-xl'
                             />
+                        </section>
+                        <section className='mx-4 sm:mx-0'>
+                            <AskAI/>
                         </section>
                     </div>
 

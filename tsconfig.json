@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/blog/best-chatgpt-seo-agency-&-services-for-ai-search-ranking/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking/page.jsx"],
   "exclude": ["node_modules"]
 }
