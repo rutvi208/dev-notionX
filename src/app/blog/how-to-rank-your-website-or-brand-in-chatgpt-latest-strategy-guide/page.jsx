@@ -32,7 +32,7 @@ const blogPosts = [
     tag: "#trending",
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
-    date: "Oct 25, 2025",
+    date: "Sep 25, 2025",
     readTime: "8 mins read",
   },
   {
@@ -42,7 +42,7 @@ const blogPosts = [
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
-    date: "Oct 25, 2025",
+    date: "Oct 13, 2025",
     readTime: "6 mins read",
   },
   {

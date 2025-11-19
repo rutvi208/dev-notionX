@@ -31,7 +31,7 @@ const blogPosts = [
     tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
-    date: "Oct 25, 2025",
+    date: "Sep 12, 2025",
     readTime: "6 mins read",
   },
   {
@@ -41,7 +41,7 @@ const blogPosts = [
     tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
-    date: "Oct 25, 2025",
+    date: "Oct 13, 2025",
     readTime: "6 mins read",
   },
   {
@@ -51,7 +51,7 @@ const blogPosts = [
     tag: "#trending",
     title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
-    date: "Oct 25, 2025",
+    date: "Nov 18, 2025",
     readTime: "8 mins read",
   },
 ];
