@@ -20,6 +20,7 @@ import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 import { siteConfig } from "@/app/config/site";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 import BlogSchema from "@/app/components/BlogSchema";
+import FAQSchema from '@/app/components/FAQSchema';
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide",
@@ -295,6 +296,7 @@ const Blog1 = () => {
                         wordCount="1214"
                         
                     />
+                    <FAQSchema faqs={faqs} />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
