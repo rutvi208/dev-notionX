@@ -16,12 +16,18 @@ import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
 import AskAI from '@/app/components/AskAI';
+import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 
-export const metadata = {
-  title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide | NotionX",
-  keywords: ["how to rank in ChatGPT search", "how do you rank your website in ChatGPT", "how to rank on ChatGPT", "how to rank in ChatGPT", "how to rank on ChatGPT in 2025", "how to rank website on ChatGPT", "how to rank brand on ChatGPT in 2025", "how to rank a brand on ChatGPT", "how to rank on ChatGPT for brand mentions", "where does my brand rank in ChatGPT", "how to rank on ChatGPT for brands in 2025", "how to rank in ChatGPT search results", "how products and services appear in ChatGPT search results", "how to appear in ChatGPT search results", "how to track ChatGPT visibility in search results"],
-
-};
+export const metadata = generateBlogMetadata({
+    title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide",
+    description: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.",
+    slug: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
+    imageName: "blog1-banner-how-to-rank-strategy-guide.png", 
+    author: "Manthan D.", 
+    section: "AI Search Optimization",
+    publishedTime: "2025-09-12T00:00:00Z",
+    keywords: ["how to rank in ChatGPT search", "how do you rank your website in ChatGPT", "how to rank on ChatGPT", "how to rank in ChatGPT", "how to rank on ChatGPT in 2025", "how to rank website on ChatGPT", "how to rank brand on ChatGPT in 2025", "how to rank a brand on ChatGPT", "how to rank on ChatGPT for brand mentions", "where does my brand rank in ChatGPT", "how to rank on ChatGPT for brands in 2025", "how to rank in ChatGPT search results", "how products and services appear in ChatGPT search results", "how to appear in ChatGPT search results", "how to track ChatGPT visibility in search results"],
+  });
 
 const blogPosts = [
 

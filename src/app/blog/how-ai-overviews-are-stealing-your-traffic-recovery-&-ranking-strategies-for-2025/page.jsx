@@ -14,11 +14,18 @@ import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
 import AskAI from '@/app/components/AskAI';
+import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 
-export const metadata = {
-  title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025! | NotionX",
-
-};
+export const metadata = generateBlogMetadata({
+    title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
+    description: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025.",
+    slug: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
+    imageName: "blog5-banner-ai-overviews-2025.png", 
+    author: "Manthan D.", 
+    section: "AI Search Optimization",
+    publishedTime: "2025-11-18T00:00:00Z",
+    keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
+  });
 
 const blogPosts = [
 

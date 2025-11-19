@@ -14,12 +14,18 @@ import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
 import AskAI from '@/app/components/AskAI';
+import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 
-export const metadata = {
-  title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO | NotionX",
-  keywords: ["How to Rank in AI Overview", "What is GEO", "What is AI SEO", "SEO vs GEO", "GEO vs SEO", "What is GEO vs SEO", "SEO vs GEO vs AEO", "GEO vs. SEO", "SEO vs AEO vs GEO", "AEO vs SEO vs GEO", "GEO vs SEO vs AEO", "SEO vs. GEO"],
-//   description: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide.",
-};
+export const metadata = generateBlogMetadata({
+    title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO",
+    description: "What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.",
+    slug: "how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
+    imageName: "blog4-banner-seo-geo-aeo.png", 
+    author: "Manthan D.", 
+    section: "AI Search Optimization",
+    publishedTime: "2025-10-25T00:00:00Z",
+    keywords: ["How to Rank in AI Overview", "What is GEO", "What is AI SEO", "SEO vs GEO", "GEO vs SEO", "What is GEO vs SEO", "SEO vs GEO vs AEO", "GEO vs. SEO", "SEO vs AEO vs GEO", "AEO vs SEO vs GEO", "GEO vs SEO vs AEO", "SEO vs. GEO"],
+  });
 
 const blogPosts = [
 

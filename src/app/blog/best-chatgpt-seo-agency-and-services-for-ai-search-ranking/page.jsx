@@ -27,13 +27,12 @@ import AskAI from '@/app/components/AskAI';
 
 export const metadata = generateBlogMetadata({
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
-    description: "A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization.",
+    description: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
     slug: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     imageName: "blog3-banner-best-chatgpt-search-ranking.png", 
     author: "Manthan D.", 
     section: "AI Search Optimization",
-    publishedTime: "2025-10-25T00:00:00Z",
-    modifiedTime: "2025-10-25T00:00:00Z",
+    publishedTime: "2025-10-13T00:00:00Z",
     keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"]
   });
 // export const metadata = {

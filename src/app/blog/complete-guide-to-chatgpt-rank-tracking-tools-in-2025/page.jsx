@@ -17,11 +17,18 @@ import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
 import AskAI from '@/app/components/AskAI';
+import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
 
-export const metadata = {
-  title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025! | NotionX",
-  keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
-};
+export const metadata = generateBlogMetadata({
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+    description: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
+    slug: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+    imageName: "blog2-banner-complete-guide-2025.png", 
+    author: "Manthan D.", 
+    section: "AI Search Optimization",
+    publishedTime: "2025-09-25T00:00:00Z",
+    keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
+  });
 
 const blogPosts = [
   {
