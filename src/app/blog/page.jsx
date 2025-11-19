@@ -329,6 +329,10 @@ const KnowledgeHub = () => {
                           aria-label={`Read more about ${blog.title}`}
                         >
                           <span>Read More</span>
+                          {/* Hidden descriptive text for SEO + screen readers */}
+                          <span className="sr-only">
+                            about {blog.title}
+                          </span>
                           <span 
                             className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'
                             aria-hidden="true"
