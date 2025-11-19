@@ -248,7 +248,7 @@ const KnowledgeHub = () => {
                   <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
                     
                     {/* Featured Image */}
-                    <figure className='w-auto rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                    {/* <figure className='w-auto rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
                       <Link 
                         href={blog.href} 
                         rel="noopener noreferrer"
@@ -263,6 +263,31 @@ const KnowledgeHub = () => {
                           loading="lazy"
                           itemProp="image"
                         />
+                      </Link>
+                    </figure> */}
+                    <figure className='w-auto rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                      <Link 
+                        href={blog.href} 
+                        rel="noopener noreferrer"
+                        aria-label={`Read article: ${blog.title}`}
+                      >
+                        <div className="relative w-full aspect-[25/10]">
+                          <Image
+                            src={blog.image}
+                            alt={`Featured image for ${blog.title}`}
+                            fill
+                            sizes="(max-width: 640px) 100vw,
+                                  (max-width: 768px) 50vw,
+                                  (max-width: 1280px) 33vw,
+                                  620px"
+                                  // LCP image optimization
+                            priority={index === 0}                // Enables eager loading for LCP automatically
+                            fetchPriority={index === 0 ? "high" : "auto"}  // Correct for Next.js 14+
+                            className="object-cover"
+                            //loading="lazy"
+                            itemProp="image"
+                          />
+                        </div>
                       </Link>
                     </figure>
 
