@@ -31,6 +31,7 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Sep 12, 2025",
     readTime: "6 mins read",
+    authorName: "Manthan D.",
   },
   {
     id: 2,
@@ -41,6 +42,7 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Oct 13, 2025",
     readTime: "6 mins read",
+    authorName: "Manthan D.",
   },
   {
     id: 3,
@@ -51,6 +53,7 @@ const blogPosts = [
     desc: "This post explains the fundamental shift happening in search behavior and why businesses need to adapt.",
     date: "Sep 25, 2025",
     readTime: "8 mins read",
+    authorName: "Manthan D.",
   },
 ];
 
@@ -564,7 +567,7 @@ const Blog5 = () => {
                                         <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
                                         <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
-                                            <p className='text-[#878483] content-font text-xs'>{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
+                                            <p className='text-[#878483] content-font text-xs'>by <strong>{blog.authorName}</strong> &nbsp; | &nbsp;{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
                                             <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
                                             Read More
                                             <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
