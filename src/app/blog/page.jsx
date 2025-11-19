@@ -275,11 +275,10 @@ const KnowledgeHub = () => {
                           <Image
                             src={blog.image}
                             alt={`Featured image for ${blog.title}`}
-                            fill
-                            sizes="(max-width: 640px) 100vw,
-                                  (max-width: 768px) 50vw,
-                                  (max-width: 1280px) 33vw,
-                                  620px"
+                            //fill
+                            width={620}
+                            height={248}
+                            sizes="(max-width: 768px) 100vw, 620px"
                                   // LCP image optimization
                             priority={index === 0}                // Enables eager loading for LCP automatically
                             fetchPriority={index === 0 ? "high" : "auto"}  // Correct for Next.js 14+

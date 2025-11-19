@@ -1,6 +1,6 @@
 # *
 User-agent: *
-Allow: /
+Disallow: /
 
 # Host
 Host: https://dev-notionx-v2.netlify.app/
