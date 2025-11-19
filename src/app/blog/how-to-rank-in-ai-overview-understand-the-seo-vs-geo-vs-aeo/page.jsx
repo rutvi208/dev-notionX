@@ -15,6 +15,8 @@ import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
 import AskAI from '@/app/components/AskAI';
 import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
+import { siteConfig } from "@/app/config/site";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO",
@@ -62,6 +64,21 @@ const blogPosts = [
     readTime: "8 mins read",
     authorName: "Manthan D.",
   },
+];
+
+const breadcrumbs = [
+    {
+        name: "Home",
+        url: siteConfig.url
+    },
+    {
+        name: "Blog",
+        url: `${siteConfig.url}${siteConfig.paths.blog}`
+    },
+    {
+        name: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO",
+        url: `${siteConfig.url}${siteConfig.paths.blog}/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo`
+    }
 ];
 
 const articleBody = `How to Rank in AI Overview: Understand the SEO vs GEO vs AEO
@@ -205,6 +222,7 @@ const Blog4 = () => {
 
             <div className=''>
                 <Navbar />
+                <BreadcrumbSchema breadcrumbs={breadcrumbs} />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank in AI Overview: Understand the SEO vs GEO vs AEO</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>

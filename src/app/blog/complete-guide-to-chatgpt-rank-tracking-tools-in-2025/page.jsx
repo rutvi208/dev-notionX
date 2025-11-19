@@ -18,6 +18,8 @@ import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
 import AskAI from '@/app/components/AskAI';
 import { generateBlogMetadata } from '@/app/components/generateBlogMetadata';
+import { siteConfig } from "@/app/config/site";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export const metadata = generateBlogMetadata({
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
@@ -64,6 +66,21 @@ const blogPosts = [
     readTime: "8 mins read",
     authorName: "Manthan D.",
   },
+];
+
+const breadcrumbs = [
+    {
+        name: "Home",
+        url: siteConfig.url
+    },
+    {
+        name: "Blog",
+        url: `${siteConfig.url}${siteConfig.paths.blog}`
+    },
+    {
+        name: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+        url: `${siteConfig.url}${siteConfig.paths.blog}/complete-guide-to-chatgpt-rank-tracking-tools-in-2025`
+    }
 ];
 
 const articleBody = `The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.
@@ -227,6 +244,7 @@ const Blog3 = () => {
             
             <div className=''>
                 <Navbar />
+                <BreadcrumbSchema breadcrumbs={breadcrumbs} />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h1>
                         <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
