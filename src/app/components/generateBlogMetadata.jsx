@@ -15,11 +15,11 @@ export function generateBlogMetadata({
     const imageUrl = `${baseUrl}${siteConfig.paths.blogImages}/${imageName}`;
   
     return {
-      title: `${title} | ${siteConfig.name}`,
+      title: `${title}`,
       description,
       keywords,
       openGraph: {
-        title: `${title} | ${siteConfig.name}`,
+        title: `${title}`,
         description,
         url,
         images: [imageUrl],
@@ -31,7 +31,7 @@ export function generateBlogMetadata({
         }
       },
       twitter: {
-        title: `${title} | ${siteConfig.name}`,
+        title: `${title}`,
         description,
         images: [imageUrl],
       },
