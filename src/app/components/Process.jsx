@@ -107,7 +107,7 @@ const Process = () => {
                         <li key={index} className='relative overflow-hidden border-[0.0625rem] border-[var(--stroke)] rounded-2xl'>
                             <Image
                             src={step.bg}
-                            alt=""
+                            alt="Step background"
                             loading="lazy"
                             className='absolute inset-0 object-cover h-full w-full'
                             aria-hidden="true"
@@ -125,7 +125,7 @@ const Process = () => {
                             <ul className="mt-10 sm:mt-12 lg:mt-18 flex flex-col space-y-2 items-start list-none">
                                 {step.items.map((item, i) => (
                                 <li key={i} className='flex flex-row space-x-3'>
-                                    <Image src={Arrow} alt="" aria-hidden="true" />
+                                    <Image src={Arrow} alt="arrow" aria-hidden="true" />
                                     <span className="content-font text-base">{item}</span>
                                 </li>
                                 ))}

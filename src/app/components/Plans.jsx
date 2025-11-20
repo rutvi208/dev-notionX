@@ -17,7 +17,7 @@ const Plans = () => {
         <section className="bg-black relative overflow-hidden" aria-labelledby="pricing-plans">
             <Image
                 src={PlansBg}
-                alt=""
+                alt="Plan Background"
                 loading="lazy"
                 className='absolute inset-0 object-cover h-full w-full'
                 aria-hidden="true"
@@ -37,7 +37,7 @@ const Plans = () => {
                             <div className='flex flex-row space-x-3 items-center'>
                                 <Image 
                                     src={Star}
-                                    alt=""
+                                    alt="Star Background"
                                     className='w-4 h-4 sm:w-4 sm:h-4'
                                     aria-hidden="true"
                                 />
@@ -94,7 +94,7 @@ const Plans = () => {
                             <div className='flex flex-row space-x-3 items-center text-white'>
                                 <Image 
                                     src={Star}
-                                    alt=""
+                                    alt="Star Background"
                                     className='w-4 h-4 sm:w-4 sm:h-4 invert'
                                     aria-hidden="true"
                                 />

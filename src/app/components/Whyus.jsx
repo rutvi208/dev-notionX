@@ -57,7 +57,7 @@ const Whyus = () => {
                   <figure>
                     <Image
                       src={benefit.img}
-                      alt=""
+                      alt="Benefit Images"
                       loading="lazy"
                       className="sm:mb-6 w-24 h-24 md:w-fit md:h-fit"
                       aria-hidden="true"
