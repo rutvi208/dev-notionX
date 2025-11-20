@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/Footer';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
-import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import Link from "next/link";
 import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
@@ -305,7 +305,7 @@ const Blog2 = () => {
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Best ChatGPT SEO Agency & Services for AI Search Ranking</h1>
-                        <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
+                        <div className='flex flex-row justify-between items-center gap-1 sm:gap-0 mt-4 sm:mt-8'>
                             <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Manthan D.</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <p className='text-[#878483] content-font text-xs'>Oct 13, 2025 &nbsp; | &nbsp; {readingTime}</p>

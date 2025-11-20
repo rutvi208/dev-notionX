@@ -8,7 +8,7 @@ import Link from "next/link";
 const Cta = () => {
     return (
         <section className='px-3 lg:px-8 2xl:px-0' aria-labelledby="cta-heading">
-            <div className="relative w-full container mx-auto border-b-[0.0625rem] border-[#FAEEE6] rounded-3xl sm:rounded-4xl lg:rounded-[2.5rem] my-12 sm:my-20 xl:my-28">
+            <div className="relative w-full container mx-auto border-b-[0.0625rem] border-[#FAEEE6] rounded-3xl sm:rounded-4xl lg:rounded-[2.5rem] my-12 sm:mt-20 xl:mt-28">
                 <Image
                     src={CtaBg}
                     alt="CTA Background"

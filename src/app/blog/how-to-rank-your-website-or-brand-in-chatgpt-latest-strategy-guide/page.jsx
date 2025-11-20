@@ -3,7 +3,7 @@ import Footer from '@/app/components/Footer';
 import BlogFAQ from '@/app/components/BlogFAQ';
 import { HiMiniShare, HiMiniArrowSmallRight } from "react-icons/hi2";
 import { GiCheckMark } from "react-icons/gi";
-import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
@@ -304,17 +304,11 @@ const Blog1 = () => {
                     <FAQSchema faqs={faqs} />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide</h1>
-                        <div className='flex flex-row justify-between items-center mt-4 sm:mt-8'>
+                        <div className='flex flex-row justify-between items-center gap-1 sm:gap-0 mt-4 sm:mt-8'>
                             <a href='#AuthorBlock' className='text-[#878483] content-font text-xs'>Manthan D.</a>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
                             <p className='text-[#878483] content-font text-xs'>Sep 12, 2025 &nbsp; | &nbsp; {readingTime}</p>
                             <p className='text-[#878483] mx-4 text-2xl sm:text-3xl'> · </p>
-                            {/* <Link href="https://geo.notionx.ai/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className='cursor-pointer group text-[var(--cta)] content-font text-base flex items-center font-bold hover:underline'>
-                                Share <span className='text-[var(--cta)] ps-1 text-sm'><HiMiniShare /></span></Link> */}
-                                {/* Replace this section in your page.jsx */}
                             <div className="flex items-center gap-1 text-[var(--cta)]">
                                 <SharePopup
                                     title="How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide"

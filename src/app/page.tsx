@@ -13,6 +13,7 @@ import ScrollButton from '@/app/components/ScrollButton';
 import type { Metadata } from "next";
 import { siteConfig } from '@/app/config/site';
 import FAQSchema from '@/app/components/FAQSchema';
+import KnowledgeHub from '@/app/components/KnowledgeHub';
 
 const faqs = [
   {
@@ -323,6 +324,10 @@ export default function Home() {
 
         <section aria-label="Call to action">
           <Cta/>
+        </section>
+
+        <section aria-label='Knowledge Hub'>
+          <KnowledgeHub/>
         </section>
 
         <section aria-label="Frequently asked questions">
