@@ -46,7 +46,7 @@ const CaseStudy = () => {
         ];
   
   return (
-    <div className="overflow-hidden bg-gradient-to-b from-white to-[#FDF7F3] scroll-m-4 sm:scroll-m-10">
+    <section className="overflow-hidden bg-gradient-to-b from-white to-[#FDF7F3] scroll-m-4 sm:scroll-m-10" aria-labelledby="knowledge-hub">
         {/* Title Section */}
         <div className="mx-auto container pt-16 sm:pt-20 lg:pt-28 px-5 lg:px-8 2xl:px-0 mb-12 sm:mb-20 xl:mb-28">
             <div>
@@ -105,7 +105,7 @@ const CaseStudy = () => {
             </Link>
         </div>
         
-    </div>
+    </section>
   );
 };
 
