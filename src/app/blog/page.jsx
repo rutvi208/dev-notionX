@@ -77,17 +77,17 @@ const blogPosts = [
 export const metadata = {
   title: "Blog | NotionX - AI SEO & GEO Insights",
   keywords: "AI SEO, GEO, AEO, ChatGPT SEO, AI search ranking, notionX Blogs",
-  description: "Read the latest insights on AI SEO, Generative Engine Optimization, and AI-powered marketing from NotionX experts.",
+  description: "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
   openGraph: {
     title: "NotionX Blog - AI SEO & GEO Insights",
-    description: "AI SEO insights, tutorials, and GEO best practices for modern brands.",
+    description: "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
     url: `${siteConfig.url}${siteConfig.paths.blog}`,
     images: [`${siteConfig.url}${siteConfig.paths.images}/notionX.webp`],
     type: "website",
   },
   twitter: {
     title: "NotionX Blog - AI SEO & GEO Insights",
-    description: "AI SEO insights and best practices for brands – by NotionX.",
+    description: "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
     images: [`${siteConfig.url}${siteConfig.paths.images}/notionX.webp`],
     card: "summary_large_image",
   },
@@ -304,7 +304,7 @@ const KnowledgeHub = () => {
                         </span>
                         
                         {/* Article Title */}
-                        <h2
+                        <h3
                           className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2"
                           itemProp="headline"
                         >
@@ -316,7 +316,7 @@ const KnowledgeHub = () => {
                           >
                             {blog.title}
                           </Link>
-                        </h2>
+                        </h3>
                       </header>
                       
                       {/* Article Description */}
