@@ -50,9 +50,9 @@ const CaseStudy = () => {
         {/* Title Section */}
         <div className="mx-auto container pt-16 sm:pt-20 lg:pt-28 px-5 lg:px-8 2xl:px-0 mb-12 sm:mb-20 xl:mb-28">
             <div>
-            <h1 className="heading-font font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">
+            <h2 className="heading-font font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">
                 Knowledge Hub
-            </h1>
+            </h2>
             <p className="text-lg lg:text-xl content-font mt-3">
                 Expert insights on dominating AI-powered search and becoming the answer customers discover.
             </p>
