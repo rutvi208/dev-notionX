@@ -182,20 +182,54 @@ const serviceSchema = {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "AI Search Optimization",
-          "description": "Optimize your brand for AI-powered search engines"
+          "name": "Professional GEO Plan",
+          "description": "Technical SEO Audit, Local GEO Enhancement, Schema development, Executive Monthly Reviews, Monthly Strategy Reports, Monthly 30 Minutes Strategic Call"
+        },
+        "price": "1499",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "1499",
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        },
+        "availability": "https://schema.org/InStock",
+        "url": `${siteConfig.url}/#pricing`,
+        "eligibleRegion": {
+          "@type": "Place",
+          "name": "Worldwide"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Generative Engine Optimization (GEO)",
-          "description": "Improve visibility across AI platforms like ChatGPT and Perplexity"
+          "name": "Enterprise GEO Plan",
+          "description": "Everything in Professional, Custom GEO Strategy, Custom Schema Development, Competitor GEO Analysis, Structured Data Testing, Dedicated account manager, Monthly 1 Hour Strategic Call"
+        },
+        "price": "2499",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "2499",
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        },
+        "availability": "https://schema.org/InStock",
+        "url": `${siteConfig.url}/#pricing`,
+        "eligibleRegion": {
+          "@type": "Place",
+          "name": "Worldwide"
         }
       }
     ]
-  }
+  },
+  "serviceOutput": [
+    "Improved AI search visibility",
+    "Increased brand mentions in ChatGPT",
+    "Higher ranking in Google AI Overviews",
+    "Enhanced Perplexity platform presence"
+  ]
 };
 
 // FAQ Schema - Replace with actual FAQs from your FAQ component
