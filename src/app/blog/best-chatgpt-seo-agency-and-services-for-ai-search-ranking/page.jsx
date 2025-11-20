@@ -23,6 +23,9 @@ import { siteConfig } from "@/app/config/site";
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
 import AskAI from '@/app/components/AskAI';
+import ScrollProgressBar from '@/app/components/ScrollProgressBar';
+import ScrollToTop from '@/app/components/ScrollToTop';
+import ScrollButton from '@/app/components/ScrollButton';
 
 export const metadata = generateBlogMetadata({
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
@@ -268,9 +271,11 @@ const Blog2 = () => {
 
   return (
     <div>
+        <ScrollToTop />
+        <ScrollButton/>
         {/* <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} /> */}
 
-        <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
+        <div className='min-h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
 
             <div className=''>
                 <Navbar />
@@ -337,7 +342,8 @@ const Blog2 = () => {
                         </section>
                     </div>
 
-                    <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
+                    <div id="blog-content-section" className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
+                        <ScrollProgressBar/>
 
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <section className='mb-10 sm:mb-16'>

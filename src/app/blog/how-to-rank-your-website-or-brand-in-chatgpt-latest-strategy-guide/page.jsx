@@ -21,6 +21,9 @@ import { siteConfig } from "@/app/config/site";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 import BlogSchema from "@/app/components/BlogSchema";
 import FAQSchema from '@/app/components/FAQSchema';
+import ScrollProgressBar from '@/app/components/ScrollProgressBar';
+import ScrollToTop from '@/app/components/ScrollToTop';
+import ScrollButton from '@/app/components/ScrollButton';
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide",
@@ -260,7 +263,9 @@ const Blog1 = () => {
 
   return (
     <div>
-        <div className='h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
+        <ScrollToTop />
+        <ScrollButton/>
+        <div className='min-h-screen bg-[radial-gradient(circle_at_top,rgba(246,238,234)_0%,rgba(246,239,235)_60%,white_70%)]'>
 
             <div className=''>
                 <Navbar />
@@ -343,7 +348,8 @@ const Blog1 = () => {
                         </section>
                     </div>
 
-                    <div className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
+                    <div id="blog-content-section" className='mx-auto container overflow-hidden px-4 lg:px-0 my-7 sm:my-10'>
+                        <ScrollProgressBar/>
 
                         <div className='mx-auto container flex flex-col lg:max-w-5xl sm:w-[56.25rem]'>
                             <section className='mb-10 sm:mb-16'>
