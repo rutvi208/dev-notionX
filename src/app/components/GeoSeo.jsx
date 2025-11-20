@@ -11,100 +11,86 @@ import geo4 from "@/../public/images/GEO-SEO/GEO-visual4.webp";
 
 const GeoSeo = () => {
     return (
-        <div className="bg-[var(--pastelbrown)] ">
-            <div className="mx-auto container py-16 sm:py-20 lg:py-28 px-5 lg:px-8 2xl:px-0"> {/* px-12 2xl:px-20 */}
-                <div>
-                    <h1 className="heading-font font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">GEO vs SEO: What Changed</h1>
-                    <p className="text-lg lg:text-xl content-font mt-3">The AI search revolution requires a completely different approach to getting found online.</p>
-                </div>
-
-                {/* mobile content */}
-
-                {/* content */}
-                <div className="space-y-12 lg:space-y-14 mt-12 sm:mt-20 lg:mt-[6.25rem]">
-                    <div className="bg-white rounded-xl lg:rounded-[1.25rem] p-4 sm:p-7 lg:p-10 ">
-                        <h1 className="content-font font-semibold text-[#5D3E35] mb-6 sm:mb-8 lg:mb-10 text-2xl sm:text-4xl lg:text-[2.5rem] tracking-[-0.05rem]">Traditional SEO</h1>
-                        <div className="grid gap-4 sm:gap-2 2xl:gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
-                            <div>
-                                <Image
-                                    src={tsv1}
-                                    alt="Traditional SEO Visual 1"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-3.5 mt-4 2xl:w-full">Requires users to click through to your site.</p>
-                            </div>
-                            <div>
-                                <Image
-                                    src={tsv2}
-                                    alt="Traditional SEO Visual 2"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-3.5 mt-4">Competes with 9 other results on page one.</p>
-                            </div>
-                            <div className="mt-6 sm:mt-0">
-                                <Image
-                                    src={tsv3}
-                                    alt="Traditional SEO Visual 3"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-3.5 mt-4">Focuses on driving traffic to your website.</p>
-                            </div>
-                            <div className="mt-6 sm:mt-0">
-                                <Image
-                                    src={tsv4}
-                                    alt="Traditional SEO Visual 4"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-3.5 mt-4">Takes 6-12 months for significant results.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <p className="content-font font-semibold italic text-2xl sm:text-4xl lg:text-5xl text-center">How GEO delivers results traditional SEO can't.</p>
-                    </div>
-
-                    <div className="bg-white rounded-xl lg:rounded-[1.25rem] p-4 sm:p-7 lg:p-10 ">
-                        <h1 className="content-font font-semibold text-[#5D3E35] mb-6 sm:mb-8 lg:mb-10 text-2xl sm:text-4xl lg:text-[2.5rem] tracking-[-0.05rem]">Generative Engine Optimization</h1>
-                        <div className="grid gap-4 sm:gap-2 2xl:gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
-                            <div>
-                                <Image
-                                    src={geo1}
-                                    alt="GEO Visual 1"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-1 mt-4">Optimizes for direct mentions in AI answers.</p>
-                            </div>
-                            <div>
-                                <Image
-                                    src={geo2}
-                                    alt="GEO Visual 2"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-1 mt-4">Positions you as THE definitive answer, not an option.</p>
-                            </div>
-                            <div className="mt-6 sm:mt-0">
-                                <Image
-                                    src={geo3}
-                                    alt="GEO Visual 3"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-1 mt-4">Focuses on direct recommendations & citations.</p>
-                            </div>
-                            <div className="mt-6 sm:mt-0">
-                                <Image
-                                    src={geo4}
-                                    alt="GEO Visual 4"
-                                    className="w-fit h-fit"
-                                />
-                                <p className="content-font text-lg lg:text-xl text-[#5D3E35] ms-1 mt-4">Can deliver results in as little as 60-90 days.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section className="bg-[var(--pastelbrown)]" aria-labelledby="geo-seo-heading">
+        <div className="mx-auto container py-16 sm:py-20 lg:py-28 px-5 lg:px-8 2xl:px-0">
+          <header>
+            <h2 id="geo-seo-heading" className="heading-font font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">
+              GEO vs SEO: What Changed
+            </h2>
+            <p className="text-lg lg:text-xl content-font mt-3">
+              The AI search revolution requires a completely different approach to getting found online.
+            </p>
+          </header>
+  
+          {/* Comparison Content */}
+          <div className="space-y-12 lg:space-y-14 mt-12 sm:mt-20 lg:mt-[6.25rem]">
+            
+            {/* Traditional SEO */}
+            <article className="bg-white rounded-xl lg:rounded-[1.25rem] p-4 sm:p-7 lg:p-10">
+              <h3 className="content-font font-semibold text-[#5D3E35] mb-6 sm:mb-8 lg:mb-10 text-2xl sm:text-4xl lg:text-[2.5rem] tracking-[-0.05rem]">
+                Traditional SEO
+              </h3>
+              <ul className="grid gap-4 sm:gap-2 2xl:gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 list-none">
+                {[
+                  { img: tsv1, text: "Requires users to click through to your site." },
+                  { img: tsv2, text: "Competes with 9 other results on page one." },
+                  { img: tsv3, text: "Focuses on driving traffic to your website." },
+                  { img: tsv4, text: "Takes 6-12 months for significant results." },
+                ].map((item, i) => (
+                  <li key={i}>
+                    <figure>
+                      <Image
+                        src={item.img}
+                        alt={`Traditional SEO characteristic ${i + 1}`}
+                        className="w-fit h-fit"
+                      />
+                      <figcaption className="content-font text-lg lg:text-xl text-[#5D3E35] ms-3.5 mt-4">
+                        {item.text}
+                      </figcaption>
+                    </figure>
+                  </li>
+                ))}
+              </ul>
+            </article>
+  
+            {/* Transition Statement */}
+            <div role="presentation" aria-hidden="true">
+              <p className="content-font font-semibold italic text-2xl sm:text-4xl lg:text-5xl text-center">
+                How GEO delivers results traditional SEO can't.
+              </p>
             </div>
+  
+            {/* Generative Engine Optimization */}
+            <article className="bg-white rounded-xl lg:rounded-[1.25rem] p-4 sm:p-7 lg:p-10">
+              <h3 className="content-font font-semibold text-[#5D3E35] mb-6 sm:mb-8 lg:mb-10 text-2xl sm:text-4xl lg:text-[2.5rem] tracking-[-0.05rem]">
+                Generative Engine Optimization
+              </h3>
+              <ul className="grid gap-4 sm:gap-2 2xl:gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 list-none">
+                {[
+                  { img: geo1, text: "Optimizes for direct mentions in AI answers." },
+                  { img: geo2, text: "Positions you as THE definitive answer, not an option." },
+                  { img: geo3, text: "Focuses on direct recommendations & citations." },
+                  { img: geo4, text: "Can deliver results in as little as 60-90 days." },
+                ].map((item, i) => (
+                  <li key={i}>
+                    <figure>
+                      <Image
+                        src={item.img}
+                        alt={`GEO benefit ${i + 1}`}
+                        className="w-fit h-fit"
+                      />
+                      <figcaption className="content-font text-lg lg:text-xl text-[#5D3E35] ms-1 mt-4">
+                        {item.text}
+                      </figcaption>
+                    </figure>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          </div>
         </div>
-    )
-}
+      </section>
+    );
+  };
 
 export default GeoSeo;

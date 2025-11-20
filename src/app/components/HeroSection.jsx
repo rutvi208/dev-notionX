@@ -13,10 +13,11 @@ import Gemini from '@/../public/images/HeroSection/Gemini.png';
 const HeroSection = () => {
     return (
         <div>
-            <div className='relative w-full h-[740px] md:h-[640px] xl:h-[700px] overflow-hidden'>
+            <header className='relative w-full h-[740px] md:h-[640px] xl:h-[700px] overflow-hidden' role="banner">
                 <Image
                     src={HeroBg}
                     alt="Hero Background"
+                    aria-hidden="true"
                     fill
                     loading="lazy"
                     className='absolute inset-0 object-cover h-full w-full'
@@ -25,12 +26,12 @@ const HeroSection = () => {
                     <Navbar />
 
                     {/* Hero Section */}
-                    <section className="py-10 lg:pt-16 lg:pb-12 xl:py-20">
+                    <div className="py-10 lg:pt-16 lg:pb-12 xl:py-20">
                         <div className="container mx-auto px-4 sm:px-0 lg:px-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-8 xl:gap-10">
                             {/* Left Text Section */}
                             <div className="flex-1 space-y-7 lg:space-y-7">
                             
-                                <div className="inline-flex items-center gap-2 border border-[#8E6754] px-4 py-1 rounded-full">
+                                <div className="inline-flex items-center gap-2 border border-[#8E6754] px-4 py-1 rounded-full" role="status" aria-live="polite">
                                     <span><LuRocket /></span>
                                     <span className="text-sm heading-font">AI Search Dominates.</span>
                                 </div>
@@ -110,9 +111,9 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
-            </div>
+            </header>
         </div>
     )
 }
