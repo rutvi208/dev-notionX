@@ -108,6 +108,32 @@ export const metadata = {
 };
 
 const KnowledgeHub = () => {
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${siteConfig.url}${siteConfig.paths.blog}#webpage`,
+    "url": `${siteConfig.url}${siteConfig.paths.blog}`,
+    "name": "NotionX Blog - AI SEO & GEO Insights",
+    "description": "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": `${siteConfig.url}/#website`
+    },
+    "breadcrumb": {
+      "@id": `${siteConfig.url}${siteConfig.paths.blog}#breadcrumb`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": `${siteConfig.url}/#organization`
+    },
+    "inLanguage": "en-US",
+    "potentialAction": {
+      "@type": "ReadAction",
+      "target": [`${siteConfig.url}${siteConfig.paths.blog}`]
+    }
+  };
+
   // Enhanced blog schema with more structured data
   const blogSchema = {
     "@context": "https://schema.org",
@@ -149,7 +175,14 @@ const KnowledgeHub = () => {
           "@type": "ImageObject",
           url: `${siteConfig.url}/images/logo/navbar-logo.svg`
         }
-      }
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": `${siteConfig.url}/blog/${post.slug}`
+      },
+      keywords: post.tag,
+      articleSection: post.tag,
+      "inLanguage": "en-US"
     }))
   };
 
@@ -157,6 +190,7 @@ const KnowledgeHub = () => {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${siteConfig.url}${siteConfig.paths.blog}#breadcrumb`,
     itemListElement: [
       {
         "@type": "ListItem",
@@ -173,9 +207,25 @@ const KnowledgeHub = () => {
     ]
   };
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": blogPosts.map((post, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "url": `${siteConfig.url}/blog/${post.slug}`,
+      "name": post.title
+    }))
+  };
+
   return (
     <>
       {/* Structured Data Scripts */}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
@@ -183,6 +233,10 @@ const KnowledgeHub = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
 
       {/* Main Content */}
@@ -261,7 +315,6 @@ const KnowledgeHub = () => {
                           height={400}
                           className="object-cover"
                           loading="lazy"
-                          itemProp="image"
                         />
                       </Link>
                     </figure> */}
@@ -285,7 +338,6 @@ const KnowledgeHub = () => {
                             className="object-cover"
                             loading={index === 0 ? "eager" : "lazy"}
                             //loading="lazy"
-                            itemProp="image"
                           />
                         </div>
                       </Link>
@@ -298,7 +350,6 @@ const KnowledgeHub = () => {
                         {/* Category Tag */}
                         <span 
                           className="text-sm text-left text-[var(--foreground)] content-font inline-block"
-                          itemProp="keywords"
                         >
                           {blog.tag}
                         </span>
@@ -306,13 +357,11 @@ const KnowledgeHub = () => {
                         {/* Article Title */}
                         <h3
                           className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2"
-                          itemProp="headline"
                         >
                           <Link 
                             href={blog.href} 
                             rel="noopener noreferrer"
                             className="hover:text-[var(--cta)] transition-colors duration-200"
-                            itemProp="url"
                           >
                             {blog.title}
                           </Link>
@@ -322,7 +371,6 @@ const KnowledgeHub = () => {
                       {/* Article Description */}
                       <p 
                         className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4"
-                        itemProp="description"
                       >
                         {blog.desc}
                       </p>
@@ -331,18 +379,17 @@ const KnowledgeHub = () => {
                       <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                         {/* Publication Date and Read Time */}
                         <div className='text-[#878483] content-font text-xs'>
-                          <span className="author" itemProp="author">
+                          <span className="author">
                             By <strong>{blog.authorName}</strong>
                           </span>
                           <span aria-hidden="true"> | </span>
                           <time 
                             dateTime={blog.dateISO}
-                            itemProp="datePublished"
                           >
                             {blog.date}
                           </time>
                           <span aria-hidden="true"> | </span>
-                          <span itemProp="timeRequired">
+                          <span>
                             {blog.readTime}
                           </span>
                         </div>
