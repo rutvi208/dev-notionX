@@ -53,7 +53,7 @@ const ScrollProgressBar = () => {
 
   return (
     <div 
-      className={`fixed top-0 left-0 w-full z-50 bg-[#E5E7EB] h-0.5 lg:h-[3px] ${
+      className={`fixed top-0 left-0 w-full z-50 bg-[#E5E7EB] h-1 ${
           isInContent ? 'opacity-100' : 'opacity-0'
         }`}
     >

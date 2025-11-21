@@ -7,13 +7,18 @@
   --stroke: #E8D5CB;
   --pastelbrown: #FDF8F5;
   --mudbrown: #6E4C40;
-  --font-bricolage: 'Bricolage Grotesque', sans-serif;
-  --font-source-sans-pro: 'Source Sans Pro', sans-serif;
+  /* --font-bricolage: 'Bricolage Grotesque', sans-serif;
+  --font-source-sans-pro: 'Source Sans Pro', sans-serif; */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -30,6 +35,7 @@ html {
 
 .heading-font {
   font-family: var(--font-bricolage);
+  letter-spacing: -0.025em;
 }
 
 .content-font {
