@@ -85,9 +85,9 @@ const CaseStudy = () => {
 
                             <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                                 <p className='text-[#444444] content-font text-xs'>by <strong>{blog.authorName}</strong> &nbsp; | &nbsp;{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
-                                <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                <p className='cursor-pointer group text-[#db3a00] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
                                 Read More
-                                <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                <span className='text-[#db3a00] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
                                     <HiMiniArrowSmallRight />
                                 </span>
                                 </p>

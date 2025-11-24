@@ -3,7 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #0F0A08;
-  --cta: #FF4E18;
+  /* --cta: #FF4E18; */
+  --cta: #F43A00;
   --stroke: #E8D5CB;
   --pastelbrown: #FDF8F5;
   --mudbrown: #6E4C40;
