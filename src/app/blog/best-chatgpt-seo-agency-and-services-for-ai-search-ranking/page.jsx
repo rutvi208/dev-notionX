@@ -35,6 +35,7 @@ export const metadata = generateBlogMetadata({
     author: "Manthan D.", 
     section: "ChatGPT SEO Services",
     publishedTime: "2025-10-13T00:00:00Z",
+    modifiedTime:"2025-10-13T00:00:00Z",
     keywords: ["best ChatGPT SEO agencies to rank in ai search", "best ChatGPT SEO rank tracking software", "ChatGPT SEO rank tracking tools", "best ChatGPT SEO rank tracking", "best ChatGPT SEO rank tracker", "ChatGPT SEO rank tracking", "best SEO tool to rank in ChatGPT"]
   });
 // export const metadata = {
@@ -286,6 +287,7 @@ const Blog2 = () => {
                         description="A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog3-banner-best-chatgpt-search-ranking.webp`}
                         datePublished="2025-10-13T09:00:00Z"
+                        dateModified="2025-10-13T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}

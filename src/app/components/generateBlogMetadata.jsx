@@ -8,6 +8,7 @@ export function generateBlogMetadata({
     author,
     section,
     publishedTime,
+    modifiedTime,
     keywords = []
   }) {
     const baseUrl = siteConfig.url;
@@ -26,6 +27,7 @@ export function generateBlogMetadata({
         type: "article",
         article: {
           published_time: publishedTime,
+          modified_time: modifiedTime,
           author,
           section
         }

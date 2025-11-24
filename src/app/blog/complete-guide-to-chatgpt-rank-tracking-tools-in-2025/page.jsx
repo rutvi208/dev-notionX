@@ -33,6 +33,7 @@ export const metadata = generateBlogMetadata({
     author: "Manthan D.", 
     section: "AI Rank Tracking Tools",
     publishedTime: "2025-09-25T00:00:00Z",
+    modifiedTime:"2025-09-25T00:00:00Z",
     keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
   });
 
@@ -257,6 +258,7 @@ const Blog3 = () => {
                         description="The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog2-banner-complete-guide-2025.webp`}
                         datePublished="2025-09-25T09:00:00Z"
+                        dateModified="2025-09-25T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}

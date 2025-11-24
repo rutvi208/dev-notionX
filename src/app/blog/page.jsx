@@ -10,6 +10,7 @@ import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
 import { siteConfig } from "@/app/config/site";
+import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 
 const blogPosts = [
   {
@@ -23,6 +24,8 @@ const blogPosts = [
     readTime: "6 mins read",
     dateISO: "2025-09-12", // Added for proper datetime attribute
     authorName: "Manthan D.",
+    authorRole: "SEO Strategist",
+    authorImage: AuthorImage,
   },
   {
     id: 2,
@@ -35,6 +38,8 @@ const blogPosts = [
     readTime: "8 mins read",
     dateISO: "2025-09-25",
     authorName: "Manthan D.",
+    authorRole: "SEO Strategist",
+    authorImage: AuthorImage,
   },
   {
     id: 3,
@@ -47,6 +52,8 @@ const blogPosts = [
     readTime: "6 mins read",
     dateISO: "2025-10-13",
     authorName: "Manthan D.",
+    authorRole: "SEO Strategist",
+    authorImage: AuthorImage,
   },
   {
     id: 4,
@@ -59,6 +66,8 @@ const blogPosts = [
     readTime: "7 mins read",
     dateISO: "2025-10-25",
     authorName: "Manthan D.",
+    authorRole: "SEO Strategist",
+    authorImage: AuthorImage,
   },
   {
     id: 5,
@@ -71,23 +80,26 @@ const blogPosts = [
     readTime: "8 mins read",
     dateISO: "2025-11-18",
     authorName: "Manthan D.",
+    authorRole: "SEO Strategist",
+    authorImage: AuthorImage,
   },
 ];
 
 export const metadata = {
-  title: "Blog | NotionX - AI SEO & GEO Insights",
+  title: "NotionX Blog | GEO & AI SEO Strategies for Modern Brands",
   keywords: "AI SEO, GEO, AEO, ChatGPT SEO, AI search ranking, notionX Blogs",
-  description: "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
+  description: "Read the latest insights on AI SEO, GEO, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
   openGraph: {
-    title: "NotionX Blog - AI SEO & GEO Insights",
-    description: "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
+    title: "NotionX Blog | GEO & AI SEO Strategies for Modern Brands",
+    description: "Read the latest insights on AI SEO, GEO, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
     url: `${siteConfig.url}${siteConfig.paths.blog}`,
     images: [`${siteConfig.url}${siteConfig.paths.images}/notionX.webp`],
     type: "website",
   },
   twitter: {
-    title: "NotionX Blog - AI SEO & GEO Insights",
-    description: "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
+    title: "NotionX Blog | GEO & AI SEO Strategies for Modern Brands",
+    description: "Read the latest insights on AI SEO, GEO, AI search visibility, and modern AI-powered marketing strategies. Explore expert tips, guides, and trends from NotionX.",
+    url: `${siteConfig.url}${siteConfig.paths.blog}`,
     images: [`${siteConfig.url}${siteConfig.paths.images}/notionX.webp`],
     card: "summary_large_image",
   },
@@ -115,7 +127,16 @@ const KnowledgeHub = () => {
     "@id": `${siteConfig.url}${siteConfig.paths.blog}#webpage`,
     "url": `${siteConfig.url}${siteConfig.paths.blog}`,
     "name": "NotionX Blog - AI SEO & GEO Insights",
-    "description": "Read the latest insights on AI SEO, Generative Engine Optimization, AI search visibility, and modern AI-powered marketing strategies.",
+    "description": "Read the latest insights on AI SEO, GEO, AI search visibility, and modern AI-powered marketing strategies.",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": blogPosts.map((post, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "url": `${siteConfig.url}/${post.href}`,
+        "name": post.title
+      }))
+    },    
     "isPartOf": {
       "@type": "WebSite",
       "@id": `${siteConfig.url}/#website`
@@ -180,8 +201,8 @@ const KnowledgeHub = () => {
         "@type": "WebPage",
         "@id": `${siteConfig.url}/blog/${post.slug}`
       },
-      keywords: post.tag,
-      articleSection: post.tag,
+      // keywords: post.tag,
+      // articleSection: post.tag,
       "inLanguage": "en-US"
     }))
   };
@@ -207,17 +228,6 @@ const KnowledgeHub = () => {
     ]
   };
 
-  const itemListSchema = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "itemListElement": blogPosts.map((post, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "url": `${siteConfig.url}/blog/${post.slug}`,
-      "name": post.title
-    }))
-  };
-
   return (
     <>
       {/* Structured Data Scripts */}
@@ -233,10 +243,6 @@ const KnowledgeHub = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
 
       {/* Main Content */}
@@ -264,9 +270,12 @@ const KnowledgeHub = () => {
             className="my-10 sm:my-12 lg:my-20 2xl:my-24 container mx-auto justify-center place-items-center text-center"
             role="banner"
           >
-            <h1 className="heading-font text-3xl lg:text-5xl">
-              The Future of Search Is Here
+            <h1 id="blog-posts-heading" className="sr-only">
+              NotionX Blog
             </h1>
+            <h2 className="heading-font text-3xl lg:text-5xl">
+              The Future of Search Is Here
+            </h2>
             <p className="content-font text-base mt-2 lg:mt-3 sm:w-8/12 lg:w-7/12 xl:w-5/12 2xl:w-4/12 px-3 mx-auto text-center">
               Learn how to optimize for AI-powered discovery and become the answer AI recommends when customers search for businesses like yours.
             </p>
@@ -279,11 +288,6 @@ const KnowledgeHub = () => {
             //role="feed"
             aria-busy="false"
           >
-            {/* Hidden heading for screen readers */}
-            <h2 id="blog-posts-heading" className="sr-only">
-              Latest Blog Posts and Articles
-            </h2>
-            
             <div 
               className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'
               //role="list"
@@ -323,6 +327,7 @@ const KnowledgeHub = () => {
                         href={blog.href} 
                         rel="noopener noreferrer"
                         aria-label={`Read article: ${blog.title}`}
+                        className="cursor-pointer"
                       >
                         <div className="relative w-full aspect-[2.5/1]">
                           <Image
@@ -355,7 +360,7 @@ const KnowledgeHub = () => {
                         </span>
                         
                         {/* Article Title */}
-                        <h3
+                        <h2
                           className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2"
                         >
                           <Link 
@@ -365,7 +370,7 @@ const KnowledgeHub = () => {
                           >
                             {blog.title}
                           </Link>
-                        </h3>
+                        </h2>
                       </header>
                       
                       {/* Article Description */}
@@ -378,7 +383,7 @@ const KnowledgeHub = () => {
                       {/* Article Footer */}
                       <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                         {/* Publication Date and Read Time */}
-                        <div className='text-[#444444] content-font text-xs'>
+                        {/* <div className='text-[#444444] content-font text-xs'>
                           <span className="author">
                             By <strong>{blog.authorName}</strong>
                           </span>
@@ -392,7 +397,29 @@ const KnowledgeHub = () => {
                           <span>
                             {blog.readTime}
                           </span>
+                        </div>  */}
+                        <div className="flex items-center gap-2 text-[#444444] content-font text-xs">
+                          <Image
+                            src={blog.authorImage}
+                            alt={`${blog.authorName} profile picture`}
+                            width={24}
+                            height={24}
+                            className="rounded-full"
+                          />
+
+                          <div>
+                            <span className="author block">
+                              By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                            </span>
+
+                            <span className="">
+                              <time dateTime={blog.dateISO}>{blog.date}</time>
+                              <span aria-hidden="true"> • </span>
+                              {blog.readTime}
+                            </span>
+                          </div>
                         </div>
+
                         
                         {/* Read More Link */}
                         <Link 

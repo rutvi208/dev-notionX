@@ -30,6 +30,7 @@ export const metadata = generateBlogMetadata({
     author: "Manthan D.", 
     section: "AI Overview Ranking",
     publishedTime: "2025-10-25T00:00:00Z",
+    modifiedTime:"2025-10-25T00:00:00Z",
     keywords: ["How to Rank in AI Overview", "What is GEO", "What is AI SEO", "SEO vs GEO", "GEO vs SEO", "What is GEO vs SEO", "SEO vs GEO vs AEO", "GEO vs. SEO", "SEO vs AEO vs GEO", "AEO vs SEO vs GEO", "GEO vs SEO vs AEO", "SEO vs. GEO"],
   });
 
@@ -235,6 +236,7 @@ const Blog4 = () => {
                         description="What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog4-banner-seo-geo-aeo.webp`}
                         datePublished="2025-10-25T09:00:00Z"
+                        dateModified="2025-10-25T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}

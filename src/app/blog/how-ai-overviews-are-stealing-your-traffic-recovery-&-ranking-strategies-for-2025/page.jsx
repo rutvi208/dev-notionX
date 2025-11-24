@@ -30,6 +30,7 @@ export const metadata = generateBlogMetadata({
     author: "Manthan D.", 
     section: "AI Overviews Optimization",
     publishedTime: "2025-11-18T00:00:00Z",
+    modifiedTime:"2025-11-18T00:00:00Z",
     keywords: ["rank tracking tool for ChatGPT", "rank tracker tool for ChatGPT", "ChatGPT rank tracker", "best ChatGPT rank tracker tools", "ChatGPT rank tracking free", "free ChatGPT rank tracking", "best ChatGPT keyword rank tracker software"],
   });
 
@@ -257,6 +258,7 @@ const Blog5 = () => {
                         description="The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog5-banner-ai-overviews-2025.webp`}
                         datePublished="2025-11-18T09:00:00Z"
+                        dateModified="2025-11-18T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}

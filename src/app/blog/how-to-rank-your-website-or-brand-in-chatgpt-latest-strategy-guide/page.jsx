@@ -33,6 +33,7 @@ export const metadata = generateBlogMetadata({
     author: "Manthan D.", 
     section: "ChatGPT Ranking Strategies",
     publishedTime: "2025-09-12T00:00:00Z",
+    modifiedTime:"2025-09-12T00:00:00Z",
     keywords: ["how to rank in ChatGPT search", "how do you rank your website in ChatGPT", "how to rank on ChatGPT", "how to rank in ChatGPT", "how to rank on ChatGPT in 2025", "how to rank website on ChatGPT", "how to rank brand on ChatGPT in 2025", "how to rank a brand on ChatGPT", "how to rank on ChatGPT for brand mentions", "where does my brand rank in ChatGPT", "how to rank on ChatGPT for brands in 2025", "how to rank in ChatGPT search results", "how products and services appear in ChatGPT search results", "how to appear in ChatGPT search results", "how to track ChatGPT visibility in search results"],
   });
 
@@ -276,6 +277,7 @@ const Blog1 = () => {
                         description="In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog1-banner-how-to-rank-strategy-guide.webp`}
                         datePublished="2025-09-12T09:00:00Z"
+                        dateModified="2025-09-12T09:00:00Z" 
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}
                         publisherLogo={`${siteConfig.url}/images/logo/navbar-logo.svg`}
