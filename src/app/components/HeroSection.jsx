@@ -80,6 +80,7 @@ const HeroSection = () => {
                                         priority
                                         fetchPriority="high"
                                         loading="eager"
+                                        quality={65}
                                         fill
                                         className="object-contain sm:hidden"
                                     />

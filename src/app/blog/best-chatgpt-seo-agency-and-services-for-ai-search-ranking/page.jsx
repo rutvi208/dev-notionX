@@ -744,37 +744,37 @@ const Blog2 = () => {
                             <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5 xl:gap-7 mx-4 sm:mx-0 lg:mx-5'>
 
                                 {blogPosts.map((blog) => (
-                                    <div key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
-                                    bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
+                                    <Link href={blog.href} rel="noopener noreferrer" key={blog.id} className='p-3 lg:p-4 border border-[var(--stroke)] rounded-xl sm:rounded-[1.25rem] overflow-hidden
+                                        bg-[radial-gradient(ellipse_at_top_left,#FFF0E0_0%,#FCD0D4_30%,transparent_55%),radial-gradient(ellipse_at_bottom_right,#FFF0E0_0%,#FCD0D4_30%,transparent_55%)]'>
 
-                                    <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
+                                        <div className='flex flex-col gap-1 sm:gap-2 h-full items-stretch'>
 
-                                        {/* Image */}
-                                        <Link href={blog.href} rel="noopener noreferrer"
-                                        className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
-                                        <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
-                                        </Link>
+                                            {/* Image */}
+                                            <div
+                                                className='w-auto lg:h-44 rounded-t-xl sm:rounded-t-[0.875rem] overflow-hidden'>
+                                                <Image src={blog.image} alt={blog.title} className="object-cover h-full" />
+                                            </div>
 
-                                        {/* Content */}
-                                        <Link href={blog.href} rel="noopener noreferrer"
-                                        className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
+                                            {/* Content */}
+                                            <div
+                                                className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
 
-                                        <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
-                                        <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
-                                        <p className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4">{blog.desc}</p>
+                                                <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                                <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">{blog.title}</h2>
+                                                <p className="text-sm sm:text-base text-[#0f0a08d4] content-font mb-2 lg:mb-4">{blog.desc}</p>
 
-                                        <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
-                                            <p className='text-[#444444] content-font text-xs'>by <strong>{blog.authorName}</strong> &nbsp; | &nbsp;{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
-                                            <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
-                                            Read More
-                                            <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
-                                                <HiMiniArrowSmallRight />
-                                            </span>
-                                            </p>
+                                                <div className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
+                                                    <p className='text-[#444444] content-font text-xs'>by <strong>{blog.authorName}</strong> &nbsp; | &nbsp;{blog.date} &nbsp; | &nbsp; {blog.readTime}</p>
+                                                    <p className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'>
+                                                    Read More
+                                                    <span className='text-[var(--cta)] ps-1 text-base sm:text-2xl transition-transform duration-300 ease-out group-hover:translate-x-1'>
+                                                        <HiMiniArrowSmallRight />
+                                                    </span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        </Link>
-                                    </div>
-                                    </div>
+                                    </Link>
                                 ))}
                             </div>
                         </div>

@@ -370,7 +370,7 @@ const KnowledgeHub = () => {
                       
                       {/* Article Description */}
                       <p 
-                        className="text-sm sm:text-base text-[#0f0a08c1] content-font mb-2 lg:mb-4"
+                        className="text-sm sm:text-base text-[#0f0a08d4] content-font mb-2 lg:mb-4"
                       >
                         {blog.desc}
                       </p>
