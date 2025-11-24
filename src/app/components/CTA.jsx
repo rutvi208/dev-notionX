@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import CtaBg from '@/../public/images/backgrounds/CTAbg.png';
+import CtaBg from '@/../public/images/backgrounds/CTAbg.webp';
 import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import Link from "next/link";
 

@@ -5,10 +5,10 @@ import Arrow from '@/../public/images/OurProcess/Arrow.svg';
 import LightStar from '@/../public/images/OurProcess/light-star.svg';
 import MediumStar from '@/../public/images/OurProcess/medium-star.svg';
 import DarkStar from '@/../public/images/OurProcess/dark-star.svg'; 
-import ProcessBg1 from '@/../public/images/OurProcess/Process-bg1.png';
-import ProcessBg2 from '@/../public/images/OurProcess/Process-bg2.png';
-import ProcessBg3 from '@/../public/images/OurProcess/Process-bg3.png';
-import ProcessBg4 from '@/../public/images/OurProcess/Process-bg4.png';
+import ProcessBg1 from '@/../public/images/OurProcess/Process-bg1.webp';
+import ProcessBg2 from '@/../public/images/OurProcess/Process-bg2.webp';
+import ProcessBg3 from '@/../public/images/OurProcess/Process-bg3.webp';
+import ProcessBg4 from '@/../public/images/OurProcess/Process-bg4.webp';
 
 const Process = () => {
 

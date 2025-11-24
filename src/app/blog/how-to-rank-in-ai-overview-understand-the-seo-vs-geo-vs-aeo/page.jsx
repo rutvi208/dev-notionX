@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
-import Blog4Banner from '@/../public/images/Blog-page/blog4-banner-seo-geo-aeo.png';
+import Blog4Banner from '@/../public/images/Blog-page/blog4-banner-seo-geo-aeo.webp';
 import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
@@ -26,7 +26,7 @@ export const metadata = generateBlogMetadata({
     title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO",
     description: "What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.",
     slug: "how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
-    imageName: "blog4-banner-seo-geo-aeo.png", 
+    imageName: "blog4-banner-seo-geo-aeo.webp", 
     author: "Manthan D.", 
     section: "AI Overview Ranking",
     publishedTime: "2025-10-25T00:00:00Z",
@@ -233,7 +233,7 @@ const Blog4 = () => {
                         url={`${siteConfig.url}${siteConfig.paths.blog}/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo`}
                         headline="How to Rank in AI Overview : Understand the SEO vs GEO vs AEO"
                         description="What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools."
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog4-banner-seo-geo-aeo.png`}
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog4-banner-seo-geo-aeo.webp`}
                         datePublished="2025-10-25T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}

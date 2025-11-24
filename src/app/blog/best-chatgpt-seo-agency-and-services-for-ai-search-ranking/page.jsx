@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
-import Blog3Banner from '@/../public/images/Blog-page/blog3-banner-best-chatgpt-search-ranking.png';
+import Blog3Banner from '@/../public/images/Blog-page/blog3-banner-best-chatgpt-search-ranking.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
 import NotionX from '@/../public/images/Blog-page/notionX.webp';
 import NoGoodLogo from '@/../public/images/Blog-page/noGood.webp';
@@ -31,7 +31,7 @@ export const metadata = generateBlogMetadata({
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     description: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
     slug: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
-    imageName: "blog3-banner-best-chatgpt-search-ranking.png", 
+    imageName: "blog3-banner-best-chatgpt-search-ranking.webp", 
     author: "Manthan D.", 
     section: "ChatGPT SEO Services",
     publishedTime: "2025-10-13T00:00:00Z",
@@ -284,7 +284,7 @@ const Blog2 = () => {
                         url={`${siteConfig.url}${siteConfig.paths.blog}/best-chatgpt-seo-agency-and-services-for-ai-search-ranking`}
                         headline="Best ChatGPT SEO Agency & Services for AI Search Ranking"
                         description="A full breakdown of the best agencies offering ChatGPT SEO, AI search ranking services, and GEO optimization."
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog3-banner-best-chatgpt-search-ranking.png`}
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog3-banner-best-chatgpt-search-ranking.webp`}
                         datePublished="2025-10-13T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}

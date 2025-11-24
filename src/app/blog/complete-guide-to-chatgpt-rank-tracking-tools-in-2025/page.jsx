@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
-import Blog2Banner from '@/../public/images/Blog-page/blog2-banner-complete-guide-2025.png';
+import Blog2Banner from '@/../public/images/Blog-page/blog2-banner-complete-guide-2025.webp';
 import Semrush from '@/../public/images/Blog-page/semrush.webp';
 import Ahrefs from '@/../public/images/Blog-page/ahrefs.webp';
 import Profound from '@/../public/images/Blog-page/profound.webp';
@@ -29,7 +29,7 @@ export const metadata = generateBlogMetadata({
     title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
     description: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
     slug: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
-    imageName: "blog2-banner-complete-guide-2025.png", 
+    imageName: "blog2-banner-complete-guide-2025.webp", 
     author: "Manthan D.", 
     section: "AI Rank Tracking Tools",
     publishedTime: "2025-09-25T00:00:00Z",
@@ -255,7 +255,7 @@ const Blog3 = () => {
                         url={`${siteConfig.url}${siteConfig.paths.blog}/complete-guide-to-chatgpt-rank-tracking-tools-in-2025`}
                         headline="Complete Guide to ChatGPT Rank Tracking Tools in 2025!"
                         description="The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture."
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog2-banner-complete-guide-2025.png`}
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog2-banner-complete-guide-2025.webp`}
                         datePublished="2025-09-25T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}

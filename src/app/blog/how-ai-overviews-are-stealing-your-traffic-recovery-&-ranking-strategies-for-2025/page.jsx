@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
-import Blog5Banner from '@/../public/images/Blog-page/blog5-banner-ai-overviews-2025.png';
+import Blog5Banner from '@/../public/images/Blog-page/blog5-banner-ai-overviews-2025.webp';
 import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
@@ -26,7 +26,7 @@ export const metadata = generateBlogMetadata({
     title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
     description: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025.",
     slug: "how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025",
-    imageName: "blog5-banner-ai-overviews-2025.png", 
+    imageName: "blog5-banner-ai-overviews-2025.webp", 
     author: "Manthan D.", 
     section: "AI Overviews Optimization",
     publishedTime: "2025-11-18T00:00:00Z",
@@ -255,7 +255,7 @@ const Blog5 = () => {
                         url={`${siteConfig.url}${siteConfig.paths.blog}/how-ai-overviews-are-stealing-your-traffic-recovery-&-ranking-strategies-for-2025`}
                         headline="How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2025."
                         description="The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2025."
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog5-banner-ai-overviews-2025.png`}
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog5-banner-ai-overviews-2025.webp`}
                         datePublished="2025-11-18T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}

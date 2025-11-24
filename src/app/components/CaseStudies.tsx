@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
-import TesstimonialBg from "@/../public/images/CaseStudy/Testimonial-Bg.png";
+import TesstimonialBg from "@/../public/images/backgrounds/Testimonial-Bg.webp";
 import { useSwipeable } from 'react-swipeable';
 
 const caseStudies = [

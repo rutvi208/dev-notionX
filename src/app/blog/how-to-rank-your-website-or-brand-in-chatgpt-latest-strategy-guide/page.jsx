@@ -7,7 +7,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import BlackArrow from '@/../public/images/Blog-page/Black-Arrow.svg';
 import Link from "next/link";
 import Image from 'next/image';
-import Blog1Banner from '@/../public/images/Blog-page/blog1-banner-how-to-rank-strategy-guide.png';
+import Blog1Banner from '@/../public/images/Blog-page/blog1-banner-how-to-rank-strategy-guide.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
@@ -29,7 +29,7 @@ export const metadata = generateBlogMetadata({
     title: "How to Rank Your Website or Brand in ChatGPT: Latest Strategy Guide",
     description: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.",
     slug: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
-    imageName: "blog1-banner-how-to-rank-strategy-guide.png", 
+    imageName: "blog1-banner-how-to-rank-strategy-guide.webp", 
     author: "Manthan D.", 
     section: "ChatGPT Ranking Strategies",
     publishedTime: "2025-09-12T00:00:00Z",
@@ -274,7 +274,7 @@ const Blog1 = () => {
                         url={`${siteConfig.url}${siteConfig.paths.blog}/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide`}
                         headline="How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide"
                         description="In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm."
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog1-banner-how-to-rank-strategy-guide.png`}
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog1-banner-how-to-rank-strategy-guide.webp`}
                         datePublished="2025-09-12T09:00:00Z"
                         authorName="Manthan D."
                         authorUrl={siteConfig.url}
