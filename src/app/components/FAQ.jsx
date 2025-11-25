@@ -96,7 +96,7 @@ const Faq = () => {
                       {/* Answer */}
                       <dd
                           id={`faq-answer-${index}`}
-                          role="region"
+                          //role="region"
                           aria-labelledby={`faq-question-${index}`}
                           className={`overflow-hidden transition-all duration-300 ease-in-out ${
                               openIndex === index ? "max-h-[400px]" : "max-h-0"

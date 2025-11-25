@@ -110,8 +110,8 @@ const HeroSection = () => {
                                     <div className="absolute inset-0 z-auto px-10 lg:px-12 xl:px-9 py-16 xl:py-5 place-content-center">
                                         <div className="flex flex-col space-y-1 lg:space-y-2 xl:px-12">
                                             <div className="bg-white rounded-t-2xl rounded-b-md p-4 lg:p-5 container mx-auto justify-center place-items-center text-center">
-                                                <h3 className="content-font lg:text-lg xl:text-xl text-center font-semibold text-[#5D3E35]">Powered by GEO</h3>
-                                                <h3 className="content-font lg:text-lg xl:text-xl text-center font-semibold text-[#5D3E35]">(Generative Engine Optimization)</h3>
+                                                <h2 className="content-font lg:text-lg xl:text-xl text-center font-semibold text-[#5D3E35]">Powered by GEO</h2>
+                                                <p className="content-font lg:text-lg xl:text-xl text-center font-semibold text-[#5D3E35]">(Generative Engine Optimization)</p>
                                                 <p className="content-font lg:text-lg xl:text-xl text-center text-[#5D3E35] mt-1">The new way to optimize for AI search engines like Google AI Overviews, ChatGPT, and Perplexity.</p>
                                             </div>
                                             <div className="bg-white rounded-b-2xl rounded-t-md py-1 lg:py-3 xl:py-4">

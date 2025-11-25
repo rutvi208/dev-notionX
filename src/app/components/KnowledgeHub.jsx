@@ -132,7 +132,7 @@ const CaseStudy = () => {
                             {/* Read More Link */}
                             <Link 
                                 href={blog.href}
-                                className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300'
+                                className='cursor-pointer group text-[var(--cta)] content-font text-sm sm:text-lg flex items-center font-bold hover:text-[var(--cta)] transition duration-300 py-2 sm:py-0'
                                 aria-label={`Read more about ${blog.title}`}
                             >
                                 <span>Read More</span>
