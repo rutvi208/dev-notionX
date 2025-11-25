@@ -34,7 +34,7 @@ const CaseStudy = () => {
             desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
             date: "Sep 25, 2025",
             readTime: "8 mins read",
-            dateISO: "2025-09-12", // Added for proper datetime attribute
+            dateISO: "2025-09-25", // Added for proper datetime attribute
             authorName: "Manthan D.",
             authorRole: "SEO Strategist",
             authorImage: AuthorImage,
@@ -48,7 +48,7 @@ const CaseStudy = () => {
             desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
             date: "Oct 13, 2025",
             readTime: "6 mins read",
-            dateISO: "2025-09-12", // Added for proper datetime attribute
+            dateISO: "2025-10-13", // Added for proper datetime attribute
             authorName: "Manthan D.",
             authorRole: "SEO Strategist",
             authorImage: AuthorImage,
@@ -102,6 +102,7 @@ const CaseStudy = () => {
                                 </span>
                                 </p>
                             </div> */}
+
                             {/* Article Footer */}
                             <footer className='flex sm:flex-col sm:space-y-1 lg:space-y-0 lg:flex-row justify-between items-center mt-auto'>
                             {/* Publication Date and Read Time */}
