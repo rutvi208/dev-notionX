@@ -67,6 +67,9 @@ const Navbar = () => {
         }
     }, [pathname]);
 
+     // Check if current page is blog
+    const isBlogPage = pathname.startsWith('/blog');
+
     return (
         <div>
             <nav>
@@ -105,7 +108,9 @@ const Navbar = () => {
                                 <Link 
                                     href="/blog" 
                                     rel="noopener noreferrer" 
-                                    className="text-lg xl:text-xl hover:text-[var(--cta)]"
+                                    className={`text-lg xl:text-xl hover:text-[var(--cta)] ${
+                                        isBlogPage ? 'text-[var(--cta)]' : ''
+                                    }`}
                                 >
                                     Knowledge Hub
                                 </Link>
@@ -167,7 +172,10 @@ const Navbar = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/blog" rel="noopener noreferrer" className="text-2xl py-4 flex items-start">
+                                        <a href="/blog" rel="noopener noreferrer" 
+                                        className={`text-2xl py-4 flex items-start ${
+                                                isBlogPage ? 'text-[var(--cta)]' : ''
+                                            }`}>
                                             Knowledge Hub
                                         </a>
                                     </li>
