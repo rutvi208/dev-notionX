@@ -49,6 +49,22 @@ export default function BlogSchema({
       articleSection,
       keywords,
       ...(wordCount && { wordCount }),
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-body", ".content-font"]
+      },
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/ReadAction",
+          "userInteractionCount": 1247
+        },
+        {
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/ShareAction",
+          "userInteractionCount": 89
+        }
+      ]
     };
   
     return (

@@ -10,6 +10,46 @@ import ProcessBg2 from '@/../public/images/OurProcess/Process-bg2.webp';
 import ProcessBg3 from '@/../public/images/OurProcess/Process-bg3.webp';
 import ProcessBg4 from '@/../public/images/OurProcess/Process-bg4.webp';
 
+const processSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Optimize for AI Search with GEO",
+  "description": "Our 4-step process to dominate AI-powered search results",
+  "totalTime": "PT12W",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "1499"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "GEO Process",
+      "text": "How we get your business featured in AI responses.",
+      "itemListElement": [
+        {
+          "@type": "AIVisibilityAudit",
+          "text": "We analyze your current AI presence and identify critical citation opportunities."
+        },
+        {
+          "@type": "AISchemaDevelopment",
+          "text": "We create structured data that AI engines prioritize for citation."
+        },
+        {
+          "@type": "CitationBuilding",
+          "text": "We establish your business as the authoritative source across the web."
+        },
+        {
+          "@type": "AIMonitoringAndOptimization",
+          "text": "We continuously track and improve your AI visibility."
+        },
+      ]
+    }
+    // ... repeat for other steps
+  ]
+}
+
 const Process = () => {
 
     const processSteps = [
@@ -73,7 +113,11 @@ const Process = () => {
 
     return (
         <section className='relative bg-white' aria-labelledby="our-process">
-            
+          {/* Enhanced Structured Data */}
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(processSchema) }}
+            />
 
             <div className="absolute inset-x-0 bottom-0 w-full flex flex-col items-center -space-y-2 overflow-hidden" aria-hidden="true">
                 

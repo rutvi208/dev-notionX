@@ -224,8 +224,64 @@ const serviceSchema = {
     "Increased brand mentions in ChatGPT",
     "Higher ranking in Google AI Overviews",
     "Enhanced Perplexity platform presence"
-  ]
+  ],
+  "description": "Professional AI SEO and Generative Engine Optimization services helping brands dominate AI-powered search results across ChatGPT, Perplexity, Google AI Overviews, and other AI platforms.",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "47",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "termsOfService": "https://notionx.com/termsofuse.html",
+  "hoursAvailable": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "08:00",
+    "closes": "18:00"
+  }
 };
+
+// Plans Schema
+const plansSchema = {
+  "@type": "Offer",
+  "itemOffered": {
+    "@type": "Service",
+    "name": "Professional GEO Plan"
+  },
+  "price": "1499",
+  "priceCurrency": "USD",
+  "priceValidUntil": "2025-12-31",
+  "validFrom": "2025-01-01T00:00:00Z",
+  "availability": "https://schema.org/InStock",
+  "url": "https://notionx.com/#pricing",
+  "eligibleRegion": {
+    "@type": "Place",
+    "name": "Worldwide"
+  },
+  "itemCondition": "https://schema.org/NewCondition",
+  "deliveryLeadTime": {
+    "@type": "QuantitativeValue",
+    "value": "10-12",
+    "unitText": "WEEK"
+  },
+  "acceptedPaymentMethod": [
+    {
+      "@type": "PaymentMethod",
+      "name": "Credit Card"
+    },
+    {
+      "@type": "PaymentMethod", 
+      "name": "Bank Transfer"
+    }
+  ]
+}
 
 // FAQ Schema - Replace with actual FAQs from your FAQ component
 // const faqSchema = {
@@ -275,6 +331,10 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(plansSchema) }}
       />
       {/* <script
         type="application/ld+json"

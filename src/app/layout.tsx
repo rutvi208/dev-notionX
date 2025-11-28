@@ -112,8 +112,11 @@ export default function RootLayout({
     "logo": {
       "@type": "ImageObject",
       "url": `${siteConfig.url}/images/logo/navbar-logo.svg`,
+      "caption": "NotionX - AI SEO & Generative Engine Optimization",
+      "inLanguage": "en-US",
       "width": "250",
-      "height": "60"
+      "height": "60",
+      "encodingFormat": "image/svg+xml",
     },
     "sameAs": Object.values(siteConfig.social),
     "contactPoint": {
@@ -144,6 +147,81 @@ export default function RootLayout({
       "query-input": "required name=search_term_string",
     },
   };
+
+  //Local Business Schema
+  const professionalServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": `${siteConfig.url}/#professionalservice`,
+    "name": "NotionX",
+    "image": `${siteConfig.url}/images/notionX.webp`,
+    "priceRange": "$1499-$2499",
+    "telephone": "+1-440-360-7360",
+    "email": "hello@notionx.com",
+    
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "United States"
+      },
+      {
+        "@type": "Country",
+        "name": "India"
+      }
+    ],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "41.640136857936085",
+      "longitude": "-81.40723084550955"
+    },
+    "url": `${siteConfig.url}/`,
+    "sameAs": [
+      "https://twitter.com/knowtion",
+      "https://www.linkedin.com/company/knowtion/"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteConfig.url}/images/logo/navbar-logo.svg`,
+      "caption": "NotionX - AI SEO & Generative Engine Optimization",
+      "inLanguage": "en-US",
+      "width": "250",
+      "height": "60",
+      "encodingFormat": "image/svg+xml",
+    },
+    
+    "parentOrganization": {
+      "@id": `${siteConfig.url}/#organization`
+    },
+    
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "GEO Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Professional GEO Plan",
+            "description": "Technical SEO Audit, Local GEO Enhancement, Schema development"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Enterprise GEO Plan",
+            "description": "Custom GEO Strategy, Dedicated account manager"
+          }
+        }
+      ]
+    }
+  }
 
   return (
     <html lang="en" className={`${bricolage.variable} ${sourceSans.variable}`}>
@@ -184,6 +262,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema)}}
         />
       </head>
       <body>

@@ -2,9 +2,41 @@
 import Image from 'next/image';
 import TesstimonialBg from '@/../public/images/backgrounds/Testimonial-Bg.webp';
 
+const casestudySchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "NotionX Client Success Stories",
+  "description": "Real results from our GEO optimization services",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Architecture",
+        "headline": "Extension Architecture: AI Growth Unlocked in 3.5 Months",
+        "description": "33% increase in AI mentions, 110 AI Overview appearances",
+        "datePublished": "2025-11-15",
+        "author": {
+          "@type": "Organization",
+          "name": "NotionX"
+        },
+        "publisher": {
+          "@id": "https://notionx.com/#organization"
+        }
+      }
+    }
+    // ... repeat for other case studies
+  ]
+}
+
 const CaseStudy = () => {
     return (
         <section aria-labelledby="case-study-heading">
+            {/* Enhanced Structured Data */}
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(casestudySchema) }}
+            />
             <div className="mx-auto container pt-16 sm:pt-20 lg:pt-28 px-5 lg:px-8 2xl:px-0">
                 <header>
                     <h2 id="case-study-heading" className="heading-font font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Real Results</h2>

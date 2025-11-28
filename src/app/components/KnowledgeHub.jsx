@@ -8,6 +8,16 @@ import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
 
+const knowledgeHubSchema = {
+  "@context": "https://schema.org",
+  "@type": "KnowledgeHub",
+  "name": "Master AI Search Optimization",
+  "description": "Learn how to dominate ChatGPT, Perplexity, and Google AI Overviews",
+  "provider": {
+    "@id": "https://notionx.com/#organization"
+  }
+}
+
 const CaseStudy = () => {
 
     const blogPosts = [
@@ -57,6 +67,12 @@ const CaseStudy = () => {
   
   return (
     <section className="overflow-hidden bg-gradient-to-b from-white to-[#FDF7F3] scroll-m-4 sm:scroll-m-10" aria-labelledby="knowledge-hub">
+        {/* Enhanced Structured Data */}
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(knowledgeHubSchema) }}
+        />
+        
         {/* Title Section */}
         <div className="mx-auto container pt-16 sm:pt-20 lg:pt-28 px-5 lg:px-8 2xl:px-0 mb-12 sm:mb-20 xl:mb-28">
             <div>
