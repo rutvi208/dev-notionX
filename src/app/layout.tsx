@@ -300,6 +300,10 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema)}}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(bookGeoStrategyCallSchema)}}
+        />
       </head>
       <body>
         {/* Skip to main content for accessibility */}
