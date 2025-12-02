@@ -564,7 +564,7 @@ const Blog5 = () => {
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, AI Overviews are rewriting how search results work. Brands that adapt quickly will gain a major edge. Staying visible now requires - smarter and sharper content.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Your messaging must show precision and authority. You already excel at effective communication. Now it is time to sync that skill with AI search behavior.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Every detail—from schema to brand voice—matters more than ever. Let us build a strategy that earns citations and protects your traffic.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require expert assistance? Explore our <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at notionX to drive a - technical SEO audit, local GEO enhancements, and personalized GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require expert assistance? Explore our <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at notionX to drive a - technical SEO audit, local GEO enhancements, and personalized GEO strategy.</p>
                             </section>
 
                             {/* Author details */}

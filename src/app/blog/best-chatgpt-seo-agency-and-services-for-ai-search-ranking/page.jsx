@@ -46,11 +46,11 @@ export const metadata = generateBlogMetadata({
 //   openGraph: {
 //     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking | NotionX",
 //     description:"Learn how to optimize your brand for AI search platforms like ChatGPT and Perplexity.",
-//     url: "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
+//     url: "https://notionx.ai/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
 //     type: "article",
 //     images: [
 //       {
-//         url: "https://dev-notionx-v2.netlify.app/images/blogs/2.jpg",
+//         url: "https://notionx.ai/images/blogs/2.jpg",
 //         width: 1200,
 //         height: 630,
 //         alt: "AI SEO Guide 2025",
@@ -62,7 +62,7 @@ export const metadata = generateBlogMetadata({
 //     title: "AI SEO Guide 2025 - Rank in AI Search Engines",
 //     description:
 //       "The ultimate 2025 AI SEO guide from NotionX. Learn to dominate AI-powered searches.",
-//     images: ["https://dev-notionx-v2.netlify.app/images/blogs/2.jpg"],
+//     images: ["https://notionx.ai/images/blogs/2.jpg"],
 //   },
 // };
 
@@ -249,7 +249,7 @@ const Blog2 = () => {
 //     "@type": "BlogPosting",
 //     mainEntityOfPage: {
 //       "@type": "WebPage",
-//       "@id": "https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
+//       "@id": "https://notionx.ai/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
 //     },
 //     headline:
 //       "The Future of Search Is Here: How to Optimize for AI-Powered Discovery",
@@ -257,7 +257,7 @@ const Blog2 = () => {
 //       "Learn how to optimize for AI-powered discovery and become the answer AI recommends when customers search for businesses like yours.",
 //     image: {
 //       "@type": "ImageObject",
-//       url: "https://dev-notionx-v2.netlify.app/blog/2.jpg",
+//       url: "https://notionx.ai/blog/2.jpg",
 //       width: 1200,
 //       height: 630,
 //     },
@@ -266,14 +266,14 @@ const Blog2 = () => {
 //     author: {
 //       "@type": "Person",
 //       name: "Hanif Darjada",
-//       url: "https://dev-notionx-v2.netlify.app/about",
+//       url: "https://notionx.ai/about",
 //     },
 //     publisher: {
 //       "@type": "Organization",
 //       name: "NotionX",
 //       logo: {
 //         "@type": "ImageObject",
-//         url: "https://dev-notionx-v2.netlify.app/logo.png",
+//         url: "https://notionx.ai/logo.png",
 //       },
 //     },
 //     articleSection: "Generative Engine Optimization",
@@ -406,7 +406,7 @@ const Blog2 = () => {
                                         />
                                     </div>
                                     <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
-                                    <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">NotionX</a> assists brands in getting discovered in AI search outcomes. It specializes in - AI SEO, Generative Engine Optimization (GEO) services, and enhancing visibility across AI-driven platforms.
+                                    <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">NotionX</a> assists brands in getting discovered in AI search outcomes. It specializes in - AI SEO, Generative Engine Optimization (GEO) services, and enhancing visibility across AI-driven platforms.
                                     </p>
 
                                     <h4 className="mt-6 heading-font font-semibold text-lg sm:text-xl tracking-[-0.05rem]">NotionX Services for AI Search Ranking:</h4>
@@ -706,7 +706,7 @@ const Blog2 = () => {
                                     Optimizing for AI search is not just another tactic - it is a shift in thinking. Success now depends on - how well you speak the language of AI. Today, <a href="https://www.semrush.com/blog/semrush-ai-overviews-study/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">13.14 percent of all search-based queries</a> trigger - Google AI Overviews (up from 6.49 percent in Jan. 2025). So, visibility here means major placement.
                                 </p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Partnering with a ChatGPT SEO agency provides you with a clear edge in AI-driven search. They optimize for large language models and zero-click visibility. Your brand becomes the answer - not just another result.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require professional help? Explore our result-driven <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to develop a customized ChatGPT SEO + GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you require professional help? Explore our result-driven <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to develop a customized ChatGPT SEO + GEO strategy.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You can also try our <a href="https://geo.notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AI-Powered GEO Auditor</a> (Beta Version) tool to analyze your site performance for conventional search engines and AI-driven platforms.</p>
                             </section>
 
