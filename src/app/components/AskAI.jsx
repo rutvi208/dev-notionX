@@ -2,7 +2,6 @@
 
 //import Link from "next/link";
 import Image from "next/image";
-//import { usePathname } from "next/navigation";
 import ChatGPT from '@/../public/images/HeroSection/ChatGPT.svg';
 import Perplexity from '@/../public/images/HeroSection/Perplexity.svg';
 import Grok from '@/../public/images/HeroSection/Grok-logo.svg';
