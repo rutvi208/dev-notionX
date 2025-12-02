@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
-import TesstimonialBg from "@/../public/images/CaseStudy/Testimonial-Bg.png";
+// import TesstimonialBg from "./../../../public/images/backgrounds";
 import { useSwipeable } from 'react-swipeable';
 
 const caseStudies = [
@@ -180,13 +180,13 @@ const handleTransitionEnd = () => {
                               ))}
                             </div>
                             <div className='relative overflow-hidden border-[0.0625rem] border-[var(--stroke)] rounded-lg lg:rounded-xl p-4 sm:p-5'>
-                                <Image
+                                {/* <Image
                                     src={TesstimonialBg}
                                     alt="Tesstimonial Background"
                                     loading="lazy"
                                     className='absolute inset-0 object-cover h-full w-full' 
                                    
-                                />
+                                /> */}
                                 <div className="relative inset-0 z-auto space-y-3.5">
                                     <p className='text-xl lg:text-2xl font-medium'>{caseItem.heading}</p>
                                     <p className="content-font text-lg xl:text-xl">{caseItem.desc}</p>
