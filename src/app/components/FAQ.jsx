@@ -65,6 +65,7 @@ const Faq = () => {
     };
 
     return (
+<<<<<<< HEAD
         <div>
             <div className="container mx-auto place-items-center py-20 px-5 lg:px-8 2xl:px-0">
                 <h1 className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h1>
@@ -106,5 +107,58 @@ const Faq = () => {
         </div>
     )
 }
+=======
+        <section aria-labelledby="faq-heading">
+          <div className="container mx-auto place-items-center py-20 px-5 lg:px-8 2xl:px-0">
+            <header className="text-center">
+              <h2 id="faq-heading" className="heading-font text-center font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Quick Answers</h2>
+              <p className="text-lg lg:text-xl text-center content-font mt-3">Everything you need to know about GEO and AI search optimization.</p>
+            </header>    
+            <dl className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-5 my-16 lg:my-20 items-start">
+              {faqs.map((faq, index) => (
+                
+                  <div key={index} className="rounded-lg border border-[var(--stroke)] text-lg lg:text-xl px-6">
+                    <dt id={`faq-question-${index}`}>
+                      {/* Question */}
+                      <button
+                        onClick={() => toggleFAQ(index)}
+                        className="w-full flex flex-row items-center justify-between py-4 text-left cursor-pointer"
+                        aria-expanded={openIndex === index}
+                        aria-controls={`faq-answer-${index}`}
+                        //id={`faq-question-${index}`}
+                        >
+                        <h2 className={`header-font transition-colors duration-300 ${
+                            openIndex === index ? "text-[var(--cta)]" : "text-[var(--foreground)]"
+                          }`}>{faq.question}</h2>
+                        <span className="text-[#AD8775] text-2xl 2xl:text-3xl" aria-hidden="true">
+                            {openIndex === index ? "-" : "+"}
+                        </span>
+                      </button>
+                    </dt>  
+
+                      {/* Answer */}
+                      <dd
+                          id={`faq-answer-${index}`}
+                          //role="region"
+                          aria-labelledby={`faq-question-${index}`}
+                          className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                              openIndex === index ? "max-h-[400px]" : "max-h-0"
+                          }`}
+                      >
+                        
+                            <p className="text-base pb-4 lg:text-lg xl:text-xl text-[#333]">
+                            {faq.answer}
+                            </p>
+                        
+                      </dd>
+                  </div>
+                
+              ))}
+            </dl> 
+          </div>
+        </section>
+      )
+  }
+>>>>>>> v2/master
 
 export default Faq;

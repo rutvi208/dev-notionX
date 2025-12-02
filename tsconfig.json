@@ -22,6 +22,10 @@
       "@/*": ["./src/*"]
     }
   },
+<<<<<<< HEAD
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+=======
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking/page.jsx"],
+>>>>>>> v2/master
   "exclude": ["node_modules"]
 }

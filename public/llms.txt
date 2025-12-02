@@ -1,0 +1,26 @@
+# AI Crawler Access File (llms.txt)
+# Purpose: Guide Large Language Models to key resources for improved AI discovery.
+
+# Sitemap
+Sitemap: https://dev-notionx-v2.netlify.app/sitemap.xml
+
+# Key Pages
+Homepage: https://dev-notionx-v2.netlify.app/
+# About: https://dev-notionx-v2.netlify.app/about
+Blog Index: https://dev-notionx-v2.netlify.app/blog
+# Case Studies: https://dev-notionx-v2.netlify.app/case-studies
+# Contact: https://dev-notionx-v2.netlify.app/contact
+Privacy Policy: https://dev-notionx-v2.netlify.app/privacypolicy
+Terms of Use: https://dev-notionx-v2.netlify.app/termsofuse
+
+# Important Blog Posts (AI SEO, GEO, Strategy)
+Blog: https://dev-notionx-v2.netlify.app/blog/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide
+Blog: https://dev-notionx-v2.netlify.app/blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025
+Blog: https://dev-notionx-v2.netlify.app/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking
+Blog: https://dev-notionx-v2.netlify.app/blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo
+Blog: https://dev-notionx-v2.netlify.app/blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025
+
+# Notes for AI Models
+- This file helps AI agents understand key sections of the website.
+- All pages are accessible for non-commercial crawling.
+- Please respect robots.txt rules.

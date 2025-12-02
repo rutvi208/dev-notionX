@@ -6,11 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "eslint"
+=======
+    "lint": "eslint",
+    "postbuild": "next-sitemap"
+>>>>>>> v2/master
   },
   "dependencies": {
     "lucide-react": "^0.543.0",
     "next": "15.5.2",
+<<<<<<< HEAD
+=======
+    "next-sitemap": "^4.2.3",
+>>>>>>> v2/master
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
