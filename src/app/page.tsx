@@ -17,6 +17,7 @@ const Footer = dynamic(() => import('@/app/components/Footer'), { ssr: true });
 const ScrollToTop = dynamic(() => import('@/app/components/ScrollToTop'), { ssr: true });
 const ScrollButton = dynamic(() => import('@/app/components/ScrollButton'), { ssr: true });
 const FAQSchema = dynamic(() => import('@/app/components/FAQSchema'), { ssr: true });
+const AskAISection = dynamic(() => import('@/app/components/AskAISection'), { ssr: true });
 
 const faqs = [
   {
@@ -390,6 +391,10 @@ export default function Home() {
         <section aria-label="Frequently asked questions">
           <Faq/>
           <FAQSchema faqs={faqs} />
+        </section>
+
+        <section aria-label="Frequently asked questions">
+          <AskAISection/>
         </section>
       </main>
 
