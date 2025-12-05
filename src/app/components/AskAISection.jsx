@@ -71,17 +71,17 @@ const AskAISection = () => {
     {
       name: 'ChatGPT',
       logo: ChatGPT,
-      url: 'https://chat.openai.com/?q=Tell+me+about+NotionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.',
+      url: 'https://chat.openai.com/?q=Tell+me+about+notionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.',
       },
     {
       name: 'Claude',
       logo: Claude,
-      url: 'https://claude.ai/new?q=Tell+me+about+NotionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.',
+      url: 'https://claude.ai/new?q=Tell+me+about+notionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.',
       },
     {
       name: 'Perplexity',
       logo: Perplexity,
-      url: 'https://www.perplexity.ai/search/new?q=Tell+me+about+NotionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.',
+      url: 'https://www.perplexity.ai/search/new?q=Tell+me+about+notionX.ai+and+their+AI+SEO+and+GEO+services.+What+services+do+they+offer+and+how+can+they+help+improve+my+brand+visibility+in+AI+search%3F+Please+include+their+website+link.',
       //bgColor: 'bg-[#9B715C]',
       //textColor: 'text-white',
       //borderColor: 'border-[#9B715C]'
