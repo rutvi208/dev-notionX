@@ -373,7 +373,7 @@ export default function Home() {
           <FAQSchema faqs={faqs} />
         </section>
 
-        <section aria-label="Ask AI Section">
+        <section aria-label="Frequently asked questions">
           <AskAISection/>
         </section>
       </main>
