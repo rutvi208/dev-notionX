@@ -10,77 +10,80 @@ import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Thumbnail from '@/../public/images/Blog-page/Blog4-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
 import { siteConfig } from "@/app/config/site";
-import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
+import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
+// import dynamic from 'next/dynamic';
+// const AskAISection = dynamic(() => import('@/app/components/AskAISection'), { ssr: true });
+import AskAISection from '@/app/components/AskAISection';
 
 const blogPosts = [
   {
     id: 1,
     href: "blog/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
     image: Blog1Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.",
     date: "Sep 12, 2025",
     readTime: "6 mins read",
     dateISO: "2025-09-12", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 2,
-    href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+    href: "blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2026",
     image: Blog2Thumbnail,
-    tag: "#trending",
-    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+    //tag: "#trending",
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
     desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
     date: "Sep 25, 2025",
     readTime: "8 mins read",
     dateISO: "2025-09-25",
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 3,
     href: "blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     image: Blog3Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
     date: "Oct 13, 2025",
     readTime: "6 mins read",
     dateISO: "2025-10-13",
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 4,
     href: "blog/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
     image: Blog4Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "How to Rank in AI Overview : Understand the SEO vs GEO vs AEO",
     desc: "What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.",
     date: "Oct 25, 2025",
     readTime: "7 mins read",
     dateISO: "2025-10-25",
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 5,
-    href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025",
+    href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026",
     image: Blog5Thumbnail,
-    tag: "#trending",
-    title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2025.",
+    //tag: "#trending",
+    title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026",
     desc: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google.",
     date: "Nov 18, 2025",
     readTime: "8 mins read",
     dateISO: "2025-11-18",
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
 ];
@@ -340,11 +343,11 @@ const KnowledgeHub = () => {
                       {/* Article Header */}
                       <header>
                         {/* Category Tag */}
-                        <span 
+                        {/* <span 
                           className="text-sm text-left text-[var(--foreground)] content-font inline-block"
                         >
                           {blog.tag}
-                        </span>
+                        </span> */}
                         
                         {/* Article Title */}
                         <h2
@@ -389,14 +392,14 @@ const KnowledgeHub = () => {
                           <Image
                             src={blog.authorImage}
                             alt={`${blog.authorName} profile picture`}
-                            width={24}
-                            height={24}
+                            width={28}
+                            height={28}
                             className="rounded-full"
                           />
 
                           <div>
                             <span className="author block">
-                              By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                              By <strong>{blog.authorName}</strong>
                             </span>
 
                             <span className="">
@@ -434,7 +437,11 @@ const KnowledgeHub = () => {
             </div>
 
             
-           </section>
+          </section>
+           
+          <section aria-label="Ask AI Section">
+            <AskAISection/>
+          </section>
 
            {/* Footer Component */}
            <Footer />

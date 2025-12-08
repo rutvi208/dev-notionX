@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://dev-notionx-v2.netlify.app/',
+  siteUrl: 'https://notionx.ai/',
   generateRobotsTxt: true,
   sitemapSize: 7000,
 };

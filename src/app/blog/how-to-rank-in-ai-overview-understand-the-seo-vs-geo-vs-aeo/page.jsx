@@ -9,7 +9,7 @@ import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog4Banner from '@/../public/images/Blog-page/blog4-banner-seo-geo-aeo.webp';
-import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
+import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
@@ -22,10 +22,11 @@ import AuthorSchema from "@/app/components/AuthorSchema";
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
+import AskAISection from '@/app/components/AskAISection';
 
 export const metadata = generateBlogMetadata({
     title: "How to Rank in AI Overview: Understand the SEO vs GEO vs AEO",
-    description: "What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.",
+    description: "What if the way we search the internet is transformed by 2026? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.",
     slug: "how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo",
     imageName: "blog4-banner-seo-geo-aeo.webp", 
     author: "Manthan D.", 
@@ -41,42 +42,42 @@ const blogPosts = [
     id: 1,
     href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
     image: Blog1Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.",
     date: "Sep 12, 2025",
     readTime: "6 mins read",
     dateISO: "2025-09-12", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 2,
     href: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     image: Blog3Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
     date: "Oct 13, 2025",
     readTime: "6 mins read",
     dateISO: "2025-10-13", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 3,
-    href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+    href: "complete-guide-to-chatgpt-rank-tracking-tools-in-2026",
     image: Blog2Thumbnail,
-    tag: "#trending",
-    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+    //tag: "#trending",
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
     desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
     date: "Sep 25, 2025",
     readTime: "8 mins read",
     dateISO: "2025-09-25", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
 ];
@@ -98,7 +99,7 @@ const breadcrumbs = [
 
 const articleBody = `How to Rank in AI Overview: Understand the SEO vs GEO vs AEO
 
-What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.
+What if the way we search the internet is transformed by 2026? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.
 
 Yes, we are standing at the edge of a revolution. One that fuses human curiosity with the precision of AI. This shift is reshaping how we think, work, and innovate. And if you are not well-prepared - your business risks falling behind.
 
@@ -220,7 +221,7 @@ Moving Forward with SEO + GEO + AEO Strategies!
 
 The future of search belongs to those who adapt with SEO vs GEO vs AEO. Search engine optimization is still a solid foundation. Answer engine optimization meets the demand for voice search. Generative engine optimization supports new search platforms.
 
-So, each strategy plays a key role in digital success. By 2025, businesses that evolve will lead the market. To stay visible, you must combine SEO, AEO and GEO strategies.
+So, each strategy plays a key role in digital success. By 2026, businesses that evolve will lead the market. To stay visible, you must combine SEO, AEO and GEO strategies.
 
 You need to create content with clear intent, strong relevance, and high quality. Search is changing. Now is the time to - future-proof your digital marketing strategy. Use the right mix of - SEO services, AEO methods, and GEO tools to attain success.
 
@@ -243,7 +244,7 @@ const Blog4 = () => {
                 <BlogSchema
                         url={`${siteConfig.url}${siteConfig.paths.blog}/how-to-rank-in-ai-overview-understand-the-seo-vs-geo-vs-aeo`}
                         headline="How to Rank in AI Overview : Understand the SEO vs GEO vs AEO"
-                        description="What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools."
+                        description="What if the way we search the internet is transformed by 2026? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog4-banner-seo-geo-aeo.webp`}
                         datePublished="2025-10-25T09:00:00Z"
                         dateModified="2025-10-25T09:00:00Z"
@@ -272,13 +273,13 @@ const Blog4 = () => {
                      <AuthorSchema
                         name="Manthan D."
                         url={`${siteConfig.url}/authors/manthan`}
-                        role="SEO Strategist"
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/Author-Image.webp`}
+                        //role="SEO Strategist"
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/ManthanDesai_blogAuthor.webp`}
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
                         <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">How to Rank in AI Overview: Understand the SEO vs GEO vs AEO</h1>
                         <div className='flex flex-wrap justify-center items-center gap-3 sm:gap-5 mt-4 sm:mt-8 text-[#878483]'>
-                            <a href='#AuthorBlock' className='content-font text-xs whitespace-nowrap'>Manthan D.</a>
+                            <h2 className='content-font text-xs whitespace-nowrap'>Manthan D.</h2>
                             <span className='text-2xl sm:text-3xl'> · </span>
                             <p className='content-font text-xs whitespace-nowrap'>Oct 25, 2025 &nbsp; | &nbsp; {readingTime}</p>
                             <span className='text-2xl sm:text-3xl'> · </span>
@@ -290,7 +291,7 @@ const Blog4 = () => {
                             </div>
                         </div>
 
-                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
+                        {/* <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
 
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
@@ -299,9 +300,9 @@ const Blog4 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <section className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <section className='mx-auto my-8 sm:my-10 container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image
                                 src={Blog4Banner}
                                 alt="Hero Background"
@@ -335,7 +336,7 @@ const Blog4 = () => {
                             <section className='mb-10 sm:mb-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">How to Rank in AI Overview: Understand the SEO vs GEO vs AEO</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
-                                    What if the way we search the internet is transformed by 2025? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.
+                                    What if the way we search the internet is transformed by 2026? Imagine asking a question and receiving not merely any answer. However, the precise one that you require—instantly delivered by AI-enabled tools.
                                 </p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Yes, we are standing at the edge of a revolution. One that fuses human curiosity with the precision of AI. This shift is reshaping how we think, work, and innovate. And if you are not well-prepared - your business risks falling behind.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">Consider this - voice search makes up <a href="https://review42.com/resources/voice-search-stats/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">50% of digital queries</a>. AI tools like - ChatGPT are advancing. Traditional SEO is - no longer the lone player. It now shares the spotlight with - Answer Engine Optimization and Generative Engine Optimization.</p>
@@ -635,13 +636,13 @@ const Blog4 = () => {
                             <section id='moving-forward' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
                                 <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Moving Forward with SEO + GEO + AEO Strategies!</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">The future of search belongs to those who adapt with SEO vs GEO vs AEO. Search engine optimization is still a solid foundation. Answer engine optimization meets the demand for voice search. Generative engine optimization supports new search platforms.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, each strategy plays a key role in digital success. By 2025, businesses that evolve will lead the market. To stay visible, you must combine SEO, AEO and GEO strategies.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">So, each strategy plays a key role in digital success. By 2026, businesses that evolve will lead the market. To stay visible, you must combine SEO, AEO and GEO strategies.</p>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">You need to create content with clear intent, strong relevance, and high quality. Search is changing. Now is the time to - future-proof your digital marketing strategy. Use the right mix of - SEO services, AEO methods, and GEO tools to attain success.</p>
-                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional assistance? Explore our result-oriented <a href="https://dev-notionx-v2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to build a personalized SEO + AEO + GEO strategy.</p>
+                                <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">If you need professional assistance? Explore our result-oriented <a href="https://notionx.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">consulting services</a> at NotionX to build a personalized SEO + AEO + GEO strategy.</p>
                             </section>
 
                             {/* Author details */}
-                            <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
+                            {/* <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[40rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                                 <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
 
                                     <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
@@ -649,37 +650,31 @@ const Blog4 = () => {
                                             <Image
                                                 src={AuthorImage}
                                                 alt="Author Image"
-                                                className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
+                                                className='w-32 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                             />
                                         </div>
                                         <div className='sm:col-span-2'>
                                             <div className='border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
-                                                {/* Name + LinkedIn inline */}
                                                 <div className="flex items-center gap-2">
                                                     <span className="heading-font font-bold text-2xl sm:text-[28px]">
                                                                 Manthan D.
                                                     </span>
 
                                                     <Link 
-                                                        href="https://linkedin.com" 
+                                                        href="https://www.linkedin.com/in/manthandesai/"  
                                                         target="_blank" 
                                                         className="cursor-pointer text-[var(--foreground)] text-xl"
                                                     >
                                                         <AiOutlineLinkedin />
                                                     </Link>
                                                 </div> 
-                                                <p className="content-font text-base sm:text-lg">Content & Authority Building Specialist</p>   
                                             </div>
                                             <p className="content-font text-base sm:text-lg mt-2.5 sm:mt-5">Leverage natural language and structured data. Better make your content AI-friendly.</p>
-                                            {/* <div className='flex flex-row text-[var(--foreground)] space-x-4 text-2xl mt-5'>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineLinkedin /></Link>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineInstagram /></Link>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineMail /></Link>
-                                            </div> */}
+                                           
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <AuditCTA />
                     </div>
@@ -715,7 +710,7 @@ const Blog4 = () => {
                                             <div
                                                 className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
 
-                                                <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                                {/* <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span> */}
                                                 <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">
                                                     <Link 
                                                     href={blog.href} 
@@ -742,7 +737,7 @@ const Blog4 = () => {
                         
                                                     <div>
                                                     <span className="author block">
-                                                        By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                                                        By <strong>{blog.authorName}</strong>
                                                     </span>
                         
                                                     <span className="">
@@ -779,6 +774,10 @@ const Blog4 = () => {
                                 ))}
                             </div>
                         </div>
+                    </section>
+
+                    <section aria-label="Ask AI Section" className='mt-10 lg:mt-20 xl:mt-28'>
+                        <AskAISection/>
                     </section>
                 <Footer/>
             </div>

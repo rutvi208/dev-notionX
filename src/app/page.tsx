@@ -230,26 +230,6 @@ const serviceSchema = {
     "Enhanced Perplexity platform presence"
   ],
   "description": "Professional AI SEO and Generative Engine Optimization services helping brands dominate AI-powered search results across ChatGPT, Perplexity, Google AI Overviews, and other AI platforms.",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "47",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  "termsOfService": "https://notionx.com/termsofuse.html",
-  "hoursAvailable": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "opens": "08:00",
-    "closes": "18:00"
-  }
 };
 
 // Plans Schema

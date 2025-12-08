@@ -104,7 +104,7 @@ html {
 /* Target only Safari/iOS */
 @supports (-webkit-touch-callout: none) {
   img[data-nimg] {
-    color: inherit !important; /* force override */
+    color: inherit !important;
     background-color: transparent !important; /* ensure no bg leaks */
   }
 }

@@ -158,7 +158,12 @@ export default function RootLayout({
     "priceRange": "$1499-$2499",
     "telephone": "+1-440-360-7360",
     "email": "hello@notionx.com",
-    
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Willoughby",
+      "addressRegion": "OH 44094",
+      "addressCountry": "US"
+    },
     "areaServed": [
       {
         "@type": "Country",

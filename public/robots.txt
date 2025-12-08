@@ -1,9 +1,9 @@
 # *
 User-agent: *
-Disallow: /
+Allow: /
 
 # Host
-Host: https://dev-notionx-v2.netlify.app/
+Host: https://notionx.ai/
 
 # Sitemaps
-Sitemap: https://dev-notionx-v2.netlify.app/sitemap.xml
+Sitemap: https://notionx.ai/sitemap.xml

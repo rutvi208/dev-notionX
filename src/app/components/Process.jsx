@@ -194,46 +194,48 @@ const Process = () => {
             </div>
 
             {/* content */}
-            <div className="relative z-auto mx-auto container py-12 sm:py-20 lg:py-28 px-5 lg:px-8 2xl:px-0">
-                <header>
-                    <h2 id="our-process" className="heading-font font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Our GEO Process</h2>
-                    <p className="text-lg lg:text-xl content-font mt-3">How we get your business featured in AI responses.</p>
-                </header>
+            <div className='relative z-auto mx-auto container'>
+              <div className="py-12 sm:py-20 lg:py-28 px-5 lg:px-8 2xl:px-0 lg:mx-4 xl:mx-0">
+                  <header>
+                      <h2 id="our-process" className="heading-font font-semibold text-3xl sm:text-4xl lg:text-5xl tracking-[-0.06rem]">Our GEO Process</h2>
+                      <p className="text-lg lg:text-xl content-font mt-3">How we get your business featured in AI responses.</p>
+                  </header>
 
-                <div className="mt-12 lg:mt-20">
-                    <ol className="grid gap-4 sm:gap-3 md:grid-cols-2 xl:grid-cols-4 list-none">
-                        {processSteps.map((step, index) => (
-                        <li key={index} className='relative overflow-hidden border-[0.0625rem] border-[var(--stroke)] rounded-2xl'>
-                            <Image
-                            src={step.bg}
-                            alt="Step background"
-                            loading="lazy"
-                            className='absolute inset-0 object-cover h-full w-full'
-                            aria-hidden="true"
-                            />
-                            <article className="relative z-10 p-3 lg:p-5 h-full flex flex-col justify-between">
-                            <header>
-                                <h3 className="heading-font font-semibold text-left text-lg lg:text-2xl tracking-[-0.06rem] mb-2">
-                                {step.title}
-                                </h3>
-                                <p className="text-base lg:text-lg text-left text-[#0f0a08c1] content-font">
-                                {step.desc}
-                                </p>
-                            </header>
-                            
-                            <ul className="mt-10 sm:mt-12 lg:mt-18 flex flex-col space-y-2 items-start list-none">
-                                {step.items.map((item, i) => (
-                                <li key={i} className='flex flex-row space-x-3'>
-                                    <Image src={Arrow} alt="arrow" aria-hidden="true" />
-                                    <span className="content-font text-base">{item}</span>
-                                </li>
-                                ))}
-                            </ul>
-                            </article>
-                        </li>
-                        ))}
-                    </ol>
-                </div>
+                  <div className="mt-12 lg:mt-20">
+                      <ol className="grid gap-4 sm:gap-3 md:grid-cols-2 xl:grid-cols-4 list-none">
+                          {processSteps.map((step, index) => (
+                          <li key={index} className='relative overflow-hidden border-[0.0625rem] border-[var(--stroke)] rounded-2xl'>
+                              <Image
+                              src={step.bg}
+                              alt="Step background"
+                              loading="lazy"
+                              className='absolute inset-0 object-cover h-full w-full'
+                              aria-hidden="true"
+                              />
+                              <article className="relative z-10 p-3 lg:p-5 h-full flex flex-col justify-between">
+                              <header>
+                                  <h3 className="heading-font font-semibold text-left text-lg lg:text-2xl tracking-[-0.06rem] mb-2">
+                                  {step.title}
+                                  </h3>
+                                  <p className="text-base lg:text-lg text-left text-[#0f0a08c1] content-font">
+                                  {step.desc}
+                                  </p>
+                              </header>
+                              
+                              <ul className="mt-10 sm:mt-12 lg:mt-18 flex flex-col space-y-2 items-start list-none">
+                                  {step.items.map((item, i) => (
+                                  <li key={i} className='flex flex-row space-x-3'>
+                                      <Image src={Arrow} alt="arrow" aria-hidden="true" />
+                                      <span className="content-font text-base">{item}</span>
+                                  </li>
+                                  ))}
+                              </ul>
+                              </article>
+                          </li>
+                          ))}
+                      </ol>
+                  </div>
+              </div>
             </div>
         </section>
     )

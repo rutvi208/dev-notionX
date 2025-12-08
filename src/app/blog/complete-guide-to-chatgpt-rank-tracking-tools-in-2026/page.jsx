@@ -7,12 +7,12 @@ import Image from 'next/image';
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
 import Blog5Thumbnail from '@/../public/images/Blog-page/Blog5-Thumbnail.webp';
-import Blog2Banner from '@/../public/images/Blog-page/blog2-banner-complete-guide-2025.webp';
+import Blog2Banner from '@/../public/images/Blog-page/blog2-banner-complete-guide-2026.webp';
 import Semrush from '@/../public/images/Blog-page/semrush.webp';
 import Ahrefs from '@/../public/images/Blog-page/ahrefs.webp';
 import Profound from '@/../public/images/Blog-page/profound.webp';
 import Rankability from '@/../public/images/Blog-page/rankability.webp';
-import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
+import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 import SharePopup from '@/app/components/SharePopup';
 import { getReadingTime } from "@/app/components/getReadingTime";
 import AuditCTA from '@/app/components/AuditCTA';
@@ -25,12 +25,13 @@ import AuthorSchema from "@/app/components/AuthorSchema";
 import ScrollProgressBar from '@/app/components/ScrollProgressBar';
 import ScrollToTop from '@/app/components/ScrollToTop';
 import ScrollButton from '@/app/components/ScrollButton';
+import AskAISection from '@/app/components/AskAISection';
 
 export const metadata = generateBlogMetadata({
-    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+    title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
     description: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
-    slug: "complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
-    imageName: "blog2-banner-complete-guide-2025.webp", 
+    slug: "complete-guide-to-chatgpt-rank-tracking-tools-in-2026",
+    imageName: "blog2-banner-complete-guide-2026.webp", 
     author: "Manthan D.", 
     section: "AI Rank Tracking Tools",
     publishedTime: "2025-09-25T00:00:00Z",
@@ -43,42 +44,42 @@ const blogPosts = [
     id: 1,
     href: "how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
     image: Blog1Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
     desc: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.",
     date: "Sep 12, 2025",
     readTime: "6 mins read",
     dateISO: "2025-09-12", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 2,
     href: "best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
     image: Blog3Thumbnail,
-    tag: "#trending",
+    //tag: "#trending",
     title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
     desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
     date: "Oct 13, 2025",
     readTime: "6 mins read",
     dateISO: "2025-10-13", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
   {
     id: 3,
-    href: "how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2025",
+    href: "how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026",
     image: Blog5Thumbnail,
-    tag: "#trending",
-    title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2025!",
+    //tag: "#trending",
+    title: "How AI Overviews Are Stealing Your Traffic: Recovery & Ranking Strategies for 2026!",
     desc: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google.",
     date: "Nov 18, 2025",
     readTime: "8 mins read",
     dateISO: "2025-11-18", // Added for proper datetime attribute
     authorName: "Manthan D.",
-    authorRole: "SEO Strategist",
+    //authorRole: "SEO Strategist",
     authorImage: AuthorImage,
   },
 ];
@@ -93,8 +94,8 @@ const breadcrumbs = [
         url: `${siteConfig.url}${siteConfig.paths.blog}`
     },
     {
-        name: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
-        url: `${siteConfig.url}${siteConfig.paths.blog}/complete-guide-to-chatgpt-rank-tracking-tools-in-2025`
+        name: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
+        url: `${siteConfig.url}${siteConfig.paths.blog}/complete-guide-to-chatgpt-rank-tracking-tools-in-2026`
     }
 ];
 
@@ -126,9 +127,9 @@ Integrations: Blending with other SEO tools, like Google Search Console, is vita
 
 Report automation: This feature automatically produces customized brand reports.
 
-Which are the Best ChatGPT Rank Tracker Tools in 2025?
+Which are the Best ChatGPT Rank Tracker Tools in 2026?
 
-Let us explore the paid and free ChatGPT rank tracking tools of 2025. Each tool includes features, benefits, drawbacks, and pricing to help you choose wisely. Whether you are an SEO pro or starting out: ChatGPT rank tracking free or paid tool is now essential.
+Let us explore the paid and free ChatGPT rank tracking tools of 2026. Each tool includes features, benefits, drawbacks, and pricing to help you choose wisely. Whether you are an SEO pro or starting out: ChatGPT rank tracking free or paid tool is now essential.
 
 1. Semrush
 
@@ -263,10 +264,10 @@ const Blog3 = () => {
                 <Navbar />
                 <BreadcrumbSchema breadcrumbs={breadcrumbs} />
                 <BlogSchema
-                        url={`${siteConfig.url}${siteConfig.paths.blog}/complete-guide-to-chatgpt-rank-tracking-tools-in-2025`}
-                        headline="Complete Guide to ChatGPT Rank Tracking Tools in 2025!"
+                        url={`${siteConfig.url}${siteConfig.paths.blog}/complete-guide-to-chatgpt-rank-tracking-tools-in-2026`}
+                        headline="Complete Guide to ChatGPT Rank Tracking Tools in 2026!"
                         description="The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture."
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog2-banner-complete-guide-2025.webp`}
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog2-banner-complete-guide-2026.webp`}
                         datePublished="2025-09-25T09:00:00Z"
                         dateModified="2025-09-25T09:00:00Z"
                         authorName="Manthan D."
@@ -289,25 +290,25 @@ const Blog3 = () => {
                      <AuthorSchema
                         name="Manthan D."
                         url={`${siteConfig.url}/authors/manthan`}
-                        role="SEO Strategist"
-                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/Author-Image.webp`}
+                        //role="SEO Strategist"
+                        image={`${siteConfig.url}${siteConfig.paths.blogImages}/ManthanDesai_blogAuthor.webp`}
                     />
                     <div className="my-10 sm:my-12 lg:mt-20 2xl:mt-24 container mx-auto justify-center place-items-center text-center ">
-                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h1>
+                        <h1 className="heading-font text-3xl lg:text-4xl xl:text-5xl sm:w-10/12 lg:w-10/12 2xl:w-8/12">Complete Guide to ChatGPT Rank Tracking Tools in 2026!</h1>
                         <div className='flex flex-wrap justify-center items-center gap-3 sm:gap-5 mt-4 sm:mt-8 text-[#878483]'>
-                            <a href='#AuthorBlock' className='content-font text-xs whitespace-nowrap'>Manthan D.</a>
+                            <h2 className='content-font text-xs whitespace-nowrap'>Manthan D.</h2>
                             <span className='text-2xl sm:text-3xl'> · </span>
                             <p className='content-font text-xs whitespace-nowrap'>Sep 25, 2025 &nbsp; | &nbsp; {readingTime}</p>
                             <span className='text-2xl sm:text-3xl'> · </span>
                             <div className="flex items-center gap-1 text-[var(--cta)] whitespace-nowrap">
                                 <SharePopup
-                                    title="Complete Guide to ChatGPT Rank Tracking Tools in 2025!"
+                                    title="Complete Guide to ChatGPT Rank Tracking Tools in 2026!"
                                 />
                                 <HiMiniShare className="text-sm" />
                             </div>
                         </div>
 
-                        <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
+                        {/* <div className='flex flex-col lg:max-w-5xl sm:w-[56.25rem] mx-auto my-8 sm:my-10 container'>
                             
                             <div className="p-[1px] mx-4 sm:mx-0 overflow-hidden rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                 <div className="py-3 sm:py-5 px-4 sm:px-16 rounded-b-xl sm:rounded-b-[20px] bg-[#FAF7F5]">
@@ -316,9 +317,9 @@ const Blog3 = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <section className='mx-auto container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
+                        <section className='mx-auto my-8 sm:my-10 container overflow-hidden rounded-lg lg:rounded-xl h-auto md:h-[24rem] sm:w-[56.25rem] px-4 lg:px-0'>
                             <Image 
                                 src={Blog2Banner}
                                 alt="Hero Background"
@@ -340,14 +341,14 @@ const Blog3 = () => {
                                     In Brief:</p>
                                 <ul className="ms-6 mt-2.5 sm:mt-6 space-y-2 content-font text-[var(--cta)] list-disc list-outside text-lg lg:text-xl tracking-[-0.05rem]">
                                     <li className='hover:underline'><a href="#features-required">What Features Do You Require in a Rank Tracking Tool for ChatGPT?</a></li>
-                                    <li className='hover:underline'><a href="#best-tools">Which are the Best ChatGPT Rank Tracker Tools in 2025?</a></li>
+                                    <li className='hover:underline'><a href="#best-tools">Which are the Best ChatGPT Rank Tracker Tools in 2026?</a></li>
                                     <li className='hover:underline'><a href="#final-thoughts">Final Thoughts: Grip the AI Search Transformation</a></li>
                                 </ul>
                             </section>
 
                             {/* Introduction */}
                             <section className='mb-10 sm:mb-16'>
-                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Complete Guide to ChatGPT Rank Tracking Tools in 2025!</h2>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Complete Guide to ChatGPT Rank Tracking Tools in 2026!</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
                                     The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.
                                 </p>
@@ -376,9 +377,9 @@ const Blog3 = () => {
 
                             {/* Best Tools */}
                             <section id='best-tools' className='mb-10 sm:mb-16 scroll-mt-10 sm:scroll-mt-16'>
-                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Which are the Best ChatGPT Rank Tracker Tools in 2025?</h2>
+                                <h2 className="heading-font font-semibold text-2xl sm:text-3xl tracking-[-0.05rem]">Which are the Best ChatGPT Rank Tracker Tools in 2026?</h2>
                                 <p className="mt-3 sm:mt-6 content-font text-lg lg:text-xl tracking-[-0.05rem]">
-                                    Let us explore the - paid and free ChatGPT rank tracking tools of 2025. Each tool includes - features, benefits, drawbacks, and pricing to help you choose wisely. Whether you are an SEO pro or starting out: ChatGPT rank tracking free or paid tool is now essential.
+                                    Let us explore the - paid and free ChatGPT rank tracking tools of 2026. Each tool includes - features, benefits, drawbacks, and pricing to help you choose wisely. Whether you are an SEO pro or starting out: ChatGPT rank tracking free or paid tool is now essential.
                                 </p>
 
                                 {/* Semrush */}
@@ -578,7 +579,7 @@ const Blog3 = () => {
                             </section>
                             
                             {/* Author details */}
-                            <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[45rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
+                            {/* <div id='AuthorBlock' className='mb-10 sm:mb-12 lg:max-w-5xl sm:w-[40rem] mx-auto container scroll-m-5 sm:scroll-m-10'>
                                 <div className="px-[1px] py-[1px] rounded-xl sm:rounded-[20px] bg-[radial-gradient(circle_at_center,#FF4E18_40%,#FEE7DF)]">
                                    
                                     <div className="p-5 grid grid-flow-row sm:grid-cols-3 gap-5 sm:gap-10 items-start rounded-xl sm:rounded-[20px] bg-[#FAF7F5]">
@@ -586,37 +587,32 @@ const Blog3 = () => {
                                             <Image 
                                                 src={AuthorImage} 
                                                 alt="Author Image" 
-                                                className='w-40 sm:h-full object-cover rounded-xl sm:rounded-2xl'
+                                                className='w-32 sm:h-full object-cover rounded-xl sm:rounded-2xl'
                                             />
                                         </div>
                                         <div className='sm:col-span-2'>
                                             <div className='border-l-[2px] border-l-[var(--cta)] pb-[1px] ps-2 lg:ps-4'>
-                                                {/* Name + LinkedIn inline */}
+                                                
                                                 <div className="flex items-center gap-2">
                                                     <span className="heading-font font-bold text-2xl sm:text-[28px]">
                                                                 Manthan D.
                                                     </span>
 
                                                     <Link 
-                                                        href="https://linkedin.com" 
+                                                        href="https://www.linkedin.com/in/manthandesai/"  
                                                         target="_blank" 
                                                         className="cursor-pointer text-[var(--foreground)] text-xl"
                                                     >
                                                         <AiOutlineLinkedin />
                                                     </Link>
                                                 </div>    
-                                                <p className="content-font text-base sm:text-lg">Content & Authority Building Specialist</p>
                                             </div>    
                                             <p className="content-font text-base sm:text-lg mt-2.5 sm:mt-5">Leverage natural language and structured data. Better make your content AI-friendly.</p>
-                                            {/* <div className='flex flex-row text-[var(--foreground)] space-x-4 text-2xl mt-5'>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineLinkedin /></Link>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineInstagram /></Link>
-                                                <Link href='#' className='cursor-pointer'><AiOutlineMail /></Link>
-                                            </div> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <AuditCTA />
                     </div>
@@ -652,7 +648,7 @@ const Blog3 = () => {
                                             <div
                                                 className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
 
-                                                <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                                {/* <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span> */}
                                                 <h2 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">
                                                     <Link 
                                                     href={blog.href} 
@@ -679,7 +675,7 @@ const Blog3 = () => {
                         
                                                     <div>
                                                     <span className="author block">
-                                                        By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                                                        By <strong>{blog.authorName}</strong>
                                                     </span>
                         
                                                     <span className="">
@@ -716,6 +712,10 @@ const Blog3 = () => {
                                 ))}
                             </div>
                         </div>
+                    </section>
+
+                    <section aria-label="Ask AI Section" className='mt-10 lg:mt-20 xl:mt-28'>
+                        <AskAISection/>
                     </section>
                 <Footer/>
             </div>

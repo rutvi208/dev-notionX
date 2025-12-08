@@ -6,7 +6,7 @@ import { HiMiniArrowSmallRight } from "react-icons/hi2";
 import Blog1Thumbnail from '@/../public/images/Blog-page/Blog1-Thumbnail.webp';
 import Blog2Thumbnail from '@/../public/images/Blog-page/Blog2-Thumbnail.webp';
 import Blog3Thumbnail from '@/../public/images/Blog-page/Blog3-Thumbnail.webp';
-import AuthorImage from '@/../public/images/Blog-page/Author-Image.webp';
+import AuthorImage from '@/../public/images/Blog-page/ManthanDesai_blogAuthor.webp';
 import { siteConfig } from "@/app/config/site";
 
 // const knowledgeHubSchema = {
@@ -66,42 +66,42 @@ const KnowledgeHub = () => {
             id: 1,
             href: "/blog/how-to-rank-your-website-or-brand-in-chatgpt-latest-strategy-guide",
             image: Blog1Thumbnail,
-            tag: "#trending",
+            //tag: "#trending",
             title: "How to Rank Your Website or Brand in ChatGPT : Latest Strategy Guide",
             desc: "In the age of AI-powered search, visibility in Chat GPT is becoming - as crucial as ranking on Google. With 700 million weekly users interacting with Chat GPT - brands and websites must adapt to this new paradigm.",
             date: "Sep 12, 2025",
             readTime: "6 mins read",
             dateISO: "2025-09-12", // Added for proper datetime attribute
             authorName: "Manthan D.",
-            authorRole: "SEO Strategist",
+            //authorRole: "SEO Strategist",
             authorImage: AuthorImage,
         },
         {
             id: 2,
-            href: "/blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2025",
+            href: "/blog/complete-guide-to-chatgpt-rank-tracking-tools-in-2026",
             image: Blog2Thumbnail,
-            tag: "#trending",
-            title: "Complete Guide to ChatGPT Rank Tracking Tools in 2025!",
+            //tag: "#trending",
+            title: "Complete Guide to ChatGPT Rank Tracking Tools in 2026!",
             desc: "The way people search online is evolving. AI tools like ChatGPT now influence how content is discovered. Traditional rank tracking methods no longer capture the full picture.",
             date: "Sep 25, 2025",
             readTime: "8 mins read",
             dateISO: "2025-09-25", // Added for proper datetime attribute
             authorName: "Manthan D.",
-            authorRole: "SEO Strategist",
+            //authorRole: "SEO Strategist",
             authorImage: AuthorImage,
         },
         {
             id: 3,
             href: "/blog/best-chatgpt-seo-agency-and-services-for-ai-search-ranking",
             image: Blog3Thumbnail,
-            tag: "#trending",
+            //tag: "#trending",
             title: "Best ChatGPT SEO Agency & Services for AI Search Ranking",
             desc: "With ChatGPT, Perplexity, and other AI search engines altering how people search, companies face a new contest. If AI-powered search cannot find your content - your brand does not exist. Traditional SEO tactics will not earn you a spot in AI-powered answers.",
             date: "Oct 13, 2025",
             readTime: "6 mins read",
             dateISO: "2025-10-13", // Added for proper datetime attribute
             authorName: "Manthan D.",
-            authorRole: "SEO Strategist",
+            //authorRole: "SEO Strategist",
             authorImage: AuthorImage,
         },
         ];
@@ -153,7 +153,7 @@ const KnowledgeHub = () => {
                             <div
                                 className='bg-white flex flex-col justify-between flex-grow p-3 lg:p-4 rounded-b-xl sm:rounded-b-[0.875rem]'>
 
-                                <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span>
+                                {/* <span className="text-sm text-left text-[var(--foreground)] content-font">{blog.tag}</span> */}
                                 <h3 className="heading-font font-medium text-lg lg:text-xl leading-5 sm:leading-6 tracking-[-0.06rem] my-2 hover:text-[var(--cta)]">
                                     <Link 
                                     href={blog.href} 
@@ -190,7 +190,7 @@ const KnowledgeHub = () => {
         
                                     <div>
                                         <span className="author block">
-                                            By <strong>{blog.authorName}</strong> — {blog.authorRole}
+                                            By <strong>{blog.authorName}</strong>
                                         </span>
             
                                         <span className="">
