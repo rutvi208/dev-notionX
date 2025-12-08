@@ -92,7 +92,7 @@ const breadcrumbs = [
         url: `${siteConfig.url}${siteConfig.paths.blog}`
     },
     {
-        name: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026.",
+        name: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026",
         url: `${siteConfig.url}${siteConfig.paths.blog}/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026`
     }
 ];
@@ -265,7 +265,7 @@ const Blog5 = () => {
                 <BreadcrumbSchema breadcrumbs={breadcrumbs} />
                 <BlogSchema
                         url={`${siteConfig.url}${siteConfig.paths.blog}/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026`}
-                        headline="How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026."
+                        headline="How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026"
                         description="The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google. This complete scenario has made it challenging to capture online traffic in 2026."
                         image={`${siteConfig.url}${siteConfig.paths.blogImages}/blog5-banner-ai-overviews-2026.webp`}
                         datePublished="2025-11-18T09:00:00Z"

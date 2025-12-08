@@ -77,7 +77,7 @@ const blogPosts = [
     href: "blog/how-ai-overviews-are-stealing-your-traffic-recovery-and-ranking-strategies-for-2026",
     image: Blog5Thumbnail,
     //tag: "#trending",
-    title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026.",
+    title: "How AI Overviews Are Stealing Your Traffic Recovery & Ranking Strategies for 2026",
     desc: "The digital marketing landscape is experiencing its biggest transformation. A new era of search results has been introduced in the three decades since the commencement of Google.",
     date: "Nov 18, 2025",
     readTime: "8 mins read",
